@@ -53,17 +53,9 @@ jobs:
       # ------------------------------------------------------------------
       - name: Generate EPG with iptv-org/epg
         run: |
-          # Clone repo
-          git clone --depth 1 https://github.com/iptv-org/epg.git temp_epg
-          cd temp_epg
 
-          # Install dependencies
-          npm ci
-
-          # Generate US channels file (per README)
-          NODE_OPTIONS=--max-old-space-size=6000 npm run grab --- --channels=sites/epgshare01.online/epgshare01.online_US1.channels.xml --output=../epg_full.xml
-
-          cd ..
+          # Download US channels file
+          curl -fsSL "https://www.open-epg.com/files/unitedstates11.xml.txt" > epg_full.xml
 
           # Extract tvg-ids from list.m3u
           grep -o 'tvg-id="[^"]*"' list.m3u | sed 's/tvg-id="//; s/"$//' | sort -u > /tmp/tvg_ids.txt
