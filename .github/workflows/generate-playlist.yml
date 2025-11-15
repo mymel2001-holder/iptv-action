@@ -27,8 +27,7 @@ jobs:
           fetch_m3u() {
             curl -fsSL "$1" | sed 's/#extm3u//gi' | sed 's/extm3u//gi'
           }
-
-          fetch_m3u "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8" >> list.m3u
+          
           echo "" >> list.m3u
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u"   >> list.m3u
           echo "" >> list.m3u
@@ -42,7 +41,8 @@ jobs:
           echo "" >> list.m3u
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u" >> list.m3u
           echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u" >> list.m3u
+          echo '#EXTINF:-1 tvg-id="CNBC@YT",CNBC YouTube' >> list.m3u
+          echo "https://www.youtube.com/c/CNBC/live" >> list.m3u
           echo "" >> list.m3u
 
       # ------------------------------------------------------------------
