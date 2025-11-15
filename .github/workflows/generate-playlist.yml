@@ -61,7 +61,7 @@ jobs:
           npm ci
 
           # Generate US channels file (per README)
-          NODE_OPTIONS=--max-old-space-size=6000 npm run grab --- --channels=sites/epgshare01.online/epgshare01.online_US1.channels.xml --output=epg_full.xml
+          NODE_OPTIONS=--max-old-space-size=6000 npm run grab --- --channels=sites/epgshare01.online/epgshare01.online_US1.channels.xml --output=../epg_full.xml
 
           cd ..
 
