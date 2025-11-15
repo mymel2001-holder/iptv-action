@@ -1,3 +1,4 @@
+# .github/workflows/generate-playlist.yml
 name: Generate IPTV Playlist + EPG
 
 on:
@@ -12,111 +13,98 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ------------------------------------------------------------------
-      # 1. Generate list.m3u (merged US sources)
-      # ------------------------------------------------------------------
+      # --------------------------------------------------------------
+      # 1. Build list.m3u (merged US sources)
+      # --------------------------------------------------------------
       - name: Generate list.m3u
         run: |
           echo "#EXTM3U" > list.m3u
           echo "" >> list.m3u
 
-          # Helper: fetch & clean a remote m3u (remove headers, blank lines)
           fetch_m3u() {
-            curl -fsSL "$1" | sed -E '/^#EXTM3U|^#EXTINF/d; /^$/d'
+            curl -fsSL "$1" |
+              sed -E '/^#EXTM3U|^#EXTINF/d; /^$/d'
           }
 
-          # US sources from Free-TV/IPTV and iptv-org/iptv
           fetch_m3u "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8" >> list.m3u
           echo "" >> list.m3u
 
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u" >> list.m3u
+          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u"   >> list.m3u
           echo "" >> list.m3u
 
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u" >> list.m3u
+          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u"  >> list.m3u
           echo "" >> list.m3u
 
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u" >> list.m3u
+          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u"  >> list.m3u
           echo "" >> list.m3u
 
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u" >> list.m3u
+          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u"   >> list.m3u
           echo "" >> list.m3u
 
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u" >> list.m3u
+          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"  >> list.m3u
           echo "" >> list.m3u
 
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u" >> list.m3u
           echo "" >> list.m3u
 
-      # ------------------------------------------------------------------
-      # 2. Generate epg.xml using iptv-org/epg tool
-      #    - Clones repo, uses US mappings as channels.xml
-      #    - Generates full US EPG (scraped from sites)
-      #    - Filters to channels in list.m3u (via tvg-id)
-      # ------------------------------------------------------------------
+      # --------------------------------------------------------------
+      # 2. Install Node + generate EPG with iptv-org/epg
+      # --------------------------------------------------------------
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: 'npm'                     # caches node_modules globally
 
-      - name: Generate EPG with iptv-org/epg
+      - name: Clone & install iptv-org/epg
         run: |
-          # Clone epg repo
           git clone --depth 1 https://github.com/iptv-org/epg.git temp_epg
           cd temp_epg
-
-          # Install dependencies
-          npm ci --ignore-scripts
-
-          # Use US mappings as channels input (scrapes EPG for US channels)
-          cp mappings/us.xml ../channels_us.xml
-
-          # Generate full US EPG (default: 1-2 days ahead; adjust --days if needed)
-          npm run grab -- --channels=../channels_us.xml --output=../epg_full.xml --max-connections=5 --delay=1000
-
+          npm ci                           # <-- finds package-lock.json inside temp_epg
           cd ..
 
-          # Filter EPG to only matching channels from list.m3u (tvg-id based)
-          # Extract tvg-ids from M3U
-          grep -o 'tvg-id="[^"]*"' list.m3u | sed 's/tvg-id="//; s/"$//' > /tmp/tvg_ids.txt
+      - name: Generate EPG (US only)
+        run: |
+          # Use the US channel mapping file that ships with the repo
+          cp temp_epg/mappings/us.xml channels_us.xml
 
-          # Use awk to keep only <channel> and <programme> for matching tvg-ids (xmltv_id)
+          # Grab EPG (1-2 days ahead, throttled to avoid bans)
+          node temp_epg/bin/grab.js \
+            --channels=channels_us.xml \
+            --output=epg_full.xml \
+            --max-connections=5 \
+            --delay=1000
+
+          # ------------------------------------------------------------
+          # Filter EPG to channels that actually appear in list.m3u
+          # ------------------------------------------------------------
+          grep -o 'tvg-id="[^"]*"' list.m3u |
+            sed 's/tvg-id="//; s/"$//' > /tmp/tvg_ids.txt
+
           awk '
-            BEGIN { keep_channel[""] = 1 }  # Keep all channels if no filter, but we'll filter programmes
-
-            # Track channels (keep all for simplicity, filter programmes)
-            /<channel id="/ { channel_id = $0; sub(/.*id="/, "", channel_id); sub(/" [^<]*$/, "", channel_id); channels[channel_id] = 1 }
-
-            # Keep XML structure
-            /<\?xml|<!DOCTYPE|<tv|<\/tv>/ { print; next }
-
-            # Keep all <channel> blocks (even if not in M3U, harmless for matching)
-            /<channel/ { in_channel = 1; print; next }
-            in_channel && /<\/channel>/ { in_channel = 0; print; next }
-            in_channel { print; next }
-
-            # Filter <programme> to only those with matching channel (xmltv_id)
-            /<programme channel="/ {
-              prog_channel = $0; sub(/.*channel="/, "", prog_channel); sub(/" [^<]*$/, "", prog_channel)
-              if (prog_channel in channels || system("grep -q '^" prog_channel "$' /tmp/tvg_ids.txt")) {
-                in_programme = 1; print; next
-              } else {
-                in_programme = 0
-              }
+            BEGIN { while(getline < "/tmp/tvg_ids.txt") keep[$0]=1 }
+            /<\?xml|<!DOCTYPE|<tv|<\/tv>/ {print; next}
+            /<channel / { in_ch=1; ch_id=""; print; next }
+            in_ch && /id="/ { sub(/.*id="/,""); sub(/".*/,""); ch_id=$0 }
+            in_ch && /<\/channel>/ { in_ch=0; print; next }
+            in_ch {print; next}
+            /<programme / {
+              prog=""; sub(/.*channel="/,""); sub(/".*/,""); prog=$0
+              if (prog in keep) {print; in_prog=1} else in_prog=0; next
             }
-            in_programme { print; next }
-            in_programme && /<\/programme>/ { in_programme = 0; print; next }
+            in_prog {print}
+            /<\/programme>/ {in_prog=0}
           ' epg_full.xml > epg.xml
 
           # Cleanup
-          rm -rf temp_epg epg_full.xml /tmp/tvg_ids.txt channels_us.xml
+          rm -rf temp_epg epg_full.xml channels_us.xml /tmp/tvg_ids.txt
 
-      # ------------------------------------------------------------------
-      # 3. Commit & push both files if changed
-      # ------------------------------------------------------------------
+      # --------------------------------------------------------------
+      # 3. Commit & push if anything changed
+      # --------------------------------------------------------------
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git add list.m3u epg.xml
