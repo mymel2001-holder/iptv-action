@@ -25,7 +25,7 @@ jobs:
           echo "" >> list.m3u
 
           fetch_m3u() {
-            curl -fsSL "$1" | sed -E '/^#EXTM3U|^#EXTINF/d; /^$/d'
+            curl -fsSL "$1" | sed 's/#extm3u//gi' | sed 's/extm3u//gi'
           }
 
           fetch_m3u "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8" >> list.m3u
