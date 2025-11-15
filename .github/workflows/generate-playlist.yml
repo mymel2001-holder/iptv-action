@@ -1,6 +1,9 @@
 # .github/workflows/generate-playlist.yml
 name: Generate IPTV Playlist + EPG
 
+permissions:
+  contents: write
+  
 on:
   schedule:
     - cron: '0 6 * * *'
