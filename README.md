@@ -13,7 +13,7 @@ This project just gathers and aggregate publicly available data from the interne
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u"
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u"
-* "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u"
+* "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u"
 
 ***EPG Sources***
 * "https://www.open-epg.com/files/unitedstates11.xml"
