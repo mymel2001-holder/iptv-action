@@ -41,8 +41,8 @@ jobs:
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"  >> list.m3u
           echo "" >> list.m3u
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u" >> list.m3u
+          echo "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u" >> list.m3u
+          fetch_m3u "" >> list.m3u
           echo "" >> list.m3u
 
       # ------------------------------------------------------------------
