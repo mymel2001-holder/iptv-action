@@ -3,8 +3,8 @@ name: Generate IPTV Playlist + EPG
 
 on:
   schedule:
-    - cron: '0 6 * * *'      # Daily at 6 AM UTC
-  workflow_dispatch:         # Manual trigger
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -13,74 +13,66 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --------------------------------------------------------------
-      # 1. Build list.m3u (merged US sources)
-      # --------------------------------------------------------------
+      # ------------------------------------------------------------------
+      # 1. Generate list.m3u
+      # ------------------------------------------------------------------
       - name: Generate list.m3u
         run: |
           echo "#EXTM3U" > list.m3u
           echo "" >> list.m3u
 
           fetch_m3u() {
-            curl -fsSL "$1" |
-              sed -E '/^#EXTM3U|^#EXTINF/d; /^$/d'
+            curl -fsSL "$1" | sed -E '/^#EXTM3U|^#EXTINF/d; /^$/d'
           }
 
           fetch_m3u "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8" >> list.m3u
           echo "" >> list.m3u
-
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u"   >> list.m3u
           echo "" >> list.m3u
-
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u"  >> list.m3u
           echo "" >> list.m3u
-
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u"  >> list.m3u
           echo "" >> list.m3u
-
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u"   >> list.m3u
           echo "" >> list.m3u
-
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"  >> list.m3u
           echo "" >> list.m3u
-
           fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u" >> list.m3u
           echo "" >> list.m3u
 
-      # --------------------------------------------------------------
-      # 2. Install Node + generate EPG with iptv-org/epg
-      # --------------------------------------------------------------
+      # ------------------------------------------------------------------
+      # 2. Setup Node (NO CACHE)
+      # ------------------------------------------------------------------
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'                     # caches node_modules globally
+          # Remove cache: 'npm' — we don't have package-lock.json in repo root
 
-      - name: Clone & install iptv-org/epg
+      # ------------------------------------------------------------------
+      # 3. Clone iptv-org/epg + install + generate EPG
+      # ------------------------------------------------------------------
+      - name: Generate EPG with iptv-org/epg
         run: |
           git clone --depth 1 https://github.com/iptv-org/epg.git temp_epg
           cd temp_epg
-          npm ci                           # <-- finds package-lock.json inside temp_epg
+          npm ci  # This works: package-lock.json is inside temp_epg/
           cd ..
 
-      - name: Generate EPG (US only)
-        run: |
-          # Use the US channel mapping file that ships with the repo
+          # Use built-in US mapping
           cp temp_epg/mappings/us.xml channels_us.xml
 
-          # Grab EPG (1-2 days ahead, throttled to avoid bans)
+          # Generate EPG (scraped from real sites)
           node temp_epg/bin/grab.js \
             --channels=channels_us.xml \
             --output=epg_full.xml \
             --max-connections=5 \
             --delay=1000
 
-          # ------------------------------------------------------------
-          # Filter EPG to channels that actually appear in list.m3u
-          # ------------------------------------------------------------
-          grep -o 'tvg-id="[^"]*"' list.m3u |
-            sed 's/tvg-id="//; s/"$//' > /tmp/tvg_ids.txt
+          # Extract tvg-ids from list.m3u
+          grep -o 'tvg-id="[^"]*"' list.m3u | sed 's/tvg-id="//; s/"$//' > /tmp/tvg_ids.txt
 
+          # Filter EPG: keep only programmes for channels in list.m3u
           awk '
             BEGIN { while(getline < "/tmp/tvg_ids.txt") keep[$0]=1 }
             /<\?xml|<!DOCTYPE|<tv|<\/tv>/ {print; next}
@@ -89,8 +81,8 @@ jobs:
             in_ch && /<\/channel>/ { in_ch=0; print; next }
             in_ch {print; next}
             /<programme / {
-              prog=""; sub(/.*channel="/,""); sub(/".*/,""); prog=$0
-              if (prog in keep) {print; in_prog=1} else in_prog=0; next
+              prog_ch=""; sub(/.*channel="/,""); sub(/".*/,""); prog_ch=$0
+              if (prog_ch in keep) {print; in_prog=1} else in_prog=0; next
             }
             in_prog {print}
             /<\/programme>/ {in_prog=0}
@@ -99,19 +91,18 @@ jobs:
           # Cleanup
           rm -rf temp_epg epg_full.xml channels_us.xml /tmp/tvg_ids.txt
 
-      # --------------------------------------------------------------
-      # 3. Commit & push if anything changed
-      # --------------------------------------------------------------
+      # ------------------------------------------------------------------
+      # 4. Commit & push if changed
+      # ------------------------------------------------------------------
       - name: Commit and push changes
         run: |
-          git config --global user.name  "github-actions[bot]"
+          git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
           git add list.m3u epg.xml
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update list.m3u and generated epg.xml [skip ci]"
+            git commit -m "Update list.m3u and epg.xml [skip ci]"
             git push
           fi
