@@ -60,7 +60,7 @@ jobs:
         run: |
 
           # Download US channels file
-          curl -fsSL "https://www.open-epg.com/files/unitedstates11.xml.txt" > epg.xml
+          curl -fsSL "https://www.open-epg.com/files/unitedstates11.xml" > epg.xml
           curl -fsSL "http://pluto.freechannels.me/epg.xml" >> epg.xml
 
 
