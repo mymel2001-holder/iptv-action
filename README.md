@@ -8,7 +8,6 @@ This project just gathers and aggregate publicly available data from the interne
 
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u"
-* "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u"
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u"
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"
 * "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u"
