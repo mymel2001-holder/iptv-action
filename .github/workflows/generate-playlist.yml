@@ -1,9 +1,10 @@
+# .github/workflows/generate-playlist.yml
 name: Generate IPTV Playlist + EPG
 
 on:
   schedule:
-    - cron: '0 6 * * *'      # Daily at 6 AM UTC
-  workflow_dispatch:         # Manual trigger
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -13,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       # ------------------------------------------------------------------
-      # 1. Generate list.m3u (merged US sources)
+      # 1. Generate list.m3u
       # ------------------------------------------------------------------
       - name: Generate list.m3u
         run: |
@@ -40,67 +41,63 @@ jobs:
           echo "" >> list.m3u
 
       # ------------------------------------------------------------------
-      # 2. Setup Node.js (v22, NO CACHE)
+      # 2. Setup Node.js v22 (no cache)
       # ------------------------------------------------------------------
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'  # Per README: v23+ unsupported
+          node-version: '22'
 
       # ------------------------------------------------------------------
-      # 3. Clone, install, & generate EPG (per README)
+      # 3. Clone iptv-org/epg + generate channels + grab EPG
       # ------------------------------------------------------------------
       - name: Generate EPG with iptv-org/epg
         run: |
           # Clone repo
           git clone --depth 1 https://github.com/iptv-org/epg.git temp_epg
-
-          # Copy US channels mapping (for scraping US sites)
-          cp temp_epg/mappings/us.xml channels_us.xml
-
-          # Install & run INSIDE cloned dir (uses its package-lock.json)
           cd temp_epg
+
+          # Install dependencies
           npm ci
+
+          # Generate US channels file (per README)
+          npm run channels -- --country=US --output=../channels_us.xml
+
+          # Generate EPG using the channels file
           npm run grab -- \
             --channels=../channels_us.xml \
             --output=../epg_full.xml \
             --max-connections=5 \
             --delay=1000
+
           cd ..
 
-          # ------------------------------------------------------------------
-          # Filter to channels in list.m3u (tvg-id match)
-          # ------------------------------------------------------------------
-          # Extract unique tvg-ids
+          # Extract tvg-ids from list.m3u
           grep -o 'tvg-id="[^"]*"' list.m3u | sed 's/tvg-id="//; s/"$//' | sort -u > /tmp/tvg_ids.txt
 
-          # Improved awk filter: Keep matching <programme> + all <channel> (harmless)
+          # Filter EPG: keep only programmes for matching tvg-id
           awk '
             BEGIN {
               while (getline id < "/tmp/tvg_ids.txt") keep[id] = 1;
-              keep_all_channels = 1;  # Keep channels even if not in M3U
             }
-            # Preserve XML structure
-            /^\s*<\?xml/ || /^\s*<!DOCTYPE/ || /^<tv/ || /^<\/tv>/ { print; next }
-            
-            # Keep all <channel> blocks
+            /<\?xml|<!DOCTYPE|<tv|<\/tv>/ { print; next }
             /<channel / { in_channel = 1; print; next }
             in_channel && /<\/channel>/ { in_channel = 0; print; next }
             in_channel { print; next }
-            
-            # Filter <programme>: only if channel matches tvg-id
-            /<programme channel=/ {
-              match($0, /channel="([^"]+)"/, arr);
-              prog_ch = arr[1];
-              if (prog_ch in keep) {
-                in_prog = 1;
-                print;
-              } else {
-                in_prog = 0;
+            /<programme / {
+              if ($0 ~ /channel="[^"]*"/) {
+                match($0, /channel="([^"]*)"/, arr);
+                ch = arr[1];
+                if (ch in keep) {
+                  print;
+                  in_prog = 1;
+                } else {
+                  in_prog = 0;
+                }
               }
               next;
             }
-            in_prog { print; next }
+            in_prog { print }
             /<\/programme>/ && in_prog { in_prog = 0; print; next }
           ' epg_full.xml > epg.xml
 
@@ -108,7 +105,7 @@ jobs:
           rm -rf temp_epg epg_full.xml channels_us.xml /tmp/tvg_ids.txt
 
       # ------------------------------------------------------------------
-      # 4. Commit & push if changed
+      # 4. Commit & push
       # ------------------------------------------------------------------
       - name: Commit and push changes
         run: |
