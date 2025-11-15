@@ -58,39 +58,12 @@ jobs:
         run: |
 
           # Download US channels file
-          curl -fsSL "https://www.open-epg.com/files/unitedstates11.xml.txt" > epg_full.xml
+          curl -fsSL "https://www.open-epg.com/files/unitedstates11.xml.txt" > epg.xml
+          curl -fsSL "http://pluto.freechannels.me/epg.xml" >> epg.xml
 
-          # Extract tvg-ids from list.m3u
-          grep -o 'tvg-id="[^"]*"' list.m3u | sed 's/tvg-id="//; s/"$//' | sort -u > /tmp/tvg_ids.txt
-
-          # Filter EPG: keep only programmes for matching tvg-id
-          awk '
-            BEGIN {
-              while (getline id < "/tmp/tvg_ids.txt") keep[id] = 1;
-            }
-            /<\?xml|<!DOCTYPE|<tv|<\/tv>/ { print; next }
-            /<channel / { in_channel = 1; print; next }
-            in_channel && /<\/channel>/ { in_channel = 0; print; next }
-            in_channel { print; next }
-            /<programme / {
-              if ($0 ~ /channel="[^"]*"/) {
-                match($0, /channel="([^"]*)"/, arr);
-                ch = arr[1];
-                if (ch in keep) {
-                  print;
-                  in_prog = 1;
-                } else {
-                  in_prog = 0;
-                }
-              }
-              next;
-            }
-            in_prog { print }
-            /<\/programme>/ && in_prog { in_prog = 0; print; next }
-          ' epg_full.xml > epg.xml
 
           # Cleanup
-          rm -rf temp_epg epg_full.xml channels_us.xml /tmp/tvg_ids.txt
+          rm -rf channels_us.xml /tmp/tvg_ids.txt
 
       # ------------------------------------------------------------------
       # 4. Commit & push
