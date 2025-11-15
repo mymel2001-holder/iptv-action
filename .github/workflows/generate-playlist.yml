@@ -1,5 +1,5 @@
 # .github/workflows/generate-playlist.yml
-name: Generate IPTV Playlist + EPG
+name: Generate IPTV Playlist
 
 permissions:
   contents: write
@@ -66,6 +66,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update list.m3u and epg.xml [skip ci]"
+            git commit -m "Update list.m3u [skip ci]"
             git push
           fi
