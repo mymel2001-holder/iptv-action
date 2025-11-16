@@ -43,20 +43,22 @@ jobs:
           echo "" >> list.m3u
           fetch_m3u https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_roku.m3u >> list.m3u
           echo "" >> list.m3u
+          fetch_m3u "https://database.freetuxtv.net/WebStreamExport/index?format=m3u&status=2&country=us&isp=all" >> list.m3u
+          echo "" >> list.m3u
+          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_abcnews.m3u >> list.m3u
+          echo "" >> list.m3u
+          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_cbsn.m3u >> list.m3u
+          echo "" >> list.m3u
+          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_pbs.m3u >> list.m3u
+          echo "" >> list.m3u
+          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_samsung.m3u >> list.m3u
+          echo "" >> list.m3u
           echo '#EXTINF:-1 tvg-id="CNBC@YT",CNBC YouTube' >> list.m3u
           echo "https://www.youtube.com/c/CNBC/live" >> list.m3u
           echo "" >> list.m3u
 
       # ------------------------------------------------------------------
-      # 2. Setup Node.js v22 (no cache)
-      # ------------------------------------------------------------------
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      # ------------------------------------------------------------------
-      # 3. Commit & push (EPG has been removed due to being borked)
+      # 2. Commit & push (EPG has been removed due to being borked)
       # ------------------------------------------------------------------
       - name: Commit and push changes
         run: |
