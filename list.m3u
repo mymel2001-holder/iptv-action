@@ -2464,6 +2464,232 @@ https://9bd99d43.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV
 #EXTINF:-1 tvg-id="YahooFinance.us@SD",Yahoo! Finance (1080p)
 https://yahoo-roku-us.amagi.tv/playlist.m3u8
 
+
+#EXTINF:0,1000 Christmas
+https://ais-sa2.cdnstream1.com/2553_128.mp3
+#EXTINF:0,30A TV
+https://30a-tv.com/my999.m3u8
+#EXTINF:0,30A TV MUSIC
+https://30a-tv.com/music.m3u8
+#EXTINF:0,Alex Jones - Infowars.com
+http://stream.infowars.com
+#EXTINF:0,Angel TV America
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelamerica_all/chunklist_b1431072.m3u8
+#EXTINF:0,Astronomy FM Radio
+http://radio.astronomy.fm:8111/live
+#EXTINF:0,Boston Media House
+http://edge.iono.fm/xice/bmh_live_high.aac
+#EXTINF:0,CBN NEWS
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+#EXTINF:0,Detour Talk Radio US
+http://thedetour.us/player/talk.pls
+#EXTINF:0,edition.cnn
+https://cnn-cnninternational-1-eu.rakuten.wurl.tv/206849c7acd1570962df1ad525fa8688.m3u8
+#EXTINF:0,EWTN english
+https://ewtn-sgrewind.streamguys1.com/sgrewind/english/playlist.m3u8
+#EXTINF:0,gnostic radio
+https://s2.radio.co/sb5e5eca60/listen
+#EXTINF:0,groovesalad (somafm)
+http://ice1.somafm.com/groovesalad-128-mp3
+#EXTINF:0,Hmong TV
+https://livefta.malimarcdn.com/ftaedge00/hmongusatv.sdp/chunklist.m3u8
+#EXTINF:0,Hunt Channel
+https://1111296894.rsc.cdn77.org/LS-ATL-56868-1/index.m3u8
+#EXTINF:0,KBRD 680 AM Lacey Washington
+http://205.134.192.90:680
+#EXTINF:0,LegoChannel.us
+https://legochannel-vizio.amagi.tv/playlist.m3u8
+#EXTINF:0,LiveNOWfromFOX.us
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+#EXTINF:0,LRN.FM - Liberty Radio Network
+https://lrn.fm/files/lrn.pls
+#EXTINF:0,LRN.FM - Liberty Radio Network - 64K Stream 24/7
+http://s2.voscast.com:7392/listen.pls
+#EXTINF:0,MAVTV.us
+https://mavtv-1.sinclair.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,MAVTVSelect.us
+https://mavtv-mavtvglobal-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:0,NBC News
+https://nbcnews2.akamaized.net/hls/live/723426/NBCNewsPlaymaker24x7Linear99a3a827-ua/master.m3u8
+#EXTINF:0,NRB Network [USA]
+https://uni10rtmp.tulix.tv/nrbtvlive/nrbtvlive.stream/playlist.m3u8
+#EXTINF:0,OLD CHRISTIAN RADIO
+https://stream.radio.co/sf2c714555/listen
+#EXTINF:0,OneNewsNetwork.us
+http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+#EXTINF:0,OutsideTVPlus.us
+https://outsidetvplus-xumo.amagi.tv/playlist.m3u8
+#EXTINF:0,Praise Radio - Radio For Life
+http://streaming.live365.com/a70255
+#EXTINF:0,Queercraft Radio
+http://mc.queercraft.net:8008/
+#EXTINF:0,Queercraft Radio
+http://mc.queercraft.net:8008/listen.pls
+#EXTINF:0,Radio Paradise
+https://stream.radioparadise.com/aac-64
+#EXTINF:0,RadioMv German (Christliches Radio)
+http://163.172.137.24:2488/;
+#EXTINF:0,Rockabilly-radio.net
+http://lin3.ash.fast-serv.com:6026/stream_96
+#EXTINF:0,skitv.tv
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
+#EXTINF:0,SomaFM Groove Salad
+http://ice3.somafm.com/groovesalad-128-mp3
+#EXTINF:0,St. Augustine Inns
+https://55507e0501d25.streamlock.net/live/staugustine.stream/playlist.m3u8
+#EXTINF:0,uctv
+https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8
+#EXTINF:0,Weatherspy TV
+https://jukin-weatherspy-1.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:0,WFED Federal News Radio
+http://playerservices.streamtheworld.com/api/livestream-redirect/WFEDAM.mp3?nocache=1454940168
+#EXTINF:0,WFMU - Freeform Radio the Way it Oughta Be
+https://wfmu.org/wfmu.pls
+
+
+#EXTINF:-1 tvg-id="ABCNewsLive1.us@SD",ABC News Live 1 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive2.us@SD",ABC News Live 2 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive3.us@SD",ABC News Live 3 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive4.us@SD",ABC News Live 4 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive5.us@SD",ABC News Live 5 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive6.us@SD",ABC News Live 6 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive7.us@SD",ABC News Live 7 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive8.us@SD",ABC News Live 8 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive9.us@SD",ABC News Live 9 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master_4000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive10.us@SD",ABC News Live 10 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master_4000.m3u8
+
+
+#EXTINF:-1 tvg-id="CBSNews247.us@SD",CBS News 24/7 (720p)
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBaltimore.us@SD",CBS News Baltimore (720p)
+https://cbsnews.akamaized.net/hls/live/2099390/cbsnbal_11/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBaltimore.us@SD",CBS News Baltimore (720p)
+https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBayArea.us@SD",CBS News Bay Area (720p)
+https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBoston.us@SD",CBS News Boston (720p)
+https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBoston.us@SD",CBS News Boston (720p)
+https://dai.google.com/linear/hls/event/dHA193vxQ_WqZNVoC-W5MA/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsChicago.us@SD",CBS News Chicago (720p)
+https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsColorado.us@SD",CBS News Colorado (720p)
+https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsDetroit.us@SD",CBS News Detroit (720p)
+https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsLosAngeles.us@SD",CBS News Los Angeles (720p)
+https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsMiami.us@SD",CBS News Miami (720p)
+https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsMiami.us@SD",CBS News Miami (720p)
+https://lineup.cbsivideo.com/playout/8796731e-7ce7-4bcf-bb04-41ef5a969c62/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsMinnesota.us@SD",CBS News Minnesota (720p)
+https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsNewYork.us@SD",CBS News New York (720p)
+https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsPhilly.us@SD",CBS News Philadelphia (720p)
+https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsPittsburgh.us@SD",CBS News Pittsburgh (720p)
+https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsSacramento.us@SD",CBS News Sacramento (720p)
+https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
+#EXTINF:-1 tvg-id="",CBS News Texas (720p)
+https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
+
+
+#EXTINF:-1 tvg-id="KETSDT1.us@SD",Arkansas PBS [Geo-blocked]
+https://ketsdt.lls.pbs.org/out/v1/03c094dbd7874a4a8c3fe9fb10081bdb/index.m3u8
+#EXTINF:-1 tvg-id="KHETDT1.us@SD",PBS Honolulu HI (KHET) (1080p) [Not 24/7]
+https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8
+#EXTINF:-1 tvg-id="WKPCDT2.us@SD",PBS KET2 (720p)
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1315484/playlist.m3u8
+#EXTINF:-1 tvg-id="WKPCDT3.us@SD",PBS KET KY (480p)
+https://2-fss-2.streamhoster.com/pl_132/amlst:200914-1315486/playlist.m3u8
+#EXTINF:-1 tvg-id="WKMJDT1.us@SD",PBS KET Louisville KY (WKMJ-TV) (720p)
+https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/playlist.m3u8
+#EXTINF:-1 tvg-id="WKMJDT3.us@SD",PBS KET World (480p)
+https://2-fss-1.streamhoster.com/pl_122/amlst:200914-2942150/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSKidsAlaska.us@SD",PBS Kids Alaska (1080p)
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsEasternCentral.us@SD",PBS Kids Eastern/Central (720p)
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSKidsMountain.us@SD",PBS Kids Mountain (1080p)
+https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsPacific.us@SD",PBS Kids Pacific (1080p)
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-id="KUONDT1.us@SD",PBS Lincoln NE (KUON) (1080p) [Geo-blocked]
+https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8
+#EXTINF:-1 tvg-id="WMPTDT1.us@SD",PBS MPT Baltimore MD (WMPB) (1080p)
+https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
+#EXTINF:-1 tvg-id="PBS.us@East",PBS National East (1080p) [Geo-blocked]
+https://pbs.lls.cdn.pbs.org/est/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@East",PBS National West (1080p) [Geo-blocked]
+https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+#EXTINF:-1 tvg-id="WNJTDT1.us@SD",PBS New Jersey NJ (WNJT) (1080p) [Not 24/7]
+https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
+#EXTINF:-1 tvg-id="WNETDT1.us@SD",PBS New York NY (WNET) (1080p) [Not 24/7]
+https://wnetdt.lls.pbs.org/out/v1/0456457548354b88b32fc437e4e7ee01/index.m3u8
+#EXTINF:-1 tvg-id="",PBS Retro (1080p) [Geo-blocked]
+https://d2spdq8rliqjem.cloudfront.net/v1/master/43fcaa28f618f06de1eb896cc4c2469172c85466/ac2206ef-c654-4325-8725-85d995901b62/live.m3u8
+#EXTINF:-1 tvg-id="KMOSDT1.us@SD",PBS Sedalia British Columbia MO (KMOS) (1080p) [Geo-blocked]
+https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
+#EXTINF:-1 tvg-id="WMPTDT2.us@SD",WMPT-DT2 (PBS Create)
+https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="AllWeddingsWEtv.us@SD",AMC All Weddings
+https://d85lu9l3axp7b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-49b4g6287mnav/playlist.m3u8
+#EXTINF:-1 tvg-id="bonappetit.us@SD",bon appétit (1080p)
+https://bonappetit-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BratTV.us@SD",Brat TV (1080p)
+https://brat-samsung-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Circle.us@SD",Circle (1080p)
+https://circle-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DegrassiTheNextGeneration.us@US",Degrassi The Next Generation (720p)
+https://d365kok94jpr38.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2xcmoue1get1c/playlist.m3u8
+#EXTINF:-1 tvg-id="EstrellaNews.us@SD",Estrella News (1080p)
+https://estrellanews-samsung-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxSoul.us@SD",Fox Soul (1080p)
+https://fox-foxsoul-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="InsightTV.nl@SD",Insight TV (720p)
+https://insighttv-samsung-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="IONTV.us@East",ION
+https://d1mumb5jst6zw0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rqzc6u2smk8dg/ion.m3u8
+#EXTINF:-1 tvg-id="IONPlus.us@East",ION Plus
+https://d2olmevnzmviuu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-drh5os33njrnt/ion_plus.m3u8
+#EXTINF:-1 tvg-id="Loupe4K.us@SD",Loupe 4K
+https://d2dw21aq0j0l5c.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoupeArt-prod/playlist.m3u8
+#EXTINF:-1 tvg-id="MidnightPulp.us@SD",Midnight Pulp (720p)
+https://d3knca0xtk4ya9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1sxenfkl27gw6/playlist.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us@SD",MyTime Movie Network (1080p)
+https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Newsmax2.us@SD",Newsmax 2 (1080p)
+https://newsmax-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Pac12Insider.us@SD",Pac 12 Insider (1080p)
+https://pac12-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ShoutFactoryTV.us@SD",Shout! Factory TV (720p)
+https://d1e3a0zkn06gu7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pkf1jz7l0hork/playlist.m3u8
+#EXTINF:-1 tvg-id="SportsGrid.us@SD",SportsGrid (1080p)
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheYoungTurks.us@SD",The Young Turks (TYT) (720p)
+https://tyt-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="XploreTV.us@SD",Xplore (1080p)
+https://xlpore-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YahooFinance.us@SD",Yahoo! Finance (1080p)
+https://yahoo-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="YoungHollywood.us@SD",Young Hollywood (720p)
+https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="CNBC@YT",CNBC YouTube
 https://www.youtube.com/c/CNBC/live
 
