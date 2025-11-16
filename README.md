@@ -14,8 +14,10 @@ This project just gathers and aggregate publicly available data from the interne
 * https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_local.m3u
 * https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_roku.m3u
 * "https://database.freetuxtv.net/WebStreamExport/index?format=m3u&status=2&country=us&isp=all"
-* https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_abcnews.m3u
-* https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_cbsn.m3u
-* https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_pbs.m3u
-* https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_samsung.m3u
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_abcnews.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_cbsn.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_pbs.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_samsung.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_vizio.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tcl.m3u"
 * "https://www.youtube.com/c/CNBC/live"
