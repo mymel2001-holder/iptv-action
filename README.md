@@ -20,4 +20,5 @@ This project just gathers and aggregate publicly available data from the interne
 * "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_samsung.m3u"
 * "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_vizio.m3u"
 * "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tcl.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_moveonjoy.m3u"
 * "https://www.youtube.com/c/CNBC/live"
