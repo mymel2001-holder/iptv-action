@@ -2,7 +2,7 @@
 GitHub Action that auto-creates IPTV playlists. List contents brought to you by our comrades at @Free-TV and @iptv-org
 
 ## Disclaimer
-This project just gathers and aggregate publicly available data from the internet. If you must shut down a source listed in the "list.m3u" file, send takedown notice to THESE services, not this project. Note that linking (which is what we do via the M3U file) does not directly infringe copyright because no copy is made on the site providing the link, and thus this is not a valid reason to send a DMCA notice to GitHub.
+This project just gathers and aggregate publicly available data from the internet. As far as we know, these sources are legally published with permission from the copyright holder. If you must shut down a source listed in the "list.m3u" file, send takedown notice to THESE services, not this project. Note that linking (which is what we do via the M3U file) does not directly infringe copyright because no copy is made on the site providing the link, and thus this is not a valid reason to send a DMCA notice to GitHub.
 
 ***M3U Sources***
 
