@@ -57,6 +57,18 @@ jobs:
           echo "" >> list.m3u
           fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tcl.m3u >> list.m3u
           echo "" >> list.m3u
+          echo '#EXTINF:-1 tvg-id="BBCOne.uk@LondonHD",BBC One London HD (1080p)' >> list.m3u
+          echo 'https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8' >> list.m3u
+          echo "" >> list.m3u
+          echo '#EXTINF:-1 tvg-id="BBCTwo.uk@HD",BBC Two HD (720p)' >> list.m3u
+          echo 'https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8' >> list.m3u
+          echo "" >> list.m3u
+          echo '#EXTINF:-1 tvg-id="BBCThree.uk@HD",BBC Three HD (720p)' >> list.m3u
+          echo 'https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8' >> list.m3u
+          echo "" >> list.m3u
+          echo '#EXTINF:-1 tvg-id="QVC.uk@SD",QVC UK (540p)' >> list.m3u
+          echo 'https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8' >> list.m3u
+          echo "" >> list.m3u
           echo '#EXTINF:-1 tvg-id="CNBC@YT",CNBC YouTube' >> list.m3u
           echo "https://www.youtube.com/c/CNBC/live" >> list.m3u
           echo "" >> list.m3u
