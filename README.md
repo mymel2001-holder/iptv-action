@@ -20,7 +20,6 @@ This project just gathers and aggregate publicly available data from the interne
 * "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_samsung.m3u"
 * "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_vizio.m3u"
 * "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tcl.m3u"
-* "#EXTINF:-1 tvg-id="BBCOne.uk@LondonHD",BBC One London HD (1080p)"
 * "https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8"
 * "https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8"
 * "https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8"
