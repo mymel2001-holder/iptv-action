@@ -66,6 +66,9 @@ jobs:
           echo "#EXTINF:-1 tvg-id=\"BBCThree.uk@HD\",BBC Three HD (720p)" >> list.m3u
           echo "https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8" >> list.m3u
           echo "" >> list.m3u
+          echo "#EXTINF:-1 tvg-id=\"QVC.uk@SD\",QVC UK (540p)" >> list.m3u
+          echo "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8" >> list.m3u
+          echo "" >> list.m3u
           echo '#EXTINF:-1 tvg-id="CNBC@YT",CNBC YouTube' >> list.m3u
           echo "https://www.youtube.com/c/CNBC/live" >> list.m3u
           echo "" >> list.m3u
