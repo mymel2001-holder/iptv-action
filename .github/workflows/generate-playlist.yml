@@ -1,4 +1,5 @@
 # .github/workflows/generate-playlist.yml
+# Licensed under CC0
 name: Generate IPTV Playlist
 
 permissions:
