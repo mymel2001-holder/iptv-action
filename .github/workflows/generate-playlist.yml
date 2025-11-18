@@ -73,6 +73,10 @@ jobs:
           echo "" >> list.m3u
           echo '#EXTINF:-1 tvg-id="CNBC@YT",CNBC YouTube' >> list.m3u
           echo "https://www.youtube.com/c/CNBC/live" >> list.m3u
+          echo "" >> list.m3u 
+          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/au.m3u >> list.m3u
+          echo "" >> list.m3u
+          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/au_samsung.m3u >> list.m3u
           echo "" >> list.m3u
 
       # ------------------------------------------------------------------
