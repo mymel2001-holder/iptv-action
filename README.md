@@ -25,3 +25,5 @@ This project just gathers and aggregate publicly available data from the interne
 * "https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8"
 * "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8"
 * "https://www.youtube.com/c/CNBC/live"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/au.m3u"
+* "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/au_samsung.m3u"
