@@ -1,4 +1,4 @@
-# IPTV Action
+# IPTV Action (aka sparkSammy TV backend.)
 GitHub Action that auto-creates IPTV playlists. List contents brought to you by our comrades at @Free-TV and @iptv-org
 
 ## Disclaimer
