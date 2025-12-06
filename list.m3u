@@ -1360,7 +1360,7 @@ https://livetv-fa.tubi.video/nbc-news-now/master.m3u8
 https://aegis-cloudfront-1.tubi.video/97fbb992-c212-4164-8406-abb6f731e517/playlist.m3u8
 #EXTINF:-1 tvg-id="NFLChannel.us@SD",NFL (720p)
 https://aegis-cloudfront-1.tubi.video/4237973e-9e8c-4ec6-95b3-b7363ce39470/playlist.m3u8
-#EXTINF:-1 tvg-id="NHLNetwork.us@SD",NHL (1080p)
+#EXTINF:-1 tvg-id="",NHL (1080p)
 https://livetv-fa.tubi.video/nhl/playlist.m3u8
 #EXTINF:-1 tvg-id="NHRATV.us@SD",NHRA TV (720p)
 https://livetv-fa.tubi.video/nhra/nh.m3u8
@@ -1680,7 +1680,7 @@ https://nbcu-telemundonortheast-firetv.amagi.tv/playlist.m3u8
 https://nbcu-telemundotexas-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="",NBCU Telemundo West
 https://nbcu-telemundowest-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NHLNetwork.us@SD",NHL
+#EXTINF:-1 tvg-id="",NHL
 https://nhl-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="",Origin Sports (1080p)
 https://raycom-originsports-firetv.amagi.tv/playlist.m3u8
@@ -1888,7 +1888,7 @@ https://reflect-fairfield-ca.cablecast.tv/live-8/live/live.m3u8
 https://reflect-fcpublicmedia.cablecast.tv/live-5/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="FernandinaBeachChannel.us@SD",Fernandina Beach City Meeting (Fernandina Beach FL) (720p) [Not 24/7]
 https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
-#EXTINF:-1 tvg-id="KVCRDT2.us@SD" http-referrer="https://fnx.org/",FNX [Geo-blocked]
+#EXTINF:-1 tvg-id="KVCRDT2.us@SD",FNX [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://fnx.org/
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/live/ch1/video.m3u8
 #EXTINF:-1 tvg-id="KFONTV.us@SD",Fontana Community Television (720p) [Geo-blocked]
@@ -2779,7 +2779,7 @@ https://viamotionhsi.netplus.ch/live/eds/bbcworld/browser-HLS8/bbcworld.m3u8
 https://november.queazified.co.uk/ee971134-115e-4418-8d1d-69dff7d4c6eb.m3u8
 #EXTINF:-1 tvg-id="BBCOne.uk@London",BBC One
 https://trn09.bozztv.com/gin-bbcone/index.m3u8
-#EXTINF:-1 tvg-id="BBCOne.uk@East" http-referrer="https://cookiewebplay.xyz/",BBC One East (1080p)
+#EXTINF:-1 tvg-id="BBCOne.uk@East",BBC One East (1080p)
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8
 #EXTINF:-1 tvg-id="BBCOne.uk@SouthWestHD",BBC One South West HD (720p)
