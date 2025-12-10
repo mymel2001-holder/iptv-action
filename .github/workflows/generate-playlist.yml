@@ -16,6 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install ffmpeg for stream validation
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+
       - name: Generate clean list.m3u
         run: |
           # Final playlist
@@ -53,18 +58,13 @@ jobs:
 
           check_stream() {
             local url="$1"
-            # Timeout: connect 8s, total 20s max
-            # Follow redirects, fail on HTTP errors, silent, show only headers
-            local code=$(curl -m 20 --connect-timeout 8 -f -s -o /dev/null -w "%{http_code}" --head "$url" 2>/dev/null || echo "000")
-            
-            if [[ "$code" == "200" ]]; then
-              # Extra sanity: check that content-type looks like video/audio (optional but recommended)
-              local ctype=$(curl -m 20 --connect-timeout 8 -f -s -I "$url" 2>/dev/null | grep -i '^content-type:' | awk '{print tolower($2)}' | tr -d '\r' || echo "")
-              if [[ "$ctype" == *video* || "$ctype" == *audio* || "$ctype" == *octet-stream* || "$ctype" == *mpegurl* || "$ctype" == "" ]]; then
-                return 0   # alive
-              fi
+            # Use ffprobe to check if the URL points to a valid media stream (video or audio)
+            # Timeout in microseconds: 30 seconds total
+            if ffprobe -v error -timeout 30000000 -show_entries stream=codec_type -of default=noprint_wrappers=1:nokey=1 "$url" 2>/dev/null | grep -qE 'video|audio|data'; then
+              return 0  # Alive and valid media
+            else
+              return 1  # Dead or not media
             fi
-            return 1     # dead or suspicious
           }
 
           for src in "${SOURCES[@]}"; do
@@ -76,15 +76,19 @@ jobs:
 
             > "$TEMP_CLEAN"   # empty cleaned version for this source
 
+            CURRENT_EXTINF=""
             while IFS= read -r line; do
-              # If line is an #EXTINF line, save it and remember it
+              # Trim any trailing \r (for Windows line endings)
+              line="${line%%$'\r'}"
+
+              # If line is an #EXTINF line, save it
               if [[ "$line" == "#EXTINF:"* ]]; then
                 CURRENT_EXTINF="$line"
                 continue
               fi
 
-              # If line looks like an http/https URL → it's a stream URL
-              if [[ "$line" == http*://* || "$line" == https*://* ]]; then
+              # If line looks like a URL (http/https)
+              if [[ "$line" == http*://* ]]; then
                 URL="$line"
 
                 if check_stream "$URL"; then
@@ -93,7 +97,7 @@ jobs:
                   echo "$URL" >> "$TEMP_CLEAN"
                   echo "   Added   $URL"
                 else
-                  echo "   Removed $URL (dead/offline)"
+                  echo "   Removed $URL (dead/offline/invalid)"
                 fi
                 # Reset for next entry
                 CURRENT_EXTINF=""
