@@ -1,14 +1,12 @@
 # .github/workflows/generate-playlist.yml
-# Made with <3 by NodeMixaholic.
-# Licensed under CC0.
-name: Generate IPTV Playlist
+name: Generate IPTV Playlist (with dead-link filtering)
 
 permissions:
   contents: write
-  
+
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'   # Every day at 6 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -18,73 +16,114 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ------------------------------------------------------------------
-      # 1. Generate list.m3u
-      # ------------------------------------------------------------------
-      - name: Generate list.m3u
+      - name: Generate clean list.m3u
         run: |
-          echo "#EXTM3U" > list.m3u
-          echo "" >> list.m3u
+          # Final playlist
+          OUTPUT="list.m3u"
+          echo "#EXTM3U" > "$OUTPUT"
+          echo "" >> "$OUTPUT"
 
-          fetch_m3u() {
-            curl -fsSL "$1" | sed 's/#extm3u//gi' | sed 's/extm3u//gi'
+          # Temporary file for one source
+          TEMP_SOURCE=$(mktemp)
+          TEMP_CLEAN=$(mktemp)
+
+          # List of source playlists (add/remove as you wish)
+          SOURCES=(
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_roku.m3u"
+            "https://database.freetuxtv.net/WebStreamExport/index?format=m3u&status=2&country=us&isp=all"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_abcnews.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_cbsn.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pbs.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_samsung.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_vizio.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tcl.m3u"
+            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk.m3u"
+            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_uk.m3u8"
+            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_australia.m3u8"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au_samsung.m3u"
+          )
+
+          check_stream() {
+            local url="$1"
+            # Timeout: connect 8s, total 20s max
+            # Follow redirects, fail on HTTP errors, silent, show only headers
+            local code=$(curl -m 20 --connect-timeout 8 -f -s -o /dev/null -w "%{http_code}" --head "$url" 2>/dev/null || echo "000")
+            
+            if [[ "$code" == "200" ]]; then
+              # Extra sanity: check that content-type looks like video/audio (optional but recommended)
+              local ctype=$(curl -m 20 --connect-timeout 8 -f -s -I "$url" 2>/dev/null | grep -i '^content-type:' | awk '{print tolower($2)}' | tr -d '\r' || echo "")
+              if [[ "$ctype" == *video* || "$ctype" == *audio* || "$ctype" == *octet-stream* || "$ctype" == *mpegurl* || "$ctype" == "" ]]; then
+                return 0   # alive
+              fi
+            fi
+            return 1     # dead or suspicious
           }
-          
-          echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_local.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us_roku.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u "https://database.freetuxtv.net/WebStreamExport/index?format=m3u&status=2&country=us&isp=all" >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_abcnews.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_cbsn.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_pbs.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_samsung.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_vizio.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_tcl.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/Free-TV/IPTV/raw/refs/heads/master/playlists/playlist_usa.m3u8 >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/uk.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/Free-TV/IPTV/raw/refs/heads/master/playlists/playlist_uk.m3u8 >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/Free-TV/IPTV/raw/refs/heads/master/playlists/playlist_australia.m3u8 >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/au.m3u >> list.m3u
-          echo "" >> list.m3u
-          fetch_m3u https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/au_samsung.m3u >> list.m3u
-          echo "" >> list.m3u
 
-      # ------------------------------------------------------------------
-      # 2. Commit & push (EPG has been removed due to being borked)
-      # ------------------------------------------------------------------
-      - name: Commit and push changes
+          for src in "${SOURCES[@]}"; do
+            echo "Processing source: $src"
+            if ! curl -fsSL "$src" > "$TEMP_SOURCE"; then
+              echo "   Failed to download $src, skipping"
+              continue
+            fi
+
+            > "$TEMP_CLEAN"   # empty cleaned version for this source
+
+            while IFS= read -r line; do
+              # If line is an #EXTINF line, save it and remember it
+              if [[ "$line" == "#EXTINF:"* ]]; then
+                CURRENT_EXTINF="$line"
+                continue
+              fi
+
+              # If line looks like an http/https URL → it's a stream URL
+              if [[ "$line" == http*://* || "$line" == https*://* ]]; then
+                URL="$line"
+
+                if check_stream "$URL"; then
+                  # Stream is alive → keep both EXTINF and URL
+                  [[ -n "$CURRENT_EXTINF" ]] && echo "$CURRENT_EXTINF" >> "$TEMP_CLEAN"
+                  echo "$URL" >> "$TEMP_CLEAN"
+                  echo "   Added   $URL"
+                else
+                  echo "   Removed $URL (dead/offline)"
+                fi
+                # Reset for next entry
+                CURRENT_EXTINF=""
+              else
+                # Any other line (comments, empty, etc.) → copy as-is
+                echo "$line" >> "$TEMP_CLEAN"
+              fi
+            done < "$TEMP_SOURCE"
+
+            # Append cleaned source to final playlist (with a blank line separator)
+            cat "$TEMP_CLEAN" >> "$OUTPUT"
+            echo "" >> "$OUTPUT"
+            echo "Finished $src"
+            echo "-----------------------------------"
+          done
+
+          rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
+          echo "Final playlist generated: $(wc -l < "$OUTPUT") lines"
+
+      - name: Commit and push if changed
         run: |
-          git config --global user.name  "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add list.m3u
 
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes detected in list.m3u"
           else
-            git commit -m "Update list.m3u [skip ci]"
+            git commit -m "Auto-update list.m3u – dead streams removed $(date -u +%Y-%m-%d)"
             git push
+            echo "Changes pushed"
           fi
