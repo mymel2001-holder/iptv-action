@@ -19,8 +19,14 @@ jobs:
       - name: Install ffmpeg for stream validation
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y ffmpeg wget
 
+      - name: Get/Extract EPG
+        run: |
+          wget https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz -O epg.gz
+          gunzip epg.gz
+          mv epg epg.xml
+                  
       - name: Generate clean list.m3u
         run: |
           # Final playlist
@@ -123,11 +129,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add list.m3u
+          git add epg.xml
 
           if git diff --staged --quiet; then
             echo "No changes detected in list.m3u"
           else
-            git commit -m "Auto-update list.m3u – dead streams removed $(date -u +%Y-%m-%d)"
+            git commit -m "Auto-update list.m3u+epg.xml – dead streams removed $(date -u +%Y-%m-%d)"
             git push
             echo "Changes pushed"
           fi
