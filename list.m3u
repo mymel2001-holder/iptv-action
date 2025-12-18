@@ -1243,8 +1243,6 @@ https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/oakland/G0219_002/playlist.m3u8
 https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CityTVSanDiego.us@SD",CityTV San Diego (360p)
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/sandiego/G1826_005/playlist.m3u8
-#EXTINF:-1 tvg-id="CCPSEducationChannel.us@SD",Collier County Public Schools CCPS Education Channel (Naples FL) (480p)
-https://watch.collierschools.com/EducationChannel/educhannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CollierTV.us@SD",Collier Television CTV (Naples FL) (720p)
 https://reflect-collier-countyboc.cablecast.tv/live-4/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="ConcordTV.us@SD",Concord TV (Concord CA) (720p)
@@ -1287,6 +1285,8 @@ https://video.oct.dc.gov/out/u/DCN.m3u8
 https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
 #EXTINF:-1 tvg-id="FCPublicMedia.us@SD",FC Public Media (Fort Collins CO) (1080p)
 https://reflect-fcpublicmedia.cablecast.tv/live-5/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="FernandinaBeachChannel.us@SD",Fernandina Beach City Meeting (Fernandina Beach FL) (720p) [Not 24/7]
+https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://fnx.org/
 #EXTINF:-1 tvg-id="KVCRDT2.us@SD",FNX [Geo-blocked]
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/live/ch1/video.m3u8
@@ -1308,6 +1308,8 @@ https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8
 https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-id="Community12TV.us@SD",Gainesville Community 12TV (Gainesville FL) (720p)
 https://lin10.isilive.ca/live/gainesville/live/index.m3u8
+#EXTINF:-1 tvg-id="GalvestonCountyTV.us@SD",Galveston County TV (720p) [Not 24/7]
+https://edge-f.swagit.com/live/galvestontx/smil:hd-16x9-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="KBPXLD5.us@SD",Geb Tv (KBPX LD5) (1080p)
 https://edge1.lifestreamcdn.com/live/geb/playlist.m3u8
 #EXTINF:-1 tvg-id="CMAPChannel17.us@SD",Gilroy CMAP TV Channel 17 (720p)
@@ -1432,12 +1434,12 @@ https://livestream.telvue.com/lompoccmttv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/
 https://livestream.telvue.com/lompoccmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TAPTVChannel25.us@SD",Lompoc TAP TV Channel 25 (720p)
 https://livestream.telvue.com/lompoccmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="LBTV.us@SD",Long Beach Television (720p)
+https://edge-f.swagit.com/live/longbeachca/live-3-a/playlist.m3u8
 #EXTINF:-1 tvg-id="LA36.us@SD",Los Angeles Local Television Channel 36 (1080p)
 https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CityofLovelandTV.us@SD",Loveland TV (Loveland CO) (1080p)
 https://reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8
-#EXTINF:-1 tvg-id="MSTV.us@SD",Manatee Schools Television MSTV (Manatee County FL) (1080p)
-https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-id="MartinCountyTV.us@SD",Martin County MCTV (Martin County FL) (720p)
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/martin/G0074_002/playlist.m3u8
 #EXTINF:-1 tvg-id="MCN6MainChannel.us@SD",MCN6 (1080p) [Not 24/7]
@@ -1582,8 +1584,6 @@ https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
 https://0888934ec1a5.us-east-1.playback.live-video.net/api/video/v1/us-east-1.289485033693.channel.Aeaac0ZpvcAZ.m3u8
 #EXTINF:-1 tvg-id="Thornton8.us@SD",Thornton Government Access Channel 17 (Thornton CO) (1080p)
 https://reflect-thornton.cablecast.tv/live-4/live/live.m3u8
-#EXTINF:-1 tvg-id="CitiCABLE.us@SD",Torrance CitiCABLE (Torrance CA) (360p)
-https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/torrance/G0057_005/playlist.m3u8
 #EXTINF:-1 tvg-id="CommunityTVChannel189.us@SD",Traverse Area Community Media CommunityTV Channel 189 (Traverse City MI) (1080p) [Geo-blocked]
 https://reflect-tacm.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="TV4.us@SD",TV4 (360p)
@@ -2073,6 +2073,8 @@ https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
 https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD",Nickelodeon (720p)
 https://a1xs.vip/1000051
+#EXTINF:-1 tvg-id="Nicktoons.uk@SD",Nicktoons (576p)
+https://a1xs.vip/100054
 #EXTINF:-1 tvg-id="NoorTV.uk@SD",Noor TV (720p)
 https://sscsott.com/srt/noortvuk/index.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk@SD",Now 80s (720p)
@@ -2095,6 +2097,8 @@ https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8
 http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="SkyNewsWeather.uk@SD",Sky News Weather (720p)
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="talkSPORT.uk@SD",talkSPORT (1080p)
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="TalkTV.uk@SD",TalkTV (1080p)
 https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/talktv-live/index.m3u8
 #EXTINF:-1 tvg-id="TBNUK.uk@SD",TBN UK (1080p)
@@ -2165,6 +2169,30 @@ https://6prlive.akamaized.net/hls/live/2033806/6PR/index.m3u8
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 tvg-id="ABCAustralia.au@SD",ABC Australia
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="ABCEntertains.au@Sydney",ABC Entertains (720p)
+https://c.mjh.nz/abc-me.m3u8
+#EXTINF:-1 tvg-id="ABCKids.au@Sydney",ABC Kids
+https://c.mjh.nz/abc-kids.m3u8
+#EXTINF:-1 tvg-id="ABCNews.au@Sydney",ABC News
+https://c.mjh.nz/abc-news.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@ACT",ABC TV ACT (720p)
+https://c.mjh.nz/abc-act.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@NSW",ABC TV NSW (720p)
+https://c.mjh.nz/abc-nsw.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@NT",ABC TV NT (720p)
+https://c.mjh.nz/abc-nt.m3u8
+#EXTINF:-1 tvg-id="ABCTVPlus.au@Sydney",ABC TV Plus (720p)
+https://c.mjh.nz/abc-tv-plus.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@QLD",ABC TV QLD (720p)
+https://c.mjh.nz/abc-qld.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@SA",ABC TV SA (720p)
+https://c.mjh.nz/abc-sa.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@TAS",ABC TV TAS (720p)
+https://c.mjh.nz/abc-tas.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@VIC",ABC TV VIC (720p)
+https://c.mjh.nz/abc-vic.m3u8
+#EXTINF:-1 tvg-id="ABCTV.au@WA",ABC TV WA (720p)
+https://c.mjh.nz/abc-wa.m3u8
 #EXTINF:-1 tvg-id="AusbizTV.au@SD",ausbiz TV (720p) [Not 24/7]
 https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@Australia",Bloomberg TV Australia (270p)
