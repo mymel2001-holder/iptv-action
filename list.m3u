@@ -354,6 +354,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 #EXTINF:-1 tvg-id="CBSNewsMinnesota.us@SD",CBS News Minnesota
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5eb1b0bf2240d8000732a09c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2791e7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=4664f76e-5d97-4d34-816d-f8d81755622a
 #EXTINF:-1 tvg-id="CBSNewsNewYork.us@SD",CBS News New York
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dc9b8223687ff000936ed79/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2791e9-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c8f1fbb0-e9de-4ec2-b727-78b57832f3ae
+#EXTINF:-1 tvg-id="CBSNewsNewYork.us@SD",CBS News New York
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dc48170e280c80009a861ab/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2791e8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fb8dad98-4322-41fe-bb83-595fb6bb9006
 #EXTINF:-1 tvg-id="CBSNewsPhilly.us@SD",CBS News Philadelphia
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5eb1b05ea168cc000767ba67/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a12d4db0-b63f-41f2-8f0d-d4faab762d0a
@@ -429,6 +431,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/637413d8531e0c0007442d6d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c41-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9854ee63-3920-417e-933f-bdf38a5a6444
 #EXTINF:-1 tvg-id="",Dating Disasters
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/651f239d9c7aeb0008286823/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c42-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e4fa373b-d26b-4a30-85f4-ef286a12ac31
+#EXTINF:-1 tvg-id="",DAZN Ringside
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/649b6898f2ec0000081a9460/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c43-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a1e2a534-715c-495d-a4f3-2d56a6177548
 #EXTINF:-1 tvg-id="DealorNoDeal.us@SD",Deal or No Deal
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9debf8c881310007d7bde1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c44-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e0ea473-5558-49ab-b31c-6b1180531eab
 #EXTINF:-1 tvg-id="Degrassi.us@US",Degrassi
@@ -839,6 +843,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc208-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9c78a281-5d61-4850-8b62-74632f015343
 #EXTINF:-1 tvg-id="Vevo70s.us@SD",Vevo '70s
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f32f26bcd8aea00071240e5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc205-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=65607a14-91b8-4a2f-acee-142424cbaf0b
+#EXTINF:-1 tvg-id="Vevo80s.us@SD",Vevo '80s
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7b8bf927e090007685853/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc206-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e72e853c-9c99-4dda-b7b5-22baedf34c42
 #EXTINF:-1 tvg-id="Vevo90s.us@SD",Vevo '90s
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7bb1f86d94a000796e2c2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc207-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0728470d-6a7e-40da-b12d-986993b83ec1
 #EXTINF:-1 tvg-id="VevoCountry.us@SD",Vevo Country
@@ -921,8 +927,6 @@ https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playl
 https://aegis-cloudfront-1.tubi.video/34cd3ae2-bb20-4594-af20-01f241a525ba/playlist.m3u8
 #EXTINF:-1 tvg-id="",Ebony TV (1080p)
 https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
-#EXTINF:-1 tvg-id="",Fanduel TV Extra (720p)
-https://aegis-cloudfront-1.tubi.video/3312659c-e461-4651-b0e6-f27fbfa998fd/playlist.m3u8
 #EXTINF:-1 tvg-id="GameShowCentral.us@SD",Game Show Central (720p)
 https://aegis-cloudfront-1.tubi.video/55c4e96c-e345-486c-8f61-8320b61d734d/playlist.m3u8
 #EXTINF:-1 tvg-id="",Hagerty (1080p)
@@ -975,8 +979,6 @@ https://aegis-cloudfront-1.tubi.video/cb7f305d-049a-4feb-bc6e-028c43ad3c3e/maste
 https://aegis-cloudfront-1.tubi.video/b062c287-a170-47df-99e4-f5dcd441ee59/playlist.m3u8
 #EXTINF:-1 tvg-id="",UFC (1080p)
 https://aegis-cloudfront-1.tubi.video/a78ea283-8666-44a1-a0f6-fde5d229ac21/playlist.m3u8
-#EXTINF:-1 tvg-id="VICETV.us@SD",VICE (720p) [Geo-blocked]
-https://aegis-cloudfront-1.tubi.video/afa9e2ab-abda-47c0-9fd5-48c9641aaa9e/playlist.m3u8
 #EXTINF:-1 tvg-id="XploreTV.us@SD",Xplore (720p)
 https://aegis-cloudfront-1.tubi.video/4cfc30dc-1431-46b6-aea7-89a2e7d35823/playlist.m3u8
 
@@ -1237,6 +1239,8 @@ https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/oakland/G0219_002/playlist.m3u8
 https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CityTVSanDiego.us@SD",CityTV San Diego (360p)
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/sandiego/G1826_005/playlist.m3u8
+#EXTINF:-1 tvg-id="CCPSEducationChannel.us@SD",Collier County Public Schools CCPS Education Channel (Naples FL) (480p)
+https://watch.collierschools.com/EducationChannel/educhannel.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CollierTV.us@SD",Collier Television CTV (Naples FL) (720p)
 https://reflect-collier-countyboc.cablecast.tv/live-4/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="ConcordTV.us@SD",Concord TV (Concord CA) (720p)
@@ -1508,8 +1512,6 @@ http://otv3.ocfl.net:1936/OrangeTV/smil:OrangeTV.smil/playlist.m3u8
 https://livestream.telvue.com/pacificaca1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="PCTChannel26.us@SD",Pacific Coast TV MWSD Channel 26 (720p)
 https://livestream.telvue.com/pacificaca2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PBCTVChannel20.us@SD",Palm Beach County TV Channel 20 (Palm Beach County FL) (720p)
-https://pbcvideostreams1.pbc.gov/memfs/1af49f9a-6b90-4ec2-a640-7f65ceebed4a.m3u8
 #EXTINF:-1 tvg-id="PalmBeachesTV.us@SD",Palm Beaches TV (720p)
 https://live.feed.thepalmbeaches.tv/index.m3u8
 #EXTINF:-1 tvg-id="PascoTV.us@SD",Pasco TV (Pasco County FL) (480p)
@@ -1574,8 +1576,6 @@ https://6305c8676ce84.streamlock.net/live/live/playlist.m3u8
 https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="Tempe11.us@SD",Tempe Channel 11
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
-#EXTINF:-1 tvg-id="WVIZDT2.us@SD",The Ohio Channel (WVIZ DT-2)
-https://0888934ec1a5.us-east-1.playback.live-video.net/api/video/v1/us-east-1.289485033693.channel.Aeaac0ZpvcAZ.m3u8
 #EXTINF:-1 tvg-id="Thornton8.us@SD",Thornton Government Access Channel 17 (Thornton CO) (1080p)
 https://reflect-thornton.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-id="CitiCABLE.us@SD",Torrance CitiCABLE (Torrance CA) (360p)
@@ -1624,8 +1624,6 @@ http://wlngstudiowebcam.srfms.com:1935/wlngstudiowebcam/livestream/playlist.m3u8
 https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/wls_24x7_news.m3u8
 #EXTINF:-1 tvg-id="WMGTDT1.us@SD",WMGT-TV News (Macon GA) (720p)
 https://townnews.g-mana.live/media/e6909128-cd42-4690-8340-4b8a49455666/main.m3u8
-#EXTINF:-1 tvg-id="WLCT96.us@SD",Wolcott Governmental TV (Wolcott CT) (720p)
-https://5a5c57d042315.streamlock.net/live11704001/ngrp:government_all/playlist.m3u8
 #EXTINF:-1 tvg-id="WOLODT1.us@SD",WOLO-DT1 ABC 25 (Columbia SC) (720p)
 http://143.244.60.30/ABC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="WorldHarvestTV.us@SD",World Harvest TV (360p)
@@ -2007,6 +2005,10 @@ https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8
 https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="GREATromance.uk@UK",GREAT! romance (1080p)
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="",Hadi TV French (720p)
+https://live.ishiacloud.com/haditv.co.uk/haditv8.m3u8
+#EXTINF:-1 tvg-id="",Hadi TV Indonesian and Thai (720p)
+https://live.ishiacloud.com/haditv.co.uk/haditv2.m3u8
 #EXTINF:-1 tvg-id="",Hadi TV Turkish and Kurdish (720p)
 https://live.ishiacloud.com/haditv.co.uk/haditv7.m3u8
 #EXTINF:-1 tvg-id="HalaLondon.uk@SD",Hala London (1080p)
@@ -2073,10 +2075,6 @@ https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
 https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA8America.uk@SD",MTA8 America (1080p)
 https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.uk@SD",Nickelodeon (720p)
-https://a1xs.vip/1000051
-#EXTINF:-1 tvg-id="Nicktoons.uk@SD",Nicktoons (576p)
-https://a1xs.vip/100054
 #EXTINF:-1 tvg-id="NoorTV.uk@SD",Noor TV (720p)
 https://sscsott.com/srt/noortvuk/index.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk@SD",Now 80s (720p)
@@ -2099,6 +2097,8 @@ https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8
 http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="SkyNewsWeather.uk@SD",Sky News Weather (720p)
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="talkSPORT.uk@SD",talkSPORT (1080p)
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="TalkTV.uk@SD",TalkTV (1080p)
 https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/talktv-live/index.m3u8
 #EXTINF:-1 tvg-id="TBNUK.uk@SD",TBN UK (1080p)
