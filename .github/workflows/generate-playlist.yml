@@ -21,14 +21,10 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg wget git-lfs xmltv
 
-      - name: Get/Extract EPG
+      - name: Get EPG
         run: |
-          wget https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz -O epg.gz
-          gunzip epg.gz
-          mv epg epg1.xml
-          wget https://i.mjh.nz/all/epg.xml -O epg2.xml
-          tv_merge -i epg1.xml -m epg2.xml -o epg.xml
-          rm epg1.xml epg2.xml
+          wget https://i.mjh.nz/all/epg.xml -O epg.xml
+
                   
       - name: Generate clean list.m3u
         run: |
