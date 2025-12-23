@@ -19,13 +19,16 @@ jobs:
       - name: Install ffmpeg for stream validation
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg wget git-lfs
+          sudo apt-get install -y ffmpeg wget git-lfs xmltv
 
       - name: Get/Extract EPG
         run: |
           wget https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz -O epg.gz
           gunzip epg.gz
-          mv epg epg.xml
+          mv epg epg1.xml
+          wget https://i.mjh.nz/all/epg.xml -O epg2.xml
+          tv_merge -i epg1.xml -m epg2.xml -o epg.xml
+          rm epg1.xml epg2.xml
                   
       - name: Generate clean list.m3u
         run: |
@@ -60,6 +63,7 @@ jobs:
             "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_australia.m3u8"
             "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au.m3u"
             "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au_samsung.m3u"
+            "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"
           )
 
           check_stream() {
