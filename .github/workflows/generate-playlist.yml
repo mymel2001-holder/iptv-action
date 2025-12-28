@@ -59,7 +59,6 @@ jobs:
             "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_australia.m3u8"
             "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au.m3u"
             "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au_samsung.m3u"
-            "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"
           )
 
           check_stream() {
@@ -120,7 +119,15 @@ jobs:
             echo "-----------------------------------"
           done
 
+          echo "Generating updated radio list...."
+          wget -O radio-full.m3u "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"
+          head -n 601 radio-full.m3u > radio.m3u
+          printf '\n' >> "$OUTPUT"
+          cat radio.m3u >> "$OUTPUT"
+          
+
           rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
+          rm -f radio.m3u radio-full.m3u
           echo "Final playlist generated: $(wc -l < "$OUTPUT") lines"
 
       - name: Commit and push if changed
