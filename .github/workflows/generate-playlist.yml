@@ -36,6 +36,7 @@ jobs:
           # Temporary file for one source
           TEMP_SOURCE=$(mktemp)
           TEMP_CLEAN=$(mktemp)
+          DEDUP_SEEN=$(mktemp)
 
           # List of source playlists (add/remove as you wish)
           SOURCES=(
@@ -65,7 +66,7 @@ jobs:
             local url="$1"
             # Use ffprobe to check if the URL points to a valid media stream (video or audio)
             # Timeout in microseconds: 30 seconds total
-            if ffprobe -v error -timeout 30000000 -show_entries stream=codec_type -of default=noprint_wrappers=1:nokey=1 "$url" 2>/dev/null | grep -qE 'video|audio|data'; then
+            if timeout 30 ffprobe -v error -timeout 30000000 -show_entries stream=codec_type -of default=noprint_wrappers=1:nokey=1 "$url" 2>/dev/null | grep -qE 'video|audio|data'; then
               return 0  # Alive and valid media
             else
               return 1  # Dead or not media
@@ -108,26 +109,45 @@ jobs:
                 CURRENT_EXTINF=""
               else
                 # Any other line (comments, empty, etc.) → copy as-is
-                echo "$line" >> "$TEMP_CLEAN"
+                [[ "$line" != "#EXTM3U" ]] && echo "$line" >> "$TEMP_CLEAN"
               fi
             done < "$TEMP_SOURCE"
 
             # Append cleaned source to final playlist (with a blank line separator)
-            cat "$TEMP_CLEAN" >> "$OUTPUT"
+            awk -v seenfile="$DEDUP_SEEN" '
+          BEGIN {
+            while ((getline < seenfile) > 0) seen[$0]=1
+              }
+                /^http/ {
+                  if (!seen[$0]++) {
+                    print prev
+                    print
+                    print $0 >> seenfile
+                  }
+                prev=""
+                next
+              }
+              { prev=$0 }
+            ' "$TEMP_CLEAN" >> "$OUTPUT"
+
             echo "" >> "$OUTPUT"
             echo "Finished $src"
             echo "-----------------------------------"
           done
 
           echo "Generating updated radio list...."
-          wget -O radio-full.m3u "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"
-          head -n 601 radio-full.m3u > radio.m3u
-          printf '\n' >> "$OUTPUT"
-          cat radio.m3u >> "$OUTPUT"
+          if wget -q -O radio-full.m3u "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"; then
+            head -n 601 radio-full.m3u > radio.m3u
+            printf '\n' >> "$OUTPUT"
+            cat radio.m3u >> "$OUTPUT"
+          else
+            echo "Radio playlist download failed, skipping"
+          fi
           
 
           rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
           rm -f radio.m3u radio-full.m3u
+          rm -f "$DEDUP_SEEN"
           echo "Final playlist generated: $(wc -l < "$OUTPUT") lines"
 
       - name: Commit and push if changed
