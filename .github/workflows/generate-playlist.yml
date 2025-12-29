@@ -142,16 +142,15 @@ jobs:
 
           echo "Generating updated radio list...."
           if wget -q -O radio-full.m3u "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"; then
-            head -n 601 radio-full.m3u > radio.m3u
             printf '\n' >> "$OUTPUT"
-            cat radio.m3u >> "$OUTPUT"
+            cat radio-full.m3u >> "$OUTPUT"
           else
             echo "Radio playlist download failed, skipping"
           fi
           
 
           rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
-          rm -f radio.m3u radio-full.m3u
+          rm -f radio-full.m3u
           rm -f "$DEDUP_SEEN"
           echo "Final playlist generated: $(wc -l < "$OUTPUT") lines"
 
