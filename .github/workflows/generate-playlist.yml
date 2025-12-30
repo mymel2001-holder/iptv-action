@@ -147,6 +147,8 @@ jobs:
           else
             echo "Radio playlist download failed, skipping"
           fi
+
+          printf "\n#EXTINF:-1,KVLU Lamar University\nhttp://kvlustream.lamar.edu:8000/stream.m3u"
           
 
           rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
