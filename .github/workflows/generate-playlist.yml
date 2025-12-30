@@ -140,6 +140,10 @@ jobs:
             echo "-----------------------------------"
           done
 
+
+          # Add KVLU
+          printf "\n#EXTINF:-1,KVLU Lamar University\nhttp://kvlustream.lamar.edu:8000/stream.m3u\n\n" >> $OUTPUT
+
           echo "Generating updated radio list...."
           if wget -q -O radio-full.m3u "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/---everything-checked-repo.m3u"; then
             printf '\n' >> "$OUTPUT"
@@ -147,8 +151,6 @@ jobs:
           else
             echo "Radio playlist download failed, skipping"
           fi
-
-          printf "\n#EXTINF:-1,KVLU Lamar University\nhttp://kvlustream.lamar.edu:8000/stream.m3u"
           
 
           rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
