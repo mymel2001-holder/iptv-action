@@ -1,0 +1,181 @@
+# .github/workflows/generate-playlist.yml
+name: Generate IPTV Playlist (with dead-link filtering)
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # Every day at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg for stream validation
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg wget git-lfs xmltv
+
+      - name: Get EPG
+        run: |
+          wget https://i.mjh.nz/all/epg.xml -O epg.xml
+
+                  
+      - name: Generate clean list.m3u
+        run: |
+          # Final playlist
+          OUTPUT="list.m3u"
+          echo "#EXTM3U" > "$OUTPUT"
+          echo "" >> "$OUTPUT"
+
+          # Temporary file for one source
+          TEMP_SOURCE=$(mktemp)
+          TEMP_CLEAN=$(mktemp)
+          DEDUP_SEEN=$(mktemp)
+
+          # List of source playlists (add/remove as you wish)
+          SOURCES=(
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_stirr.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_firetv.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_local.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_roku.m3u"
+            "https://database.freetuxtv.net/WebStreamExport/index?format=m3u&status=2&country=us&isp=all"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_abcnews.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_cbsn.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pbs.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_samsung.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_vizio.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tcl.m3u"
+            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_amagi.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_distro.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_moveonjoy.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/us_cineversetv.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/uk_sportstribal.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/uk_rakuten.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/uk_samsung.m3u"
+            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_uk.m3u8"
+            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_australia.m3u8"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au_samsung.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/mx_pluto.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/mx_samsung.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/mx_amagi.m3u"
+            "https://github.com/iptv-org/iptv/raw/refs/heads/master/streams/mx.m3u"
+            "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/refs/heads/main/radio_matik/checked/usa.m3u"
+            "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/radio_matik/checked/united-kingdom.m3u"
+            "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/+checked+/j/japan.m3u"
+            "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/+checked+/j/japanese.m3u"
+            "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/+checked+/j/j_pop.m3u"
+            "https://github.com/junguler/m3u-radio-music-playlists/raw/refs/heads/main/fm_cube/checked/mexico.m3u"
+            "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/streema/checked/Mexico.m3u"
+          )
+
+          check_stream() {
+            local url="$1"
+            # Use ffprobe to check if the URL points to a valid media stream (video or audio)
+            # Timeout in microseconds: 30 seconds total
+            if timeout 18 ffprobe -v error -timeout 18000000 -show_entries stream=codec_type -of default=noprint_wrappers=1:nokey=1 "$url" 2>/dev/null | grep -qE 'video|audio|data'; then
+              return 0  # Alive and valid media
+            else
+              return 1  # Dead or not media
+            fi
+          }
+
+          for src in "${SOURCES[@]}"; do
+            echo "Processing source: $src"
+            if ! curl -fsSL "$src" > "$TEMP_SOURCE"; then
+              echo "   Failed to download $src, skipping"
+              continue
+            fi
+
+            > "$TEMP_CLEAN"   # empty cleaned version for this source
+
+            CURRENT_EXTINF=""
+            while IFS= read -r line; do
+              # Trim any trailing \r (for Windows line endings)
+              line="${line%%$'\r'}"
+
+              # If line is an #EXTINF line, save it
+              if [[ "$line" == "#EXTINF:"* ]]; then
+                CURRENT_EXTINF="$line"
+                continue
+              fi
+
+              # If line looks like a URL (http/https)
+              if [[ "$line" == http*://* ]]; then
+                URL="$line"
+
+                if check_stream "$URL"; then
+                  # Stream is alive → keep both EXTINF and URL
+                  [[ -n "$CURRENT_EXTINF" ]] && echo "$CURRENT_EXTINF" >> "$TEMP_CLEAN"
+                  echo "$URL" >> "$TEMP_CLEAN"
+                  echo "   Added   $URL"
+                else
+                  echo "   Removed $URL (dead/offline/invalid)"
+                fi
+                # Reset for next entry
+                CURRENT_EXTINF=""
+              else
+                # Any other line (comments, empty, etc.) → copy as-is
+                [[ "$line" != "#EXTM3U" ]] && echo "$line" >> "$TEMP_CLEAN"
+              fi
+            done < "$TEMP_SOURCE"
+
+            # Append cleaned source to final playlist (with a blank line separator)
+            awk -v seenfile="$DEDUP_SEEN" '
+          BEGIN {
+            while ((getline < seenfile) > 0) seen[$0]=1
+              }
+                /^http/ {
+                  if (!seen[$0]++) {
+                    print prev
+                    print
+                    print $0 >> seenfile
+                  }
+                prev=""
+                next
+              }
+              { prev=$0 }
+            ' "$TEMP_CLEAN" >> "$OUTPUT"
+
+            echo "" >> "$OUTPUT"
+            echo "Finished $src"
+            echo "-----------------------------------"
+          done
+
+
+          # Add KVLU
+          printf "\n#EXTINF:-1,KVLU Lamar University\nhttp://kvlustream.lamar.edu:8000/stream.m3u\n\n" >> $OUTPUT
+
+          rm -f "$TEMP_SOURCE" "$TEMP_CLEAN"
+          rm -f "$DEDUP_SEEN"
+          echo "Final playlist generated: $(wc -l < "$OUTPUT") lines"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git lfs track "*.xml"
+          
+          git add .gitattributes
+          git add list.m3u
+          git add epg.xml
+
+          if git diff --staged --quiet; then
+            echo "No changes detected in list.m3u"
+          else
+            git commit -m "Auto-update list.m3u+epg.xml – dead streams removed $(date -u +%Y-%m-%d)"
+            git push
+            echo "Changes pushed"
+          fi
