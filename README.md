@@ -53,4 +53,4 @@ This project just gathers and aggregate publicly available data from the interne
 
 ## License
 
-SPL-R5
+Published under public domain with ❤️ with the CC0 1.0 License! Enjoy!
