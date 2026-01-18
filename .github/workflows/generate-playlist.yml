@@ -40,7 +40,6 @@ jobs:
           SOURCES=(
             "https://iptv-org.github.io/iptv/languages/eng.m3u"
             "https://database.freetuxtv.net/WebStreamExport/index?format=m3u&status=2&country=us&isp=all"
-            "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8"
             "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_australia.m3u8"
             "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au.m3u"
             "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au_samsung.m3u"
