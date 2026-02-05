@@ -303,8 +303,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/54ff7ba69222cb1c2624c584/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90859fb4-eb20-4022-bd6d-3413a8bf59c2
 #EXTINF:-1 tvg-id="",Blue Bloods
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61b3b8c645b45d0007a9bb8d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fe7428fc-4fd0-424f-828f-7d5d5e9ad75c
-#EXTINF:-1 tvg-id="Boston25Now.us@SD",Boston 25
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/632b62b3982d0d000755a2be/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c6-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f6390858-5ff7-40b8-83c2-2d2baded2800
 #EXTINF:-1 tvg-id="BounceXL.us@SD",Bounce XL
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6176fd25e83a5f0007a464c9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c190f5a2-d746-452a-adf6-37d9268e59ae
 #EXTINF:-1 tvg-id="",Bravo Vault
@@ -379,6 +377,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61325d18f5166c00081b84e0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c280710-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0a788361-db81-4dff-80d0-0f1f0f20dfd7
 #EXTINF:-1 tvg-id="Classica.us@SD",Classica
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f779951372da90007fd45e8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c280711-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1c3ac7db-5cfe-4d39-aec3-70a684e58c38
+#EXTINF:-1 tvg-id="CMTEqualPlay.us@SD",CMT Equal Play
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f68f53eb1e5800007390bf8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c280712-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bd328c28-b23b-4f85-9b18-9d73786f7109
 #EXTINF:-1 tvg-id="",Cold Case Files by A&E
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c37d6712de254456f7ec340/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c280715-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fd8b3bcc-fbd9-4795-b86b-dfb2b2c8addd
 #EXTINF:-1 tvg-id="ComedyCentralenEspanol.us@SD",Comedy Central en Español
@@ -417,6 +417,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/637413d8531e0c0007442d6d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c41-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9854ee63-3920-417e-933f-bdf38a5a6444
 #EXTINF:-1 tvg-id="",Dating Disasters
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/651f239d9c7aeb0008286823/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c42-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e4fa373b-d26b-4a30-85f4-ef286a12ac31
+#EXTINF:-1 tvg-id="",DAZN Ringside
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/649b6898f2ec0000081a9460/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c43-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a1e2a534-715c-495d-a4f3-2d56a6177548
 #EXTINF:-1 tvg-id="DealorNoDeal.us@SD",Deal or No Deal
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9debf8c881310007d7bde1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c44-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e0ea473-5558-49ab-b31c-6b1180531eab
 #EXTINF:-1 tvg-id="Degrassi.us@US",Degrassi
@@ -453,6 +455,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5bb1af6a268cae539bcedb0a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca68-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=859d292d-044e-4dc8-b889-003fa718d02e
 #EXTINF:-1 tvg-id="ForeverKids.us@SD",Forever Kids
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/56171fafada51f8004c4b40f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f171-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1acb41ce-ae24-4bbc-bf7d-831de72589e8
+#EXTINF:-1 tvg-id="",Fox Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f173-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=46a3b8ff-5a4a-4952-bb4d-9461224acd54
 #EXTINF:-1 tvg-id="FunnyAF.us@SD",Funny AF
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/580e87ff497c73ba2f321dd3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f174-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bbaba395-2ecd-414c-971c-2d705e4b67d5
 #EXTINF:-1 tvg-id="GameShowCentral.us@SD",Game Show Central
@@ -817,6 +821,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc208-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9c78a281-5d61-4850-8b62-74632f015343
 #EXTINF:-1 tvg-id="Vevo70s.us@SD",Vevo '70s
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f32f26bcd8aea00071240e5/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc205-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=65607a14-91b8-4a2f-acee-142424cbaf0b
+#EXTINF:-1 tvg-id="Vevo80s.us@SD",Vevo '80s
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7b8bf927e090007685853/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc206-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e72e853c-9c99-4dda-b7b5-22baedf34c42
 #EXTINF:-1 tvg-id="Vevo90s.us@SD",Vevo '90s
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7bb1f86d94a000796e2c2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc207-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0728470d-6a7e-40da-b12d-986993b83ec1
 #EXTINF:-1 tvg-id="VevoCountry.us@SD",Vevo Country
@@ -1371,6 +1377,8 @@ https://amg00119-amg00119c1-firetv-us-4205.playouts.now.amagi.tv/playlist.m3u8
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
 #EXTINF:-1 tvg-id="KIIOLD4.us@SD",AABC TV (480p)
 https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
+#EXTINF:-1 tvg-id="KRGVDT1.us@SD",ABC 5
+https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KGODT1247News.us@SD",ABC 7 Bay Area and San Francisco News (KGO-DT1) (720p)
 https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
 #EXTINF:-1 tvg-id="KMGHDT1.us@SD",ABC 7 Denver CO (KMGH) (720p)
@@ -1387,8 +1395,6 @@ https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8
 https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
 #EXTINF:-1 tvg-id="KFSNDT1247News.us@SD",ABC 30 Fresno and Central Valley News (KFSN-DT1) (720p)
 https://content.uplynk.com/channel/ext/96195dc445894d079a91958abba8d3af/kfsn_24x7_news.m3u8
-#EXTINF:-1 tvg-id="WABCDT1247News.us@SD",ABC News New York NY (WABC-TV) (720p)
-https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8
 #EXTINF:-1 tvg-id="WTXLDT1.us@SD",ABC Tallahassee (720p) [Not 24/7]
 https://content.uplynk.com/channel/c66d1d2d9e2c46cea1cf22a33f6ca488.m3u8
 #EXTINF:-1 tvg-id="WWAYDT1.us@SD",ABC WWAY 3
@@ -1483,6 +1489,8 @@ https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8
 https://reflect-creatv.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-id="CruzTV.us@SD",Cruz TV
 https://reflect-communitytv.cablecast.tv/live-4/live/stream-2/live.m3u8
+#EXTINF:-1 tvg-id="CupertinoCityChannel.us@SD",Cupertino City Channel (720p)
+https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/cupertino/G0067_003/playlist.m3u8
 #EXTINF:-1 tvg-id="CypressChannel36.us@SD",Cypress Public Access Channel 36 (Cypress CA) (360p)
 https://livestream-us-east-edge-2.granicusops.com/live/cypressca/live-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="DCC.us@SD",DC Council Channel (1080p)
@@ -1733,8 +1741,6 @@ https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
 #EXTINF:-1 tvg-id="WVIZDT2.us@SD",The Ohio Channel (WVIZ DT-2)
 https://0888934ec1a5.us-east-1.playback.live-video.net/api/video/v1/us-east-1.289485033693.channel.Aeaac0ZpvcAZ.m3u8
-#EXTINF:-1 tvg-id="CitiCABLE.us@SD",Torrance CitiCABLE (Torrance CA) (360p)
-https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/torrance/G0057_005/playlist.m3u8
 #EXTINF:-1 tvg-id="CommunityTVChannel189.us@SD",Traverse Area Community Media CommunityTV Channel 189 (Traverse City MI) (1080p) [Geo-blocked]
 https://reflect-tacm.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="TV4.us@SD",TV4 (360p)
@@ -2059,7 +2065,7 @@ https://tdameritrade-distro.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us@US",World Poker Tour (1080p) [Not 24/7]
 https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
 
-#EXTINF:-1 tvg-id="WLSDT1.us@SD",ABC Chicago WLS-DT1
+#EXTINF:-1 tvg-id="WLSDT1.us@SD",WLS-DT1 ABC
 https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork.us@SD",ACCN (720p)
 https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8
@@ -2149,6 +2155,8 @@ https://fl1.moveonjoy.com/FREE_FORM/index.m3u8
 https://fl1.moveonjoy.com/FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FX.us@East",FX East
 https://fl1.moveonjoy.com/FX/index.m3u8
+#EXTINF:-1 tvg-id="FXM.us@East",FXM East
+https://fl1.moveonjoy.com/FX_MOVIE/index.m3u8
 #EXTINF:-1 tvg-id="FXX.us@East",FXX East
 https://fl1.moveonjoy.com/FXX/index.m3u8
 #EXTINF:-1 tvg-id="FYI.us@East",FYI East
@@ -2219,6 +2227,8 @@ https://fl1.moveonjoy.com/OUTSIDE_TV/index.m3u8
 https://fl1.moveonjoy.com/Ovation/index.m3u8
 #EXTINF:-1 tvg-id="Oxygen.us@East",Oxygen East
 https://fl1.moveonjoy.com/OXYGEN/index.m3u8
+#EXTINF:-1 tvg-id="ParamountNetwork.us@East",Paramount Network East
+https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="PopTV.us@SD",Pop TV
 https://fl1.moveonjoy.com/Pop_TV/index.m3u8
 #EXTINF:-1 tvg-id="QVC.us@SD",QVC (720p)
@@ -2231,6 +2241,8 @@ https://fl1.moveonjoy.com/REVOLT/index.m3u8
 https://fl1.moveonjoy.com/SHOWTIME_2/index.m3u8
 #EXTINF:-1 tvg-id="Showtime.us@East",Showtime East
 https://fl1.moveonjoy.com/SHOWTIME/index.m3u8
+#EXTINF:-1 tvg-id="ShowtimeNext.us@East",Showtime Next East
+https://fl1.moveonjoy.com/SHOWTIME_NEXT/index.m3u8
 #EXTINF:-1 tvg-id="Showtime.us@West",Showtime West (1080p)
 https://fl1.moveonjoy.com/SHOWTIME_WEST/index.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannel.us@East",Smithsonian Channel East
@@ -2259,8 +2271,6 @@ https://fl1.moveonjoy.com/TENNIS_CHANNEL/index.m3u8
 https://fl1.moveonjoy.com/TV_LAND/index.m3u8
 #EXTINF:-1 tvg-id="TVOne.us@SD",TV One
 https://fl1.moveonjoy.com/TV_ONE/index.m3u8
-#EXTINF:-1 tvg-id="VH1.us@East",VH1 East
-https://fl1.moveonjoy.com/VH1/index.m3u8
 #EXTINF:-1 tvg-id="VICETV.us@SD",VICE TV (720p)
 https://fl1.moveonjoy.com/VICELAND/index.m3u8
 #EXTINF:-1 tvg-id="WNetwork.ca@East",W Network (720p)
@@ -2285,6 +2295,260 @@ https://fl1.moveonjoy.com/FL_West_Palm_Beach_CBS/index.m3u8
 https://fl1.moveonjoy.com/FL_Tampa_CW44/index.m3u8
 #EXTINF:-1 tvg-id="YesNetwork.us@SD",Yes Network
 https://fl1.moveonjoy.com/YES_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="",WUSA CBS (Washington DC)
+https://fl1.moveonjoy.com/DC_WASHINGTON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WTTG FOX (Washington DC)
+https://fl1.moveonjoy.com/DC_WASHINGTON_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WRC NBC (Washington DC)
+https://fl1.moveonjoy.com/DC_WASHINGTON_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WTVY ABC (Dothan AL)
+https://fl1.moveonjoy.com/AL_DOTHAN_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WTVY CBS (Dothan AL)
+https://fl1.moveonjoy.com/AL_DOTHAN_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WTVY NBC (Dothan AL)
+https://fl1.moveonjoy.com/AL_DOTHAN_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WDFX FOX (Dothan AL)
+https://fl1.moveonjoy.com/AL_DOTHAN_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WBMA-LD ABC (Birmingham AL)
+https://fl1.moveonjoy.com/AL_BIRMINGHAM_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WVTM NBC (Birmingham AL)
+https://fl1.moveonjoy.com/AL_Birmingham_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WBRC FOX (Birmingham AL)
+https://fl1.moveonjoy.com/AL_BIRMINGHAM_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WPMI ABC (Mobile AL)
+https://fl1.moveonjoy.com/AL_MOBILE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WKRG CBS (Mobile AL)
+https://fl1.moveonjoy.com/AL_MOBILE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WALA FOX (Mobile AL)
+https://fl1.moveonjoy.com/AL_MOBILE_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KNXV ABC (Phoenix AZ)
+https://fl1.moveonjoy.com/AZ_PHOENIX_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KSAZ FOX (Phoenix AZ)
+https://fl1.moveonjoy.com/AZ_PHOENIX_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KFSN ABC (Fresno CA)
+https://fl1.moveonjoy.com/CA_FRESNO_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",KABC ABC (Los Angeles CA)
+https://fl1.moveonjoy.com/CA_LOS_ANGELES_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KCBS CBS (Los Angeles CA)
+https://fl1.moveonjoy.com/CA_Los_Angeles_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KNBC NBC (Los Angeles CA)
+https://fl1.moveonjoy.com/CA_Los_Angeles_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",KPIX CBS (San Francisco CA)
+https://fl1.moveonjoy.com/CA_SAN_FRANCISCO_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KGTV ABC (San Diego CA)
+https://fl1.moveonjoy.com/CA_SAN_DIEGO_ABC/mpegts
+#EXTINF:-1 tvg-id="",KFMB CBS (San Diego CA)
+https://fl1.moveonjoy.com/CA_SAN_DIEGO_CBS/mpegts
+#EXTINF:-1 tvg-id="",KSBW NBC (Monterey CA)
+https://fl1.moveonjoy.com/CA_MONTEREY_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KCNC CBS (Denver CO)
+https://fl1.moveonjoy.com/CO_DENVER_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KDVR FOX (Denver CO)
+https://fl1.moveonjoy.com/CO_Denver_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KUSA NBC (Denver CO)
+https://fl1.moveonjoy.com/CO_Denver_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WSVN ABC (Miami FL)
+https://fl1.moveonjoy.com/FL_MIAMI_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WFOR CBS (Miami FL)
+https://fl1.moveonjoy.com/FL_Miami_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WSVN FOX (Miami FL)
+https://fl1.moveonjoy.com/FL_Miami_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WTVJ NBC (Miami FL)
+https://fl1.moveonjoy.com/FL_Miami_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WFTV ABC (Orlando FL)
+https://fl1.moveonjoy.com/FL_ORLANDO_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WKMG CBS (Orlando FL)
+https://fl1.moveonjoy.com/FL_ORLANDO_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WOFL FOX (Orlando FL)
+https://fl1.moveonjoy.com/FL_ORLANDO_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WJXX ABC (Jacksonville FL)
+https://fl1.moveonjoy.com/FL_JACKSONVILLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WJAX CBS (Jacksonville FL)
+https://fl1.moveonjoy.com/FL_JACKSONVILLE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WFOX FOX (Jacksonville FL)
+https://fl1.moveonjoy.com/FL_Jacksonville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WTLV NBC (Jacksonville FL)
+https://fl1.moveonjoy.com/FL_Jacksonville_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WTXL ABC (Tallahassee FL)
+https://fl1.moveonjoy.com/FL_Tallahassee_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WTLH NBC (Tallahassee FL)
+https://fl1.moveonjoy.com/FL_Tallahassee_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WINK CBS (Fort Myers FL)
+https://fl1.moveonjoy.com/FL_FORT_MYERS_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WBBH NBC (Fort Myers FL)
+https://fl1.moveonjoy.com/FL_FORT_MYERS_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WCJB ABC (Gainesville FL)
+https://fl1.moveonjoy.com/FL_GAINESVILLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WGCL CBS (Atlanta GA)
+https://fl1.moveonjoy.com/GA_ATLANTA_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WXIA NBC (Atlanta GA)
+https://fl1.moveonjoy.com/GA_ATLANTA_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WAGA FOX (Atlanta GA)
+https://fl1.moveonjoy.com/GA_Atlanta_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WGXA CBS (Macon GA)
+https://fl1.moveonjoy.com/GA_MACON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WMGT NBC (Macon GA)
+https://fl1.moveonjoy.com/GA_MACON_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WRDW CBS (Augusta GA)
+https://fl1.moveonjoy.com/GA_AUGUSTA_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WFXG FOX (Augusta GA)
+https://fl1.moveonjoy.com/GA_AUGUSTA_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WTOC CBS (Savannah GA)
+https://fl1.moveonjoy.com/GA_SAVANNAH_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WGN WGN (Chicago IL)
+https://fl7.moveonjoy.com/WGN/index.m3u8
+#EXTINF:-1 tvg-id="",WTHR NBC (Indianapolis IN)
+https://fl1.moveonjoy.com/IN_Indianapolis_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WXIN FOX (Indianapolis IN)
+https://fl1.moveonjoy.com/IN_Indianapolis_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WHAS ABC (Louisville KY)
+https://fl1.moveonjoy.com/KY_LOUISVILLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WLKY CBS (Louisville KY)
+https://fl1.moveonjoy.com/KY_LOUISVILLE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WDRB FOX (Louisville KY)
+https://fl1.moveonjoy.com/KY_Louisville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WAVE NBC (Louisville KY)
+https://fl1.moveonjoy.com/KY_Louisville_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WKYT CBS (Lexington KY)
+https://fl1.moveonjoy.com/KY_Lexington_CBS/mpegts
+#EXTINF:-1 tvg-id="",WAFB CBS (Baton Rouge LA)
+https://fl1.moveonjoy.com/LA_BATON_ROUGE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WVLA FOX (Baton Rouge LA)
+https://fl1.moveonjoy.com/LA_BATON_ROUGE_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WVLA NBC (Baton Rouge LA)
+https://fl1.moveonjoy.com/LA_BATON_ROUGE_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WVUE ABC (New Orleans LA)
+https://fl1.moveonjoy.com/LA_NEW_ORLEANS_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WWL CBS (New Orleans LA)
+https://fl1.moveonjoy.com/LA_NEW_ORLEANS_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WVUE FOX (New Orleans LA)
+https://fl1.moveonjoy.com/LA_NEW_ORLEANS_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WCVB ABC (Boston MA)
+https://fl1.moveonjoy.com/MA_BOSTON_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WBZ CBS (Boston MA)
+https://fl1.moveonjoy.com/MA_BOSTON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WFXT FOX (Boston MA)
+https://fl1.moveonjoy.com/MA_BOSTON_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WSHM CBS (Springfield MA)
+https://fl1.moveonjoy.com/MA_SPRINGFIELD_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WWLP NBC (Springfield MA)
+https://fl1.moveonjoy.com/MA_SPRINGFIELD_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WXYZ ABC (Detroit MI)
+https://fl1.moveonjoy.com/MI_DETROIT_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WDIV NBC (Detroit MI)
+https://fl1.moveonjoy.com/MI_Detroit_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WJBK FOX (Detroit MI)
+https://fl1.moveonjoy.com/MI_Detroit_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KMBC ABC (Kansas City MO)
+https://fl1.moveonjoy.com/MO_KANSAS_CITY_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KTVI FOX (St. Louis MO)
+https://fl1.moveonjoy.com/MO_ST_LOUIS_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KSDK NBC (St. Louis MO)
+https://fl1.moveonjoy.com/MO_ST_LOUIS_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WAPT ABC (Jackson MS)
+https://fl1.moveonjoy.com/MS_JACKSON_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WJTV CBS (Jackson MS)
+https://fl1.moveonjoy.com/MS_JACKSON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WDBD FOX (Jackson MS)
+https://fl1.moveonjoy.com/MS_JACKSON_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WLBT NBC (Jackson MS)
+https://fl1.moveonjoy.com/MS_JACKSON_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WCCO CBS (Minneapolis MN)
+https://fl1.moveonjoy.com/MN_MINNEAPOLIS_CBS/mpegts
+#EXTINF:-1 tvg-id="",KVVU FOX (Las Vegas NV)
+https://fl1.moveonjoy.com/NV_LAS_VEGAS_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KSNV NBC (Las Vegas NV)
+https://fl1.moveonjoy.com/NV_LAS_VEGAS_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",KRQE CBS (Albuquerque NM)
+https://fl1.moveonjoy.com/NM_Albuquerque_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KRQE FOX (Albuquerque NM)
+https://fl1.moveonjoy.com/NM_Albuquerque_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WABC ABC (New York NY)
+https://fl1.moveonjoy.com/NY_NEW_YORK_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WCBS CBS (New York NY)
+https://fl1.moveonjoy.com/NY_NEW_YORK_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WNBC NBC (New York NY)
+https://fl1.moveonjoy.com/NY_New_York_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WNYW FOX (New York NY)
+https://fl1.moveonjoy.com/NY_New_York_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WTEN ABC (Albany NY)
+https://fl1.moveonjoy.com/NY_ALBANY_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WGRZ NBC (Buffalo NY)
+https://fl1.moveonjoy.com/NY_BUFFALO_NBC/mpegts
+#EXTINF:-1 tvg-id="",WKBW ABC (Buffalo NY)
+https://fl1.moveonjoy.com/NY_BUFFALO_ABC/mpegts
+#EXTINF:-1 tvg-id="",WSOC ABC (Charlotte NC)
+https://fl1.moveonjoy.com/NC_CHARLOTTE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WBTV CBS (Charlotte NC)
+https://fl1.moveonjoy.com/NC_CHARLOTTE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WCNC NBC (Charlotte NC)
+https://fl1.moveonjoy.com/NC_CHARLOTTE_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WEWS ABC (Cleveland OH)
+https://fl1.moveonjoy.com/OH_CLEVELAND_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WHIO CBS (Dayton OH)
+https://fl1.moveonjoy.com/OH_DAYTON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WPVI ABC (Philadelphia PA)
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KYW CBS (Philadelphia PA)
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",WTXF FOX (Philadelphia PA)
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WCAU NBC (Philadelphia PA)
+https://fl1.moveonjoy.com/PA_PHILADELPHIA_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WTAE ABC (Pittsburgh PA)
+https://fl1.moveonjoy.com/PA_PITTSBURGH_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WPXI NBC (Pittsburgh PA)
+https://fl1.moveonjoy.com/PA_Pittsburgh_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WPGH FOX (Pittsburgh PA)
+https://fl1.moveonjoy.com/PA_Pittsburgh_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WDEF FOX (Chattanooga TN)
+https://fl1.moveonjoy.com/TN_CHATTANOOGA_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WTNZ FOX (Knoxville TN)
+https://fl1.moveonjoy.com/TN_Knoxville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WBIR NBC (Knoxville TN)
+https://fl1.moveonjoy.com/TN_Knoxville_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WHBQ FOX (Memphis TN)
+https://fl1.moveonjoy.com/TN_Memphis_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WMC NBC (Memphis TN)
+https://fl1.moveonjoy.com/TN_Memphis_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WKRN ABC (Nashville TN)
+https://fl1.moveonjoy.com/TN_NASHVILLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",WZTV FOX (Nashville TN)
+https://fl1.moveonjoy.com/TN_Nashville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WSMV NBC (Nashville TN)
+https://fl1.moveonjoy.com/TN_Nashville_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",KVUE ABC (Austin TX)
+https://fl1.moveonjoy.com/TX_AUSTIN_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KTBC FOX (Austin TX)
+https://fl1.moveonjoy.com/TX_AUSTIN_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WFAA ABC (Dallas TX)
+https://fl1.moveonjoy.com/TX_DALLAS_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KTVT CBS (Dallas TX)
+https://fl1.moveonjoy.com/TX_Dallas_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KDFW FOX (Dallas TX)
+https://fl1.moveonjoy.com/TX_Dallas_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KXAS NBC (Dallas TX)
+https://fl1.moveonjoy.com/TX_Dallas_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",KTRK ABC (Houston TX)
+https://fl1.moveonjoy.com/TX_HOUSTON_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KHOU CBS (Houston TX)
+https://fl1.moveonjoy.com/TX_HOUSTON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="",KRIV FOX (Houston TX)
+https://fl1.moveonjoy.com/TX_Houston_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KPRC NBC (Houston TX)
+https://fl1.moveonjoy.com/TX_Houston_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",KSAT ABC (San Antonio TX)
+https://fl1.moveonjoy.com/TX_SAN_ANTONIO_ABC/index.m3u8
+#EXTINF:-1 tvg-id="",KABB FOX (San Antonio TX)
+https://fl1.moveonjoy.com/TX_San_Antonio_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",WOAI NBC (San Antonio TX)
+https://fl1.moveonjoy.com/TX_San_Antonio_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WFXR FOX (Roanoke VA)
+https://fl1.moveonjoy.com/VA_Roanoke_FOX/mpegts
+#EXTINF:-1 tvg-id="",KCPQ FOX (Seattle WA)
+https://fl1.moveonjoy.com/WA_SEATTLE_FOX/index.m3u8
+#EXTINF:-1 tvg-id="",KONG NBC (Seattle WA)
+https://fl1.moveonjoy.com/WA_SEATTLE_NBC/index.m3u8
 
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us@SD",California Music Channel
 https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
@@ -2371,6 +2635,10 @@ https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
 https://amg01079-nbcuuk-amg01079c2-lg-gb-2030.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="EnglishClubTV.uk@SD",English Club TV
 https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8
+#EXTINF:-1 tvg-id="ENTChannel.uk@HD",ENT Channel (720p)
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="ENTFamily.uk@HD",ENT Family (720p)
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="FaithWorldTV.uk@SD",Faith World TV
 https://faithworldtv.abs.tv/1826926230/index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@English",FIFA+
@@ -2443,6 +2711,8 @@ https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
 https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
 #EXTINF:-1 tvg-id="KanshiTV.uk@SD",Kanshi TV (720p) [Not 24/7]
 https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
+#EXTINF:-1 tvg-id="LatestTV.uk@SD",Latest TV (480p)
+https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="",Loveworld TV (1080p) [Not 24/7]
 https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnavisionTV.uk@SD",Magna Vision (1080p)
@@ -2453,24 +2723,10 @@ https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u
 https://viamotionhsi.netplus.ch/live/eds/more4/browser-HLS8/more4.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@SD",Mr Bean Live Action (1080p)
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA1World.uk@SD",MTA1 World (720p)
-https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA2Europe.uk@SD",MTA2 Europe (720p)
-https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA3AlArabia.uk@SD",MTA3 Al-Arabia (1080p)
 https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA4Africa.uk@SD",MTA4 Africa (1080p)
 https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA5Africa.uk@SD",MTA5 Africa (1080p)
-https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA6Asia.uk@SD",MTA6 Asia (1080p)
-https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA7Asia.uk@SD",MTA7 Asia (1080p)
-https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA8America.uk@SD",MTA8 America (1080p)
-https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.uk@SD",Nicktoons (576p)
-https://a1xs.vip/100054
 #EXTINF:-1 tvg-id="NoorTV.uk@SD",Noor TV (720p)
 https://sscsott.com/srt/noortvuk/index.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk@SD",Now 80s (720p)
@@ -2505,6 +2761,16 @@ https://jmp2.uk/stvp-GBBD3200003T6
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
 #EXTINF:-1 tvg-id="TJC.uk@SD",TJC (1080p)
 https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(HDTJCcustomGFX)/master.m3u8
+#EXTINF:-1 tvg-id="Totalmusic.uk@HD",Totalmusic (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="Totalmusic80s.uk@HD",Totalmusic 80s (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="Totalmusic2000s.uk@HD",Totalmusic 2000s (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="TotalmusicConcerts.uk@HD",Totalmusic Concerts (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="TotalmusicDance.uk@HD",Totalmusic Dance (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="V2BEATTV.uk@SD",V2BEAT (720p) [Not 24/7]
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="VoxAfrica.uk@SD",VoxAfrica
@@ -2609,16 +2875,14 @@ https://narrative-popkids-rakuten.amagi.tv/playlist.m3u8
 https://signatureentertainment-popflix-1-gb.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVTopMovies.es@UK",Rakuten Top Movies UK (1080p)
 https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVActionMovies.es@UK",Rakuten TV Action Movies UK (1080p)
-https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
 #EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@UK",Rakuten TV Comedy Movies UK (1080p)
 https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@UK",Rakuten TV Drama Movies UK (1080p)
-https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@UK",Rakuten TV Family Movies UK (1080p)
 https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
 #EXTINF:-1 tvg-id="",Rakuten TV Reality UK (1080p)
 https://68f6dfd1f2bd415b9c42f1d383004b69.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6233/master.m3u8
+#EXTINF:-1 tvg-id="",Rakuten TV Romance Movies UK (1080p)
+https://2c88ed8c4df9479aa0c7138dc42115e2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6194/master.m3u8
 #EXTINF:-1 tvg-id="",Rakuten TV Sci-Fi UK (1080p)
 https://sci-fi-rakuten-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6241/master.m3u8
 #EXTINF:-1 tvg-id="",Rakuten TV Thrillers UK (1080p)
@@ -2929,8 +3193,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca831
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc266f80e3550009136843/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="BobEsponja.us@SD",Pluto TV Bob Esponja (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aca0b4e448e00075e7c5e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVCineSuspenso.us@SD",Pluto TV Cine Suspenso (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVComedyCentralLatino.us@SD",Pluto TV Comedy Central Latino (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96dad1652631e36d43320/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5cf96dad1652631e36d43320&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=967&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVComedyCentralLatino.us@SD",Pluto TV Comedy Central Latino (720p)
@@ -2939,24 +3201,14 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf96dad1
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6d935d000120009bc1132/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="CurroJimenez.us@Spain",Pluto TV Curro Jiménez (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acd36779de70007a680d1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVDeportes.us@SD",Pluto TV Deportes (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde07af1c85b0009b18651/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVDogelcazarrecompensas.us@SD",Pluto TV Dog el cazarrecompensas (480p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f9992c685a2a80007fa414a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="Elencantadordeperros.us@Spain",Pluto TV El Encantador de Perros (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60e45687313c5f0007bc8e94/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&serverSideAds=false&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVElReinoInfantil.us@SD",Pluto TV El Reino Infantil (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3d06fb60d8000781fce8/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="Empenosalobestia.us@Spain",Pluto TV Empeños a lo bestia (720p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f23102d5e239d00074b092a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="",Pluto TV EN DIRECTO EN VIVO (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?appVersion=0&deviceDNT=0&deviceId=0&deviceMake=0&deviceModel=0&deviceType=0&deviceVersion=0&sid=9f61
 #EXTINF:-1 tvg-id="PlutoTVEstrellasdeAccion.us@SD",Pluto TV Estrellas de Acción (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e972a21ad709d00074195ba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVHistoria.us@SD",Pluto TV Historia (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de5758e1a30dc00094fcd6c/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVHistoriasdeUltratumba.us@SD",Pluto TV Historias de Ultratumba (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3696d938c900072679fd/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVKenanyKel.us@SD",Pluto TV Kenan y Kel (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fcea93ffcf94500071c4b2f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="LosarchivosdelFBI.us@Spain",Pluto TV Los archivos del FBI (720p)
@@ -2969,12 +3221,12 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1acba0d
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c01df1759ee03633e7b272c/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c01df1759ee03633e7b272c&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=971&terminate=false&userId=
 #EXTINF:-1 tvg-id="LuchaLibreAAA.us@SD",Pluto TV Lucha Libre AAA (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c01df1759ee03633e7b272c/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="LuchaLibreAAA.us@SD",Pluto TV Lucha Libre AAA (360p) [Not 24/7]
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f99a772c54853000797bf18/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVMinutoParaGanar.us@SD",Pluto TV Minuto Para Ganar (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46e64dc73db400094b5f0b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="Misteriossinresolver.us@SD",Pluto TV Misterios sin Resolver (480p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f610042272f68000867685b/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="PlutoTVMisteriosMedicos.us@SD",Pluto TV Misterios Medicos (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f230e416b68ff00075b0139/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="",Pluto TV MTV (Mexico) (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fab088b3279760007d4e4fd/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="",Pluto TV MTV Embarazada a los 16 (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f98537a5a4341000733aefe/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMTVLatino.us@SD",Pluto TV MTV Latino (720p)
@@ -2986,19 +3238,13 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/611b87946
 #EXTINF:-1 tvg-id="PlutoTVNaturaleza.us@SD",Pluto TV Naturaleza (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd85eac039bba0009e86d1d/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="NickClasico.us@SD",Pluto TV Nick Clásico (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddd7c348520b40009c347e2/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="NickClasico.us@SD",Pluto TV Nick Clásico (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f12151794c1800007a8ae63/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVNovelas.us@SD",Pluto TV Novelas (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde0cc2efd2700090b7ff4/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVPeleas.us@SD",Pluto TV Peleas (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e98b0447665f200078caded/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVRugratsCrecidos.us@SD",Pluto TV Rugrats Crecidos (240p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea7215005d66d0007e8128a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVSeriesLatinas.us@SD",Pluto TV Series Latinas (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd837642c6e9300098ad484/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVSeriesRetro.us@SD",Pluto TV Series Retro (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de802659167b10009e7deba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="",Pluto TV Telemundo Telenovelas (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cf96cc422df39f1a338d165/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="",Pluto TV Telemundo Telenovelas (480p)
@@ -3032,22 +3278,22 @@ https://estrellatv-oando.amagi.tv/playlist.m3u8
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="ADN40.mx@SD",ADN 40 (720p)
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
-#EXTINF:-1 tvg-id="AlcanceTV.mx@SD",Alcance TV (720p)
-https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
 #EXTINF:-1 tvg-id="AMXNoticias.mx@SD",AMX Noticias (720p) [Not 24/7]
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
-#EXTINF:-1 tvg-id="AntenaTV.mx@SD",Antena TV (1080p)
-https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8
 #EXTINF:-1 tvg-id="AztecaInternacional.mx@SD",Azteca Internacional (1080p)
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+#EXTINF:-1 tvg-id="B15Fresnillo.mx@SD",B15 Fresnillo (1080p)
+https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
+#EXTINF:-1 tvg-id="B15Zacatecas.mx@SD",B15 Zacatecas (1080p)
+https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8
 #EXTINF:-1 tvg-id="BAMOSTV.mx@SD",BAMOS TV (1080p) [Not 24/7]
 https://video2.getstreamhosting.com:19360/8092/8092.m3u8
 #EXTINF:-1 tvg-id="Canal5TVCozumel.mx@SD",Canal 5 TV Cozumel (1080p)
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx@SD",Canal 10 Chiapas (720p)
 https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
-#EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD",Canal 15 ILCE Summa Sabres (720p)
-https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal10Durango.mx@SD",Canal 10 Durango (1080p)
+https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.mx@SD",Canal 26 Aguascalientes (1080p)
 https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal33Tijuana.mx@SD",Canal 33 Tijuana (720p)
@@ -3056,6 +3302,8 @@ https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist
 https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8
 #EXTINF:-1 tvg-id="XHIJTDT.mx@SD",Canal 44 Ciudad Juárez (720p) [Not 24/7]
 https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
+#EXTINF:-1 tvg-id="XHSPRTDT1.mx@SD",Canal Catorce
+https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaldelCongreso451.mx@SD",Canal del Congreso 45.1
 https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8
 #EXTINF:-1 tvg-id="CanalParlamentodelCongresodeJalisco.mx@SD",Canal Parlamento del Congreso de Jalisco (720p) [Not 24/7]
@@ -3066,10 +3314,12 @@ https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
 https://stream8.mexiserver.com:2000/hls/crealatv/crealatv.m3u8
 #EXTINF:-1 tvg-id="EclipseTV.mx@SD",Eclipse TV (720p)
 https://vdo6.instainternet.com:3272/live/jobetalborezlive.m3u8
-#EXTINF:-1 tvg-id="ExpresaTV.mx@SD",Expresa TV (720p)
-https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IcrtvColima.mx@SD",ICRTV Colima (1080p)
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="IERTBCSCanal82.mx@SD",IERTBCS Canal 8.2 La Paz (1080p) [Not 24/7]
+https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8
+#EXTINF:-1 tvg-id="XHBZCTDT.mx@SD",IERTBCS Canal 8 La Paz (1080p) [Not 24/7]
+https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
 #EXTINF:-1 tvg-id="IMRyT.mx@SD",IMRyT Morelos TV (720p)
 https://stream8.mexiserver.com:19360/morelostv/morelostv.m3u8
 #EXTINF:-1 tvg-id="ITVDeportes.mx@SD",ITV Deportes
@@ -3094,8 +3344,6 @@ https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/.m3u8
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 #EXTINF:-1 tvg-id="PresumiendoMexico.mx@SD",Presumiendo México (720p)
 https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PSN.mx@SD",PSN (288p)
-https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="PSNCanal452.mx@SD",PSN Canal 45.2 (288p)
 https://srspsn2.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="Radiotele.mx@SD",Radiotele Morelia (352p)
@@ -3120,6 +3368,8 @@ https://5d0d1d7a6be9e.streamlock.net/sicom/canal2/playlist.m3u8
 https://webprod.sipse.com.mx:8080/show/merida.m3u8
 #EXTINF:-1 tvg-id="SIPSETVCUN81.mx@SD",SIPSE TVCUN 8.1 (1080p) [Not 24/7]
 https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
+#EXTINF:-1 tvg-id="SistemaMichoacanodeTV.mx@SD",Sistema Michoacano de TV (1080p) [Not 24/7]
+https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8
 #EXTINF:-1 tvg-id="XHZHZTDT.mx@SD",SIZART Canal 24 (XHZHZ-TDT) (720p)
 https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8
 #EXTINF:-1 tvg-id="SQCSCanal4.mx@SD",SQCS Canal 4 (1080p)
@@ -3128,6 +3378,8 @@ https://video0.rogohosting.com:19360/4982/4982.m3u8
 https://servilive.com:3263/live/channel12live.m3u8
 #EXTINF:-1 tvg-id="TeleYucatan.mx@SD",Tele Yucatan (1080p) [Geo-blocked]
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
+#EXTINF:-1 tvg-id="XEWHTDT.mx@SD",Telemax (XEWH-TDT) (1080p)
+https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleplaySureste.mx@SD",Teleplay Sureste (720p)
 https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleplaySureste.mx@SD",Teleplay Sureste (360p)
@@ -3148,6 +3400,8 @@ https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/playlist.m3
 https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMarPuertoVallarta.mx@SD",TV Mar Puerto Vallarta (1080p)
 https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMigrante.mx@SD",TV Migrante (720p)
+https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUG.mx@SD",TV UG (1080p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUJAT.mx@SD",TV UJAT (XHUJAT-TDT) (720p) [Not 24/7]
@@ -3179,8 +3433,6 @@ https://servilive.com:3879/live/telesaltillolive.m3u8
 
 #EXTINF:-1,Tropical 100 Merengue
 http://tropical100.net:8012/
-#EXTINF:-1,WYKS Kiss 105.3
-http://ice8.securenetsystems.net/WYKS
 #EXTINF:-1,WIOQ-FM Q102 Philadelphia
 https://stream.revma.ihrhls.com/zc1997
 #EXTINF:-1,WPTS 92.1 FM
@@ -3191,14 +3443,10 @@ https://stream.revma.ihrhls.com/zc293
 https://stream.revma.ihrhls.com/zc4639
 #EXTINF:-1,KAAY
 https://14943.live.streamtheworld.com/KAAYAMAAC_SC
-#EXTINF:-1,KEFX Effect Radio
-https://ice6.securenetsystems.net/EFXAAC
 #EXTINF:-1,WBGO
 https://ais-sa8.cdnstream1.com/3629_64.aac
 #EXTINF:-1,KBFM Wild 104
 https://stream.revma.ihrhls.com/zc2317
-#EXTINF:-1,KNID FM
-https://ice6.securenetsystems.net/KNID
 #EXTINF:-1,La Estacion De La Familia Portland
 http://cast10.plugstreaming.com:8066/stream
 #EXTINF:-1,RNB and Hip Hop Radio
@@ -3211,8 +3459,6 @@ https://stream.revma.ihrhls.com/zc4366
 https://jm8n.net:8058/stream
 #EXTINF:-1,KSD 93.7 The Bull
 https://stream.revma.ihrhls.com/zc1293
-#EXTINF:-1,KIXY
-https://ice42.securenetsystems.net/KIXY
 #EXTINF:-1,RapStation Hip Hop Gods
 https://das-edge17-live365-dal02.cdnstream.com/a00057
 #EXTINF:-1,100.7 KOLT
@@ -3257,10 +3503,6 @@ https://stream.revma.ihrhls.com/zc1397
 http://gr02.cdnstream.com:8530/
 #EXTINF:-1,WNWC Life 102.5
 http://nwmedia-wnwc-fm.streamguys.com/wnwc-fm
-#EXTINF:-1,WHBO Newstalk Florida
-https://ice41.securenetsystems.net/WHBO
-#EXTINF:-1,KAKS ESPN Arkansas
-https://ice5.securenetsystems.net/KAKSFM
 #EXTINF:-1,Chris Mix Radio
 https://s38.myradiostream.com/:15874/
 #EXTINF:-1,AceRadio - Country Gold
@@ -3271,8 +3513,6 @@ https://27143.live.streamtheworld.com/KXPTFMAAC_SC
 http://ice2.somafm.com/lush-128-mp3
 #EXTINF:-1,KHTS Channel 933
 https://stream.revma.ihrhls.com/zc241
-#EXTINF:-1,KMDX 106.1 MDX
-https://ice41.securenetsystems.net/KMDXFMMP
 #EXTINF:-1,KSLZ Z107.7
 https://stream.revma.ihrhls.com/zc1297
 #EXTINF:-1,KPAW HD2 Radio 94.9
@@ -3287,8 +3527,6 @@ https://stream.revma.ihrhls.com/zc681
 https://stream.revma.ihrhls.com/zc4315
 #EXTINF:-1,KMGN 93.9 The Mountain
 http://14933.live.streamtheworld.com/KMGNFMAAC_SC
-#EXTINF:-1,WBRX Mix 94.7
-https://ice24.securenetsystems.net/WBRX
 #EXTINF:-1,WGRF
 https://27033.live.streamtheworld.com/WGRFFMAAC.aac
 #EXTINF:-1,KXOL Mega 96.3 FM
@@ -3301,8 +3539,6 @@ https://thenorth1033.streamguys1.com/live
 https://stream.revma.ihrhls.com/zc4342
 #EXTINF:-1,Stopbeefinradio.com
 http://149.56.157.81:8752/stream/;
-#EXTINF:-1,KDLW Z106.3
-http://ice42.securenetsystems.net/KDLWFM
 #EXTINF:-1,KBGO Big 95
 https://stream.revma.ihrhls.com/zc2365
 #EXTINF:-1,WUCF-HD2
@@ -3311,8 +3547,6 @@ https://peridot.streamguys1.com:7835/WUCF-HD2
 https://stream.revma.ihrhls.com/zc5082
 #EXTINF:-1,KBRU 94.7 The Brew
 https://stream.revma.ihrhls.com/zc1901
-#EXTINF:-1,KARY Cherry FM
-https://ice5.securenetsystems.net/KARY
 #EXTINF:-1,LifeTalk Radio Network
 https://ais-sa1.streamon.fm/7013_64k.aac
 #EXTINF:-1,WHLW FM 104.3 Hallelujah
@@ -3323,8 +3557,6 @@ https://stream.revma.ihrhls.com/zc2437
 http://janus.shoutca.st:8229/stream
 #EXTINF:-1,KHVH NewsRadio 830
 https://stream.revma.ihrhls.com/zc4748
-#EXTINF:-1,WGCM FM Coast 102
-https://ice42.securenetsystems.net/WGCMFM
 #EXTINF:-1,KYYX 97 Kicks
 https://stream.revma.ihrhls.com/zc5301
 #EXTINF:-1,107.3 The Beat
@@ -3337,10 +3569,6 @@ https://emg.streamguys1.com/kvne-website
 https://113fm-atunwadigital.streamguys1.com/1004
 #EXTINF:-1,Power928
 https://listen.radioking.com/radio/141877/stream/182005
-#EXTINF:-1,KLZX
-https://ice9.securenetsystems.net/KLZX
-#EXTINF:-1,WBCL
-https://ice9.securenetsystems.net/WBCL
 #EXTINF:-1,WXSM
 https://15313.live.streamtheworld.com/WXSMAMAAC.aac
 #EXTINF:-1,WODT New Orleans BIN 1280
@@ -3349,16 +3577,12 @@ https://stream.revma.ihrhls.com/zc6223
 http://relay.sugarshackradio.com:8000/
 #EXTINF:-1,WDCG G105
 https://stream.revma.ihrhls.com/zc1641
-#EXTINF:-1,KBVB Bob 95.5
-https://ice8.securenetsystems.net/KBVB
 #EXTINF:-1,Bestnet Radio - Country Oldies
 https://bigrradio.cdnstream1.com/5158_128
 #EXTINF:-1,WWTX Fox Sports 1290
 https://stream.revma.ihrhls.com/zc473
 #EXTINF:-1,WCHD Channel 99.9
 https://stream.revma.ihrhls.com/zc1769
-#EXTINF:-1,WIWA The Shepherd
-https://ice66.securenetsystems.net/WIWA
 #EXTINF:-1,Sabor Salsa
 https://radioenhd.com:7064/
 #EXTINF:-1,KXXM FM 96.1 NOW
@@ -3383,8 +3607,6 @@ https://stream.revma.ihrhls.com/zc1549
 https://stream.revma.ihrhls.com/zc749
 #EXTINF:-1,KFOO Riverside BIN 1440
 https://stream.revma.ihrhls.com/zc8730
-#EXTINF:-1,KRDO
-http://ice6.securenetsystems.net/KRDO
 #EXTINF:-1,KIGL-FM
 https://stream.revma.ihrhls.com/zc3450
 #EXTINF:-1,KBKS Hits 106.1
@@ -3411,8 +3633,6 @@ https://ice2.somafm.com/indiepop-128-mp3
 https://stream.revma.ihrhls.com/zc2641
 #EXTINF:-1,WNRS El Zorro
 https://s2.radio.co/se796ec348/listen
-#EXTINF:-1,KNNW 103.1 NOW
-https://ice5.securenetsystems.net/KNNW
 #EXTINF:-1,WGSY Mix 94.7
 https://stream.revma.ihrhls.com/zc3390
 #EXTINF:-1,WPR News Classical
@@ -3421,8 +3641,6 @@ https://wpr-ice.streamguys1.com/wpr-music-mp3-96
 https://s2.citrus3.com:8262/stream
 #EXTINF:-1,WMEQ News Talk AM 880
 https://stream.revma.ihrhls.com/zc2633
-#EXTINF:-1,KQLX
-https://ice64.securenetsystems.net/KQLXAM
 #EXTINF:-1,KQXX KISS FM RGV
 https://stream.revma.ihrhls.com/zc2321
 #EXTINF:-1,The Mixx Radio - Alt Vault
@@ -3433,8 +3651,6 @@ https://stream.revma.ihrhls.com/zc2097
 https://stream.revma.ihrhls.com/zc1265
 #EXTINF:-1,770 KTTH
 https://bonneville.cdnstream1.com/2696_64.mp3
-#EXTINF:-1,KID 590 92.1 Newsradio
-https://ice24.securenetsystems.net/KIDAM
 #EXTINF:-1,SuperNova Radio
 https://das-edge14-live365-dal02.cdnstream.com/a31205
 #EXTINF:-1,WNIR
@@ -3445,12 +3661,8 @@ https://stream.revma.ihrhls.com/zc1069
 https://stream.revma.ihrhls.com/zc3320
 #EXTINF:-1,KWWV B985 HD2
 http://gigifm.media.streamtheworld.com/Dimes.mp3
-#EXTINF:-1,KLIP
-https://ice66.securenetsystems.net/KLIP
 #EXTINF:-1,WMZQ
 https://stream.revma.ihrhls.com/zc2513
-#EXTINF:-1,Radio Bani
-https://www.streamvortex.com:8444/s/11700
 #EXTINF:-1,SongCast Radio - Variety Mix 1
 http://www.songcastradio.com:9000/
 #EXTINF:-1,KSSS Rock 101
@@ -3471,12 +3683,8 @@ https://nwm.streamguys1.com/WCIC-AAC-2
 http://stream.wmnf.org:8000/wmnf_high_quality
 #EXTINF:-1,WFLA 100.7
 https://stream.revma.ihrhls.com/zc2819
-#EXTINF:-1,KTOE-AM
-https://ice24.securenetsystems.net/KTOE
 #EXTINF:-1,WHQT Hot 105 FM
 https://ad-oom-cmg.streamguys1.com/mia1051/mia1051-iheart.aac
-#EXTINF:-1,WNDR The Dinosaur
-https://ice23.securenetsystems.net/WNDR
 #EXTINF:-1,KKRZ HD ALT 102.3
 https://stream.revma.ihrhls.com/zc6384
 #EXTINF:-1,OTRNow Radio Amazing Tales
@@ -3511,16 +3719,10 @@ https://stream.revma.ihrhls.com/zc1585
 https://das-edge13-live365-dal02.cdnstream.com/a29637
 #EXTINF:-1,Tucka56Radio
 https://das-edge13-live365-dal02.cdnstream.com/a23969
-#EXTINF:-1,KZBD 105.7 Now FM
-https://ice6.securenetsystems.net/KZBD
 #EXTINF:-1,WBNS FM 97.1 The Fan
 https://radiohio.streamguys1.com/cols/wbnsfm.mp3
 #EXTINF:-1,RP Entertainment Radio
 http://192.99.170.8:5262/
-#EXTINF:-1,KYBG Big 102.1
-https://ice42.securenetsystems.net/BIG
-#EXTINF:-1,KFIZ
-https://ice23.securenetsystems.net/KFIZ
 #EXTINF:-1,WDXX Dixie Country
 http://167.114.156.116:8293/stream
 #EXTINF:-1,TMV Cafe Radio
@@ -3543,8 +3745,6 @@ http://bigrradio.cdnstream1.com/5141_128
 https://das-edge09-live365-dal03.cdnstream.com/a43900
 #EXTINF:-1,WEBN3 HD 102.3 The Beat
 https://stream.revma.ihrhls.com/zc6761
-#EXTINF:-1,WJNI
-https://ice5.securenetsystems.net/WJNI
 #EXTINF:-1,KPEZ 102.3 The Beat
 https://stream.revma.ihrhls.com/zc2169
 #EXTINF:-1,WRVF 101.5 The River
@@ -3603,8 +3803,6 @@ https://ice4.somafm.com/thetrip-128-mp3
 http://stream1.opb.org/radio.mp3
 #EXTINF:-1,WXPN
 https://wxpnhi.xpn.org/xpnhi-nopreroll
-#EXTINF:-1,WLBC FM
-https://ice41.securenetsystems.net/WLBC
 #EXTINF:-1,113fm Retro 1970
 http://113fm-edge1.cdnstream.com/1732_128
 #EXTINF:-1,BCB Hits
@@ -3645,14 +3843,10 @@ https://ice4.somafm.com/brfm-64-aac
 https://gigifm.media.streamtheworld.com/Dimes.mp3
 #EXTINF:-1,THE PLAYLIST Radio
 https://quincy.torontocast.com/theplaylistradio1
-#EXTINF:-1,KZNE AM The Zone
-https://ice42.securenetsystems.net/ZONE1150
 #EXTINF:-1,NHPR New Hampshire Public Radio
 https://nhpr.streamguys1.com/nhpr
 #EXTINF:-1,PSU Com Radio
 http://commradio.streamguys1.com/live
-#EXTINF:-1,KUEZ
-https://ice42.securenetsystems.net/KUEZ
 #EXTINF:-1,Pride Nation Radio - ClubHits
 https://das-edge11-live365-dal03.cdnstream.com/a80041
 #EXTINF:-1,The Hour of Anointing
@@ -3667,8 +3861,6 @@ https://17843.live.streamtheworld.com/KRRNFMAAC.aac
 https://stream.revma.ihrhls.com/zc2405
 #EXTINF:-1,KING Classical
 https://classicalking.streamguys1.com/king-fm-aac-128k
-#EXTINF:-1,KGIR Semo ESPN 1220
-https://ice23.securenetsystems.net/KGIR
 #EXTINF:-1,Ride Radio
 https://das-edge17-live365-dal02.cdnstream.com/a75084
 #EXTINF:-1,Best Net Radio - Spa
@@ -3691,6 +3883,8 @@ https://stream.revma.ihrhls.com/zc201/hls.m3u8
 http://bigrradio.cdnstream1.com/5193_128?
 #EXTINF:-1,iHeart80s
 https://stream.revma.ihrhls.com/zc5060
+#EXTINF:-1,RADIOROCKON.COM
+https://streaming.radiostreamlive.com/radiorockon_devices
 #EXTINF:-1,KWGS HD2 Jazz 89.5
 https://utulsa.streamguys1.com/KWGSHD2-MP3
 #EXTINF:-1,One Media World Radio
@@ -3731,8 +3925,6 @@ https://das-edge11-live365-dal03.cdnstream.com/a49833_2
 https://streamingp.shoutcast.com/JamendoLounge
 #EXTINF:-1,WSAX-LP WSAX-DB Jazz 98.5
 http://96.31.83.86:8003/stream
-#EXTINF:-1,WCVX Christian Talk
-https://ice23.securenetsystems.net/WCVX
 #EXTINF:-1,WFYI Indianapolis
 https://wfyi-iad.streamguys1.com/live
 #EXTINF:-1,KLBS
@@ -3749,8 +3941,6 @@ https://stream.revma.ihrhls.com/zc1805
 https://kuer.streamguys1.com/high_icy
 #EXTINF:-1,RIPR Rhode Island Public
 http://amber.streamguys.com:5590/riprdeskweb-aac
-#EXTINF:-1,WEMI 91.9 The Family
-https://ice64.securenetsystems.net/WEMI
 #EXTINF:-1,SoCC
 https://s4.radio.co/sf02d4cfa1/listen
 #EXTINF:-1,Ministerio Exodus Radio
@@ -3783,8 +3973,6 @@ https://stream.radio.co/se53350bef/listen
 https://crystalout.surfernetwork.com:8001/WFJX_MP3
 #EXTINF:-1,SongCast Radio - Variety Mix 5
 http://www.songcastradio.com:9008/
-#EXTINF:-1,WHHZ
-https://ice42.securenetsystems.net/WHHZ
 #EXTINF:-1,Memory Lane Oldies
 https://s1.nexuscast.com:8042/stream
 #EXTINF:-1,FM Houston Public Media Classical
@@ -3827,24 +4015,16 @@ http://www.animalradio.com/852PODCAST.mp3
 http://113fm-edge1.cdnstream.com/1754_128
 #EXTINF:-1,KISC KISS 98.1
 https://stream.revma.ihrhls.com/zc2585
-#EXTINF:-1,KLTA
-http://ice3.securenetsystems.net/KLTA
 #EXTINF:-1,WONE Fox Sports 980
 https://stream.revma.ihrhls.com/zc4950
 #EXTINF:-1,RipRockRadio
 https://das-edge12-live365-dal02.cdnstream.com/a40905
 #EXTINF:-1,WPOC
 https://stream.revma.ihrhls.com/zc1073
-#EXTINF:-1,KGTM Star 98
-https://ice24.securenetsystems.net/KLLP
-#EXTINF:-1,KWEL AM 1070 FM 107.1
-https://ice9.securenetsystems.net/KWEL
 #EXTINF:-1,WUMB - Blues stream
 http://wumb.streamguys1.com/wumb919st
 #EXTINF:-1,Anomaly Radio Network
 https://anomaly.out.airtime.pro:8443/anomaly_a
-#EXTINF:-1,WBOK
-https://ice42.securenetsystems.net/WBOK
 #EXTINF:-1,Jazz Con Class Radio
 https://das-edge14-live365-dal02.cdnstream.com/a73229
 #EXTINF:-1,WCNY-HD2
@@ -3861,8 +4041,6 @@ http://ice4.somafm.com/beatblender-128-mp3
 https://bigrradio.cdnstream1.com/5116_128
 #EXTINF:-1,BlackLight Radio
 https://das-edge13-live365-dal02.cdnstream.com/a62286
-#EXTINF:-1,WFDM Freedom 95
-https://ice24.securenetsystems.net/WFDM
 #EXTINF:-1,113FM Star Radio
 https://113fm-atunwadigital.streamguys1.com/1060
 #EXTINF:-1,WIHB 97.3 The Bull
@@ -3937,8 +4115,6 @@ https://stream.revma.ihrhls.com/zc1649
 https://stream.revma.ihrhls.com/zc689
 #EXTINF:-1,WACT HD 96.9 MYFM
 https://stream.revma.ihrhls.com/zc6832
-#EXTINF:-1,KMYZ Z104.5 The Edge
-http://ice8.securenetsystems.net/KMYZ
 #EXTINF:-1,WERC News Radio 105.5
 https://stream.revma.ihrhls.com/zc3085
 #EXTINF:-1,Kringle Radio
@@ -3957,26 +4133,18 @@ https://rtn.cdnstream1.com/2575_96.aac
 https://n08.rcs.revma.com/w4pmmfkdx4zuv
 #EXTINF:-1,WGIR News Radio 610
 https://stream.revma.ihrhls.com/zc2752
-#EXTINF:-1,WIBL
-https://ice23.securenetsystems.net/WIBL
-#EXTINF:-1,WTFM
-http://ice66.securenetsystems.net/WTFM
 #EXTINF:-1,WDPR-FM
 https://wdpr-ice.streamguys1.com/live
 #EXTINF:-1,WLTJ Q92.9
 https://ais-sa1.streamon.fm/7216_48k.aac
 #EXTINF:-1,Iowa Public Radio IPR Studio One
 https://studioone-stream.iowapublicradio.org/StudioOne.mp3
-#EXTINF:-1,KJZY HD2 99.1 Jazzy
-https://ice9.securenetsystems.net/KJZYHD2
 #EXTINF:-1,Key56 Radio
 https://das-edge11-live365-dal03.cdnstream.com/a89643
 #EXTINF:-1,KBQI HD2 98.1 The Bull
 https://stream.revma.ihrhls.com/zc1381
 #EXTINF:-1,KQSM The Ticket 92.1
 https://14943.live.streamtheworld.com/KQSMFMAAC_SC
-#EXTINF:-1,WXVW
-https://ice66.securenetsystems.net/WXVW
 #EXTINF:-1,KTCL Channel 93.3
 https://stream.revma.ihrhls.com/zc397
 #EXTINF:-1,WGMZ Z93.1
@@ -3985,26 +4153,18 @@ https://stream.revma.ihrhls.com/zc4818
 https://das-edge17-live365-dal02.cdnstream.com/a58858
 #EXTINF:-1,Radio Ebenezer Chicago
 http://streamer.radio.co/s002e35e3b/listen
-#EXTINF:-1,KNCQ Q97
-https://ice24.securenetsystems.net/KNCQ
 #EXTINF:-1,113FM Area 51
 https://113fm-atunwadigital.streamguys1.com/1002
 #EXTINF:-1,Best Net Radio - Jamz
 http://bigrradio.cdnstream1.com/5160_128
-#EXTINF:-1,KALI Saigon Radio 106.3 FM
-https://ice5.securenetsystems.net/KALI
 #EXTINF:-1,WCC Orchard Radio
 https://das-edge11-live365-dal03.cdnstream.com/a16416
 #EXTINF:-1,KLAA AM 830
 http://klaa.streamguys1.com/live
 #EXTINF:-1,113fm Elevator
 https://113fm-atunwadigital.streamguys1.com/1010
-#EXTINF:-1,WPSN Wayne Pike News
-http://ice6.securenetsystems.net/WPSN
 #EXTINF:-1,Prime Tyme Radio
 https://ed.podomatic.net/e/primetymeradio.podomatic.com/2015-05-04T10_59_44-07_00.mp3
-#EXTINF:-1,KMIX 106.3 KMGX
-https://ice10.securenetsystems.net/KGMX
 #EXTINF:-1,WNOE
 https://stream.revma.ihrhls.com/zc1045
 #EXTINF:-1,WKAR RRS
@@ -4013,10 +4173,6 @@ https://streaming.wkar.msu.edu/rrs-64-mp3
 https://wets-fm.streamguys1.com/live-1
 #EXTINF:-1,KUNV 91.5 Jazz n More
 https://kunv.oit.unlv.edu/stream/1/
-#EXTINF:-1,KKIM 1000 AM
-https://ice9.securenetsystems.net/KKIMAM
-#EXTINF:-1,WQNT 102.1 The City
-https://ice5.securenetsystems.net/WQNT
 #EXTINF:-1,SomaFM - Digitalis
 https://ice.somafm.com/digitalis
 #EXTINF:-1,Jazz Works
@@ -4031,16 +4187,12 @@ https://113fm-atunwadigital.streamguys1.com/1059
 https://stream.revma.ihrhls.com/zc2661
 #EXTINF:-1,KBYS
 https://stream.kbys.fm/radio/8020/radio.mp3
-#EXTINF:-1,WMKV
-https://ice7.securenetsystems.net/WMKVFM
 #EXTINF:-1,WMTX HD Throwback 94.5
 https://stream.revma.ihrhls.com/zc6434
 #EXTINF:-1,KHKN HOT 94.9
 https://stream.revma.ihrhls.com/zc101
 #EXTINF:-1,WJBT 93.3 The Beat
 https://stream.revma.ihrhls.com/zc517
-#EXTINF:-1,WXUR
-http://ice6.securenetsystems.net/WXUR
 #EXTINF:-1,Next Cool Groove Radio
 https://streaming.radio.co/sc7177e496/listen
 #EXTINF:-1,WJJS-FM
@@ -4057,20 +4209,12 @@ https://stream.revma.ihrhls.com/zc1525
 https://113fm-atunwadigital.streamguys1.com/1044
 #EXTINF:-1,WSVH GPB Radio Savannah
 https://gpb.streamguys1.com/gpb-savannah-mp3-tunein
-#EXTINF:-1,WTMZ ESPN 98.9 FM 910 AM
-https://ice5.securenetsystems.net/WTMZ
 #EXTINF:-1,WMXD Mix 92.3
 https://stream.revma.ihrhls.com/zc1149
 #EXTINF:-1,KCPZ Praise 95 FM
 http://streaming.radio.co/s4966ce877/listen
-#EXTINF:-1,WRPW Cities 92.9 FM
-https://ice23.securenetsystems.net/WRPW
-#EXTINF:-1,WFON 107.1 The Bull
-https://ice23.securenetsystems.net/WFON
 #EXTINF:-1,Gloryland Gospel Radio
 http://eu2.fastcast4u.com:3270/stream
-#EXTINF:-1,WAIF
-https://ice7.securenetsystems.net/WAIF
 #EXTINF:-1,WMMS HD2 Cleveland BIN 99.1
 https://stream.revma.ihrhls.com/zc5382
 #EXTINF:-1,KQXT HD3 La Preciosa 105.7
@@ -4079,8 +4223,6 @@ https://stream.revma.ihrhls.com/zc2345
 https://stream.revma.ihrhls.com/zc6641
 #EXTINF:-1,Full Gamut Radio
 https://das-edge11-live365-dal03.cdnstream.com/a40002
-#EXTINF:-1,KKCY Country 103.1
-https://ice24.securenetsystems.net/KKCY
 #EXTINF:-1,AceRadio.net - Today's RnB
 http://bigrradio-edge1.cdnstream.com/5128_128
 #EXTINF:-1,KWMZ
@@ -4091,8 +4233,6 @@ https://gpb.streamguys1.com/gpb-atlanta-aac-website
 https://das-edge15-live365-dal02.cdnstream.com/a89419
 #EXTINF:-1,KNRS Talk Radio 105.9
 https://stream.revma.ihrhls.com/zc2389
-#EXTINF:-1,KFIG 940 ESPN
-http://ice5.securenetsystems.net/KFIG
 #EXTINF:-1,SongCast Radio - Rock & Metal
 http://www.songcastradio.com:9034/
 #EXTINF:-1,CleanSingMusic - Mixup
@@ -4111,12 +4251,8 @@ https://stream.revma.ihrhls.com/zc2145
 https://rastamusic.streamguys1.com/rastamusic
 #EXTINF:-1,WHYY
 https://whyy.streamguys1.com/whyy_persistentplayer
-#EXTINF:-1,WMOT MTSU Jazz Network
-http://ice64.securenetsystems.net/WMOT
 #EXTINF:-1,Carana Radio
 http://198.7.59.28:8117/
-#EXTINF:-1,WMFQ Q92
-https://ice66.securenetsystems.net/WMFQ
 #EXTINF:-1,WNCO FOX Sports 1340
 https://stream.revma.ihrhls.com/zc4676
 #EXTINF:-1,Best Net Radio - Christmas Classics
@@ -4203,8 +4339,6 @@ https://crista-kcms.streamguys1.com/kcmsmp3
 http://hemnos.cdnstream.com/1406_64
 #EXTINF:-1,WXNX Hell Yeah 93.7
 https://sbroadcast.com/radio/stream_msg.mp3
-#EXTINF:-1,KAGC
-https://ice42.securenetsystems.net/KAGCAM
 #EXTINF:-1,WRTE Vocalo
 https://stream.wbez.org/vocalo128
 #EXTINF:-1,WMOV Movin 107.7
@@ -4259,8 +4393,6 @@ http://113fm-edge1.cdnstream.com/1741_128
 https://stream.revma.ihrhls.com/zc3633
 #EXTINF:-1,Radio Cristo te Llama Los Angeles
 https://server.radiogs.net:7093/
-#EXTINF:-1,KAJM Mega 104.3
-https://ice5.securenetsystems.net/KAJM
 #EXTINF:-1,SomaFM Mission Control Radio
 http://ice1.somafm.com/missioncontrol-128-mp3
 #EXTINF:-1,Radio La Candela - Salsa Dura
@@ -4279,10 +4411,6 @@ http://bigrradio.cdnstream1.com/5156_128
 https://stream.revma.ihrhls.com/zc2617
 #EXTINF:-1,Coast 2 Coast Radio Mix Tapes
 http://52.22.95.104:8000/hiphop
-#EXTINF:-1,KERI 1410
-https://ice6.securenetsystems.net/KERI
-#EXTINF:-1,Gospel 860 KMVP
-https://ice64.securenetsystems.net/G860
 #EXTINF:-1,KFBT 103.7 The Beat
 https://stream.revma.ihrhls.com/zc149
 #EXTINF:-1,Radio Caribe
@@ -4295,28 +4423,18 @@ https://stream.revma.ihrhls.com/zc105
 https://rtn.cdnstream1.com/2576_96.aac
 #EXTINF:-1,WWGH 107.1 FM
 https://s31.myradiostream.com/:18942/
-#EXTINF:-1,WTRS US 102.3
-https://ice66.securenetsystems.net/WXUS
 #EXTINF:-1,Oye Que Sabor Radio
 http://usa2.fastcast4u.com:3844/
-#EXTINF:-1,KRGY The Wolf
-https://ice8.securenetsystems.net/KRGY
 #EXTINF:-1,BestNetRadio - Warm and Soft Hits
 https://bigrradio.cdnstream1.com/5170_128
 #EXTINF:-1,Radio Free Pensacola
 http://streamer.radio.co/sa31b2a650/listen
-#EXTINF:-1,WRMM WARM 101.3
-https://ice23.securenetsystems.net/WRMM
 #EXTINF:-1,CleanSingMusic - 60's Pop
 http://sl-2396.cdnstream.com/1465_128
 #EXTINF:-1,KWMU 1 KMST St Louis Public Radio
 https://kwmu1-ice.streamguys1.com/kwmu1
-#EXTINF:-1,KWFP 95.1 The Wolf
-https://ice42.securenetsystems.net/KWFP
 #EXTINF:-1,WPJF Radio Vida 1260 AM
 https://edge.mixlr.com/channel/kakgg
-#EXTINF:-1,KLVL 106.1 Hum
-https://ice10.securenetsystems.net/HUMFM
 #EXTINF:-1,Whisperings Solo Piano Radio
 http://pianosolo.streamguys1.com/live
 #EXTINF:-1,KYYY Y93
@@ -4325,8 +4443,6 @@ https://stream.revma.ihrhls.com/zc4794
 https://wumb.streamguys1.com/wumb919cf
 #EXTINF:-1,KLBJ-FM
 https://18433.live.streamtheworld.com/KLBJFMAAC.aac
-#EXTINF:-1,KTYD
-https://ice9.securenetsystems.net/KTYD
 #EXTINF:-1,113FM Energy
 https://113fm-atunwadigital.streamguys1.com/1011
 #EXTINF:-1,Oasis Radio Network
@@ -4343,8 +4459,6 @@ https://stream.revma.ihrhls.com/zc2105
 https://listen.christianrock.net/stream/1/
 #EXTINF:-1,WUFT-HD2 Classical
 https://ais-sa1.streamon.fm/7648_48k.aac
-#EXTINF:-1,WNOZ
-https://ice3.securenetsystems.net/WNOZ
 #EXTINF:-1,WSAI Fox Sports 1360
 https://stream.revma.ihrhls.com/zc4688
 #EXTINF:-1,WXKC Classy 100
@@ -4383,8 +4497,6 @@ https://das-edge13-live365-dal02.cdnstream.com/a79999
 http://wcrx.streamguys1.com/live
 #EXTINF:-1,King FM Evergreen Channel Seattle
 https://classicalking.streamguys1.com/evergreen-aac-128k
-#EXTINF:-1,KYRK 106.5 The Shark
-https://ice42.securenetsystems.net/KYRK
 #EXTINF:-1,WMMX
 https://stream.revma.ihrhls.com/zc1781
 #EXTINF:-1,KIMX iMix
@@ -4409,8 +4521,6 @@ https://stream.revma.ihrhls.com/zc2393
 https://nmcdn-lds.msvdn.net/icecastRelay/101156/GvaVK70/icecast?rnd=637255568644587688
 #EXTINF:-1,WFBQ Q95
 https://stream.revma.ihrhls.com/zc901
-#EXTINF:-1,WZIM Magic 99.5 FM
-https://ice23.securenetsystems.net/WZIM
 #EXTINF:-1,KTBL 94.5 The Pit
 http://14943.live.streamtheworld.com/KTBLAMAAC_SC
 #EXTINF:-1,WKGR 98.7 The Gater
@@ -4427,8 +4537,6 @@ https://stream.revma.ihrhls.com/zc1173
 https://das-edge13-live365-dal02.cdnstream.com/a24239
 #EXTINF:-1,WKKV V100.7
 https://stream.revma.ihrhls.com/zc2673
-#EXTINF:-1,La Mega 105.7 WEMG
-https://ice41.securenetsystems.net/WEMG
 #EXTINF:-1,K 100 Radio
 http://usa4.fastcast4u.com:5904/
 #EXTINF:-1,WRNX
@@ -4487,8 +4595,6 @@ http://www.songcastradio.com:9012/
 https://stream.revma.ihrhls.com/zc2677
 #EXTINF:-1,WSTH South 106.1
 https://stream.revma.ihrhls.com/zc2728
-#EXTINF:-1,Power 88 KCEP
-http://ice7.securenetsystems.net/KCEP
 #EXTINF:-1,KONG MonsterRock - RDSN.net
 http://s5.total-streaming.com:9786/
 #EXTINF:-1,Hot 95.9
@@ -4501,18 +4607,12 @@ https://ais-sa8.cdnstream1.com/p06prdae3cc/ch4tuyoufip
 https://stream.revma.ihrhls.com/zc3205
 #EXTINF:-1,Newsradio WOOD 1300 and 106.9 FM
 https://stream.revma.ihrhls.com/zc1165
-#EXTINF:-1,KPAY
-https://ice10.securenetsystems.net/KPAY1290
 #EXTINF:-1,Cladrite Radio
 http://das-edge13-live365-dal02.cdnstream.com/a43564
 #EXTINF:-1,KGNU
 https://kgnu.streamguys1.com/kgnu
-#EXTINF:-1,WPWQ Oldies Superstar
-https://ice23.securenetsystems.net/WPWQ
 #EXTINF:-1,Songcast Radio - Jazz
 http://www.songcastradio.com:9020/
-#EXTINF:-1,KAWS KJCH CSN Radio
-https://ice7.securenetsystems.net/CSNAAC
 #EXTINF:-1,Power 92 Radio
 https://ais-sa8.cdnstream1.com/pptsa5hdbog/cjo5jxmng7u
 #EXTINF:-1,KPRC
@@ -4565,8 +4665,6 @@ https://c11.radioboss.fm:18187/autodj
 https://streamer.radio.co/sbc698b4e9/listen
 #EXTINF:-1,WMJI Majic 105.7
 https://stream.revma.ihrhls.com/zc1737
-#EXTINF:-1,Sacred Heart Radio
-https://ice10.securenetsystems.net/WNOP2
 #EXTINF:-1,WGFM
 http://www.ophanim.net:8130/stream
 #EXTINF:-1,WPVM-LP
@@ -4587,8 +4685,6 @@ https://stream.revma.ihrhls.com/zc1449
 https://s2.radio.co/sd221e2af1/listen
 #EXTINF:-1,Talking Alternative
 http://96.31.83.87:9000/
-#EXTINF:-1,KCNW 1380
-https://ice41.securenetsystems.net/KCNW
 #EXTINF:-1,Tropical 100 Suave
 http://tropical100.net:8004/
 #EXTINF:-1,GotRadio - Bit O Blues
@@ -4597,14 +4693,8 @@ https://pureplay.cdnstream1.com/6019_64.aac
 https://n15.rcs.revma.com/s75vq60w57uvv
 #EXTINF:-1,KEEY K102
 https://stream.revma.ihrhls.com/zc1205
-#EXTINF:-1,KYEZ Y93.7
-https://ice23.securenetsystems.net/KYEZ
-#EXTINF:-1,WTAW News Talk 1620 AM
-https://ice42.securenetsystems.net/WTAWAM
 #EXTINF:-1,SomaFM - Xmas in Frisko
 https://ice2.somafm.com/xmasinfrisko-128-mp3
-#EXTINF:-1,KCPR-FM
-https://ice9.securenetsystems.net/KCPR1
 #EXTINF:-1,113fm Awesome 80s - 1985
 http://113fm-edge1.cdnstream.com/1747_128
 #EXTINF:-1,WIKD LP
@@ -4641,8 +4731,6 @@ http://192.99.170.8:5096/stream/
 https://stream.revma.ihrhls.com/zc2893
 #EXTINF:-1,KUBE 93.3 FM
 https://stream.revma.ihrhls.com/zc2577
-#EXTINF:-1,KVOI 1030 AM
-https://ice41.securenetsystems.net/KVOI
 #EXTINF:-1,BCB HipHop
 http://149.56.157.81:5000/stream
 #EXTINF:-1,Rock on the Rise Radio
@@ -4655,8 +4743,6 @@ https://stream.revma.ihrhls.com/zc3639
 https://stream.revma.ihrhls.com/zc1237
 #EXTINF:-1,Classical Music Archives
 http://ycradio.stream.publicradio.org/ycradio.mp3
-#EXTINF:-1,KRCN Catholic Radio Network
-https://ice23.securenetsystems.net/CRN1
 #EXTINF:-1,AceRadio - New Country
 http://bigrradio-edge1.cdnstream.com/5113_128
 #EXTINF:-1,WMIB 103.5 The Beat
@@ -4675,8 +4761,6 @@ https://radio.aleluya.cloud/radio/8000/stream
 https://stream.revma.ihrhls.com/zc7750
 #EXTINF:-1,KLVZ Legends
 https://ais-sa8.cdnstream1.com/p1w7r97sb0k/c5w4lmjdjd9
-#EXTINF:-1,KMXL FM
-https://ice10.securenetsystems.net/KMXL
 #EXTINF:-1,AceRadio - Classic R&B
 http://bigrradio.cdnstream1.com/5109_128
 #EXTINF:-1,WOKY The Big 920
@@ -4685,8 +4769,6 @@ https://stream.revma.ihrhls.com/zc2681
 https://stream.revma.ihrhls.com/zc6140
 #EXTINF:-1,WNCI
 https://stream.revma.ihrhls.com/zc1753
-#EXTINF:-1,KWXS 107.7 The Beat
-https://ice5.securenetsystems.net/KWXS
 #EXTINF:-1,Radio Visión Cristiana
 https://livestreamcdn.net:2000/stream/RadioVisionCristianaRadio/stream
 #EXTINF:-1,Halloween Radio - Atmosphere
@@ -4695,12 +4777,10 @@ http://radio1.streamserver.link:8040/hra-aac
 http://bigrradio-edge1.cdnstream.com/5149_128
 #EXTINF:-1,AceRadio - The Smooth Jazz Channel
 https://bigrradio.cdnstream1.com/5123_128
-#EXTINF:-1,KXDD
-http://ice7.securenetsystems.net/KXDD
+#EXTINF:-1,Iglesia de Dios Pentecostal, M.I. Santa Ana
+http://streamingcontrol.com:9010/
 #EXTINF:-1,KPTT 95.7 The Party
 https://stream.revma.ihrhls.com/zc2795
-#EXTINF:-1,WLCQ Q 99.7
-https://ice66.securenetsystems.net/WLCQ
 #EXTINF:-1,WERG
 https://ic597c2174.fastserv.com/listen
 #EXTINF:-1,SomaFM - Left Coast 70s
@@ -4717,12 +4797,16 @@ https://stream.revma.ihrhls.com/zc177
 https://wjab.streamguys1.com/
 #EXTINF:-1,Independent FM
 https://listen.radioking.com/radio/293701/stream/340084
+#EXTINF:-1,BVZ Radio
+http://streams.radio.co/sb12a67612/listen
 #EXTINF:-1,WQNA
 https://das-edge16-live365-dal02.cdnstream.com/a38152
 #EXTINF:-1,WGIR Rock 101
 https://stream.revma.ihrhls.com/zc1349
 #EXTINF:-1,KUER2 BBC
 https://kuer.streamguys1.com/kuer2high_icy
+#EXTINF:-1,KKZR Zrock
+http://zrockkkzr.com:9000/ZRock128k.mp3
 #EXTINF:-1,WQOL FM
 https://stream.revma.ihrhls.com/zc2716
 #EXTINF:-1,RadioStorm Oldies
@@ -4735,8 +4819,6 @@ https://stream.revma.ihrhls.com/zc4250
 https://stream.revma.ihrhls.com/zc5114
 #EXTINF:-1,Freestyle4Ever (F4E)
 http://atlanta.myautodj.com:8086/
-#EXTINF:-1,KJMZ 97.9 Jamz
-https://ice42.securenetsystems.net/KJMZ
 #EXTINF:-1,KTRH NewsRadio 740
 https://stream.revma.ihrhls.com/zc2285
 #EXTINF:-1,WRFX 99.7 The Fox
@@ -4747,22 +4829,16 @@ https://stream.revma.ihrhls.com/zc1933
 http://ice6.somafm.com/groovesalad-128-mp3
 #EXTINF:-1,Gotradio - The 50s
 https://pureplay.cdnstream1.com/6005_64.aac
-#EXTINF:-1,WECB B1053
-https://ice66.securenetsystems.net/WECB
 #EXTINF:-1,WMT 600
 https://stream.revma.ihrhls.com/zc917
 #EXTINF:-1,KTSM Sunny 99.9
 https://stream.revma.ihrhls.com/zc3188
-#EXTINF:-1,KBLA
-https://ice9.securenetsystems.net/KBLA
 #EXTINF:-1,KUGS-FM
 http://peridot.streamguys.com:7170/kugs-mp3
 #EXTINF:-1,WWPW Power 96.1
 https://stream.revma.ihrhls.com/zc741
 #EXTINF:-1,House Music 101 Radio
 https://das-edge15-live365-dal02.cdnstream.com/a63370
-#EXTINF:-1,WVEK Classic Hits
-https://ice66.securenetsystems.net/WVEK
 #EXTINF:-1,WUMB - L'Air du Temps
 https://wumb.streamguys1.com/wumb919fr
 #EXTINF:-1,KSFT 1071 KISS
@@ -4771,8 +4847,6 @@ https://stream.revma.ihrhls.com/zc2825
 https://stream.revma.ihrhls.com/zc2033
 #EXTINF:-1,KDJE 100.3 The Edge
 https://stream.revma.ihrhls.com/zc89
-#EXTINF:-1,WYSZ YES FM
-http://ice24.securenetsystems.net/YESFM
 #EXTINF:-1,KNEA 95.3 The Ticket
 http://hemnos.cdnstream.com/1417_64
 #EXTINF:-1,WMEQ Rock 92.1
@@ -4799,10 +4873,6 @@ https://stream.revma.ihrhls.com/zc2525
 https://s30.myradiostream.com/:29980/listen.mp3?nocache=1758000761
 #EXTINF:-1,KPOJ Rip City Radio 620
 https://stream.revma.ihrhls.com/zc1965
-#EXTINF:-1,KEZS K103
-https://ice23.securenetsystems.net/KEZS
-#EXTINF:-1,WWIK ESPN Charleston Sports
-https://ice5.securenetsystems.net/WWIK
 #EXTINF:-1,D100 Radio
 http://los.cdnstream.com/1119_128
 #EXTINF:-1,KTAL-LP Radio Que Tal
@@ -4811,8 +4881,6 @@ https://ktal.broadcasttool.stream/stream
 https://stream.revma.ihrhls.com/zc4483
 #EXTINF:-1,Classic Rock 109
 http://listen.classicrock109.com:10042/
-#EXTINF:-1,KRRV
-https://ice5.securenetsystems.net/KRRV
 #EXTINF:-1,CPR Classical
 https://stream1.cprnetwork.org/cpr2_lo
 #EXTINF:-1,KWMU HD2
@@ -4823,8 +4891,6 @@ https://14943.live.streamtheworld.com/KQRSFMAAC.aac
 http://honey.macchiatomedia.org:8080/
 #EXTINF:-1,Sonido Arriola
 https://jm8n.net:8004/stream
-#EXTINF:-1,WXBW Big Buck Country
-https://ice23.securenetsystems.net/WXBW
 #EXTINF:-1,Mas Chingon Radio
 https://das-edge15-live365-dal02.cdnstream.com/a17659
 #EXTINF:-1,Poder de Dios en Accion
@@ -4837,12 +4903,8 @@ http://s2.radio.co/s7d2ee4843/listen
 https://stream.revma.ihrhls.com/zc2768
 #EXTINF:-1,WCKY 103.7 CKY
 https://stream.revma.ihrhls.com/zc4028
-#EXTINF:-1,KZLS The Eagle 1640
-https://ice8.securenetsystems.net/KZLS
 #EXTINF:-1,WRZX FM Big 106.5
 https://stream.revma.ihrhls.com/zc1773
-#EXTINF:-1,KSDO Nueva Vida
-https://ice10.securenetsystems.net/KMRO
 #EXTINF:-1,WVOR Sunny 102.3
 https://stream.revma.ihrhls.com/zc4579
 #EXTINF:-1,KRRL Real 92.3
@@ -4863,8 +4925,6 @@ https://ais-sa3.cdnstream1.com/2556_128.mp3
 http://s20.myradiostream.com:7948/
 #EXTINF:-1,SomaFM - Covers
 https://ice1.somafm.com/covers-128-mp3
-#EXTINF:-1,KBND
-https://ice10.securenetsystems.net/KBND
 #EXTINF:-1,WYDS The Party
 https://cromwell-ice.streamguys1.com/WZUSFM
 #EXTINF:-1,KMJM
@@ -4895,14 +4955,10 @@ https://s35.myradiostream.com:33726/listen.mp3?nocache=1758000778
 https://stream.revma.ihrhls.com/zc2653
 #EXTINF:-1,WPNA 1490 AM
 https://usa19.fastcast4u.com:3870/
-#EXTINF:-1,WYDI Renew FM
-https://ice24.securenetsystems.net/RENEWFM
 #EXTINF:-1,GR8chats radio
 http://s1.wohooo.net:9028/stream
 #EXTINF:-1,KPTR Party Train Radio
 https://das-edge15-live365-dal02.cdnstream.com/a32054
-#EXTINF:-1,WJXL AM
-http://ice23.securenetsystems.net/WJXL
 #EXTINF:-1,KDNN HD2 Hawaii No Ka Oi
 https://stream.revma.ihrhls.com/zc6148
 #EXTINF:-1,UTA Radio
@@ -4919,14 +4975,14 @@ http://audio-edge-kef8b.ams.s.radiomast.io/0cdf7725-83bf-4967-b6b7-f4e9bfe702ad
 https://stream.revma.ihrhls.com/zc1961
 #EXTINF:-1,ECUAZONA DJS RADIO
 http://streaming.hdserver.biz:9362/
-#EXTINF:-1,WRZN The Shepherd 96.3 103.5
-https://ice42.securenetsystems.net/WRZN
 #EXTINF:-1,WXJM
 http://audio-edge-kef8b.ams.s.radiomast.io/76aba52f-79d0-422a-9c16-723754d14541
 #EXTINF:-1,KUAF HD1
 https://war.streamguys1.com:7031/kuaf1
 #EXTINF:-1,WZNX FM 106.7 The Fox
 https://cromwell-ice.streamguys1.com/WZNXFM
+#EXTINF:-1,La omnipotente radio
+http://62.210.24.124:8707/
 #EXTINF:-1,KSGN
 https://audio-edge-ey5nr.ams.s.radiomast.io/2a57149b-f939-4d87-aa67-daedff3e1728
 #EXTINF:-1,WKSC 103.5 Kiss
@@ -4937,8 +4993,6 @@ https://positivealtradio.streamguys1.com/wrxtmp3
 http://wumb.streamguys1.com/wumb919fast
 #EXTINF:-1,KNST
 https://stream.revma.ihrhls.com/zc3282
-#EXTINF:-1,KHHKHD3 KRUZN KTCR
-https://ice10.securenetsystems.net/KHHKHD3
 #EXTINF:-1,KZZP 104.7 KISS FM
 https://stream.revma.ihrhls.com/zc61
 #EXTINF:-1,WYNK Country 101.5
@@ -4957,16 +5011,10 @@ http://209.126.119.28:8207/stream
 http://www.songcastradio.com:9014/
 #EXTINF:-1,Inner Light Radio
 http://jamaal2.serverroom.us:8696/
-#EXTINF:-1,KYKN
-https://ice8.securenetsystems.net/KYKN
 #EXTINF:-1,113fm Power
 https://113fm-atunwadigital.streamguys1.com/1053
 #EXTINF:-1,WAXE Oldies 107.9
 https://stream.revma.ihrhls.com/zc4788
-#EXTINF:-1,KXCA Heart and Soul 93.7 1050
-https://ice24.securenetsystems.net/KKRX
-#EXTINF:-1,WIQO
-https://ice6.securenetsystems.net/WMNAFM
 #EXTINF:-1,AceRadio - The Super Rock Mix
 http://bigrradio.cdnstream1.com/5126_128
 #EXTINF:-1,Tropical 100 Cristiana
@@ -4991,8 +5039,6 @@ https://26423.live.streamtheworld.com/WNRNFM_128_SC
 https://ksds-ice.streamguys1.com/ksds.mp3
 #EXTINF:-1,WRDX 92.9 Tom FM
 https://stream.revma.ihrhls.com/zc469
-#EXTINF:-1,KVLC 101 Gold
-https://ice42.securenetsystems.net/KVLC
 #EXTINF:-1,SomaFM - Seven Inch Soul
 http://ice1.somafm.com/7soul-128-mp3
 #EXTINF:-1,WSQX Classical FM
@@ -5007,22 +5053,14 @@ https://stream1.cprnetwork.org/cpr1_lo
 https://pureplay.cdnstream1.com/6037_64.aac
 #EXTINF:-1,WGCI-FM
 https://stream.revma.ihrhls.com/zc841
-#EXTINF:-1,WGAD
-https://ice8.securenetsystems.net/WGAD
-#EXTINF:-1,KVYN 99.3 The Vine
-https://ice10.securenetsystems.net/KVYN
 #EXTINF:-1,KGLI-FM KG95
 https://stream.revma.ihrhls.com/zc933
 #EXTINF:-1,WBTP 95.7 The Beat
 https://stream.revma.ihrhls.com/zc669
 #EXTINF:-1,ZonaSalsa Radio
 http://s40.myradiostream.com:8520/listen.mp3
-#EXTINF:-1,WRTA NewsTalk 1240
-https://ice24.securenetsystems.net/WRTA
 #EXTINF:-1,KVET AM 1300 The Zone
 https://stream.revma.ihrhls.com/zc2181
-#EXTINF:-1,WLTC 103.7 Lite
-https://ice42.securenetsystems.net/WLTCFM
 #EXTINF:-1,WKAF 97.7 The Beat
 https://stream.revma.ihrhls.com/zc7731
 #EXTINF:-1,Afrovibes Radio Houston
@@ -5049,8 +5087,6 @@ https://puma.streemlion.com:3775/stream
 https://stream.revma.ihrhls.com/zc2213
 #EXTINF:-1,KBIM The Country Giant
 http://ais-sa2.cdnstream1.com/2336_128.mp3
-#EXTINF:-1,WTOB
-https://ice23.securenetsystems.net/WTOB
 #EXTINF:-1,Comedy 104
 http://ais-edge90-dal03.cdnstream.com/b42761_64aac
 #EXTINF:-1,WCSU Chicago State University
@@ -5065,12 +5101,8 @@ https://stream.revma.ihrhls.com/zc533
 https://stream.revma.ihrhls.com/zc4279
 #EXTINF:-1,KOZN 1620 The Zone
 https://17803.live.streamtheworld.com/KOZNAMAAC.aac
-#EXTINF:-1,KNCT-FM Simply Beautiful
-https://ice41.securenetsystems.net/KNCT
 #EXTINF:-1,WOI Iowa Public Radio
 https://news-stream.iowapublicradio.org/News.mp3
-#EXTINF:-1,KQWB Q1051
-http://ice3.securenetsystems.net/KQWB
 #EXTINF:-1,KXIC
 https://stream.revma.ihrhls.com/zc5262
 #EXTINF:-1,WDET
@@ -5105,20 +5137,14 @@ https://stream.radio.co/s99d35aa60/listen
 https://ice2.somafm.com/dronezone-128-mp3
 #EXTINF:-1,KCJB 91 Classic Country
 https://stream.revma.ihrhls.com/zc5076
-#EXTINF:-1,Jim FM Mobile
-https://b4q2vxy99jl.edge.audiocdn.com/pt3b8jq1aiy/b4q2vxy99jl
 #EXTINF:-1,WLOB
 https://das-edge15-live365-dal02.cdnstream.com/a21738
 #EXTINF:-1,113fm Star 1992
 http://113fm-edge1.cdnstream.com/1768_128
 #EXTINF:-1,113fm Star 1996
 http://113fm-edge1.cdnstream.com/1776_128
-#EXTINF:-1,WMCE-FM
-https://ice24.securenetsystems.net/WMCEFM
 #EXTINF:-1,WJYZ
 https://stream.revma.ihrhls.com/zc3358
-#EXTINF:-1,WBIG-AM
-https://ice24.securenetsystems.net/WBIG
 #EXTINF:-1,KXPA
 http://kxparadio.serverroom.us:5852/stream.mp3
 #EXTINF:-1,WRUF ESPN
@@ -5135,14 +5161,10 @@ http://edmenstudio.net:7240/
 https://stream.revma.ihrhls.com/zc2361
 #EXTINF:-1,KZFS Kix 99.3
 https://stream.revma.ihrhls.com/zc5278
-#EXTINF:-1,KIOK 94.9 FM The Wolf
-http://ice6.securenetsystems.net/KIOK
 #EXTINF:-1,KRQQ 93.7 KRQ
 https://stream.revma.ihrhls.com/zc77
 #EXTINF:-1,KRST
 http://14933.live.streamtheworld.com:3690/KRSTFMAAC_SC
-#EXTINF:-1,KKCY HD2 Power 95.5
-https://ice24.securenetsystems.net/KKCYHD2
 #EXTINF:-1,WQRV HD2 106.5 Kiss FM
 https://stream.revma.ihrhls.com/zc6143
 #EXTINF:-1,KUT 90.5
@@ -5189,8 +5211,6 @@ http://kbaq.streamguys1.com/kbaq_mp3_128
 https://gpb.streamguys1.com/gpb-macon-mp3-website
 #EXTINF:-1,Masterz Radio
 https://das-edge15-live365-dal02.cdnstream.com/a13749
-#EXTINF:-1,96.7 KZAP
-https://ice24.securenetsystems.net/KZAP
 #EXTINF:-1,WEDM FM
 https://crystalout.surfernetwork.com:8001/WEDM-FM_MP3
 #EXTINF:-1,Reelworld radio
@@ -5209,22 +5229,14 @@ https://113fm-atunwadigital.streamguys1.com/1058
 https://stream.revma.ihrhls.com/zc8731
 #EXTINF:-1,CaveRadio Broadcasting
 http://s2.radio.co/s1fe246e2b/listen
-#EXTINF:-1,WMGA The River
-https://ice23.securenetsystems.net/WMGA
 #EXTINF:-1,KIBT-FM 96.1 The Beat
 https://stream.revma.ihrhls.com/zc353
 #EXTINF:-1,Bestnet Radio - Country Mix
 http://bigrradio.cdnstream1.com/5157_128
-#EXTINF:-1,KFTZ Z103
-https://ice41.securenetsystems.net/KFTZ
 #EXTINF:-1,113fm BPM
 http://113fm-edge1.cdnstream.com/1736_128
 #EXTINF:-1,AceRadio - The Hard Rock Channel
 http://bigrradio.cdnstream1.com/5120_128
-#EXTINF:-1,KWOW La Ley 104.1
-https://ice42.securenetsystems.net/KWOW
-#EXTINF:-1,KQTM ESPN The Team
-https://ice8.securenetsystems.net/KQTM
 #EXTINF:-1,WQYK 99.5 QYK
 https://26293.live.streamtheworld.com/WQYKFMAACHI.aac
 #EXTINF:-1,WOC 1420
@@ -5235,30 +5247,24 @@ http://bigrradio.cdnstream1.com/5111_128
 https://stream.revma.ihrhls.com/zc5168/hls.m3u8
 #EXTINF:-1,WFUS US 103.5
 https://stream.revma.ihrhls.com/zc693
+#EXTINF:-1,Radio Symphony
+http://streaming.radiostreamlive.com/radiosymphony_devices
 #EXTINF:-1,KJR 95.7 The Jet
 https://stream.revma.ihrhls.com/zc2569
 #EXTINF:-1,WFMT
 https://wfmt.streamguys1.com/main-mp3
 #EXTINF:-1,KLMU
 http://edg-ord-kxlu.streamguys1.com/klmu
-#EXTINF:-1,KXGR 89.7 Grace
-https://ice23.securenetsystems.net/KXGRFM
-#EXTINF:-1,La Movidita 1500 AM
-http://ice7.securenetsystems.net/MOVIDITA
 #EXTINF:-1,KYMT 93.1 The Mountain
 https://stream.revma.ihrhls.com/zc1337
 #EXTINF:-1,WDAS-FM
 https://stream.revma.ihrhls.com/zc1993
-#EXTINF:-1,KXPZ Zia Country
-https://ice42.securenetsystems.net/KXPZ
 #EXTINF:-1,WYLD Hallelujah 940
 https://stream.revma.ihrhls.com/zc3964
 #EXTINF:-1,WVBZ 105.7 Man Up
 https://stream.revma.ihrhls.com/zc1633
 #EXTINF:-1,El BLOKE Radio
 http://streaming.radio.co/sd8f1e3a16/listen
-#EXTINF:-1,WHCM Hawk Radio
-http://ice3.securenetsystems.net/WHCM
 #EXTINF:-1,Hot 923 The Beat
 http://144.217.233.87:8146/
 #EXTINF:-1,WTRU Truth Radio
@@ -5269,8 +5275,6 @@ https://stream.revma.ihrhls.com/zc1597
 https://stream.revma.ihrhls.com/zc2906
 #EXTINF:-1,WCIT AM
 https://crystalout.surfernetwork.com:8001/WCIT-AM_MP3
-#EXTINF:-1,KALE 106.1 More FM
-https://ice9.securenetsystems.net/KALE
 #EXTINF:-1,Clocktower Art Unfiltered
 https://www.audio.clocktower.org/sbtatarttech_17arttechnology_gannis_128.mp3
 #EXTINF:-1,WUFT HD1
@@ -5303,26 +5307,18 @@ https://eu1.serviaudio.com:10873/
 https://stream.revma.ihrhls.com/zc2089
 #EXTINF:-1,113fm Retro 1977
 http://113fm-edge1.cdnstream.com/1764_128
-#EXTINF:-1,KPFX The Fox
-https://ice3.securenetsystems.net/KPFX
 #EXTINF:-1,KNWS Life 101.9
 http://nwmedia-knwsfm.streamguys1.com/knws-fm
 #EXTINF:-1,WWPR Power 105.1
 https://stream.revma.ihrhls.com/zc1481
 #EXTINF:-1,Steve Foxs Old School Radio
 http://s7.total-streaming.com:9698/
-#EXTINF:-1,Fox Sports 1410
-http://ice6.securenetsystems.net/KDKT
 #EXTINF:-1,Ernest Angley World Radio
 https://streaming.radio.co/sd35616b01/listen
 #EXTINF:-1,98.5 WYLD
 https://stream.revma.ihrhls.com/zc1053
 #EXTINF:-1,KUDD FM Mix 105.1
 https://ais-sa1.streamon.fm/7350_48k.aac
-#EXTINF:-1,KEND FM Roswell Talk
-https://ice3.securenetsystems.net/KENDM
-#EXTINF:-1,Birmingham Mountain
-https://ice6.securenetsystems.net:80/WBMR
 #EXTINF:-1,KXTQ Magic 106.5
 https://ais-sa1.streamon.fm/7171_48k.aac
 #EXTINF:-1,KWNR 99.5 The Bull
@@ -5351,10 +5347,6 @@ https://ais-sa2.cdnstream1.com/1976_64.aac
 http://wnwi.birach.com:9002/
 #EXTINF:-1,KBQI Big I 107.9
 https://stream.revma.ihrhls.com/zc1385
-#EXTINF:-1,WPLL FM I Am Country 106.9
-https://ice24.securenetsystems.net/WPLL
-#EXTINF:-1,WDGG 93.7 The Dawg
-https://ice23.securenetsystems.net/WDGG
 #EXTINF:-1,WRAL Mix 101.5
 https://ais-sa8.cdnstream1.com/2748_64.aac
 #EXTINF:-1,KJSN Sunny 102.3
@@ -5367,12 +5359,8 @@ https://bonneville.cdnstream1.com/2616_48.aac
 http://radio.beatleradio.com:8000/steam/2
 #EXTINF:-1,KROA My Bridge Radio
 https://ais-sa1.streamon.fm/7069_64k.aac
-#EXTINF:-1,KXMZ Hits 102.7
-https://ice66.securenetsystems.net/KXMZ
 #EXTINF:-1,WYLD HD2 Throwback963
 https://stream.revma.ihrhls.com/zc5873
-#EXTINF:-1,WTLA ESPN Syracuse
-https://ice66.securenetsystems.net/WTLA
 #EXTINF:-1,The Blaze
 https://19303.live.streamtheworld.com/BLZE_1AAC.aac
 #EXTINF:-1,KPZK Praise 102.5
@@ -5387,8 +5375,6 @@ http://bar.streamguys1.com/BubbaOne.mp3
 https://streaming.radio.co/s1cfac52a5/listen
 #EXTINF:-1,WCRB
 http://wgbh.streamguys.com:8006/classical-hi
-#EXTINF:-1,KVON 1440 96.9
-https://ice10.securenetsystems.net/KVON
 #EXTINF:-1,113fm Retro 1973
 http://113fm-edge1.cdnstream.com/1759_128
 #EXTINF:-1,KGBN
@@ -5423,8 +5409,6 @@ https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8
 https://ais-sa1.streamon.fm/7645_48k.aac
 #EXTINF:-1,Christian Power Praise
 https://shoutcast.christianrock.net/stream/7/
-#EXTINF:-1,Thunder 106.1 KQLX
-http://ice64.securenetsystems.net/KQLXFM
 #EXTINF:-1,WFKS Kiss 95.1
 https://stream.revma.ihrhls.com/zc545
 #EXTINF:-1,Powerhitz ThePlanet
@@ -5477,14 +5461,8 @@ https://das-edge17-live365-dal02.cdnstream.com/a81669
 https://rtn.cdnstream1.com/2579_96.aac
 #EXTINF:-1,WCOS FM
 https://stream.revma.ihrhls.com/zc2073
-#EXTINF:-1,WXMF 91.9
-https://ice7.securenetsystems.net/WXML
 #EXTINF:-1,WQCS
 https://26223.live.streamtheworld.com/WQCSFM.mp3
-#EXTINF:-1,WDAY AM 970
-https://ice3.securenetsystems.net/WDAY
-#EXTINF:-1,WGCM AM Cruisin
-https://ice23.securenetsystems.net/WGCMAM
 #EXTINF:-1,103.7 Da Beat
 https://das-edge09-live365-dal03.cdnstream.com/a51172
 #EXTINF:-1,WTSQ
@@ -5493,12 +5471,6 @@ https://s8.yesstreaming.net:17118/stream
 http://192.99.4.210:3844/stream
 #EXTINF:-1,WEVL
 https://wevl.streamguys1.com/live
-#EXTINF:-1,KRFC
-https://ice24.securenetsystems.net/KRFCFM
-#EXTINF:-1,La M 103.7 FM
-https://ice3.securenetsystems.net/KMLA
-#EXTINF:-1,WRSA Mix 96.9
-https://ice24.securenetsystems.net/WRSA
 #EXTINF:-1,UITA Radio
 https://das-edge17-live365-dal02.cdnstream.com/a06964
 #EXTINF:-1,KTAR-FM
@@ -5511,14 +5483,10 @@ https://crystalout.surfernetwork.com:8001/WDRC-AM_MP3
 https://stream.revma.ihrhls.com/zc633
 #EXTINF:-1,KMAG
 https://stream.revma.ihrhls.com/zc109
-#EXTINF:-1,KSHA 104.3 K-Shasta
-http://ice5.securenetsystems.net/KSHA
 #EXTINF:-1,KFXR Talk Radio 1190
 https://stream.revma.ihrhls.com/zc4276
 #EXTINF:-1,Powerhitz ClassicSoul
 http://jbmedia-edge1.cdnstream.com/bumpin
-#EXTINF:-1,WKCN-HD2 106.9 Rocks
-http://ice66.securenetsystems.net/WKCNHD2
 #EXTINF:-1,WNOK
 https://stream.revma.ihrhls.com/zc2081
 #EXTINF:-1,WDVE FM
@@ -5535,8 +5503,6 @@ http://192.187.101.26:8120/stream
 https://stream.revma.ihrhls.com/zc1221
 #EXTINF:-1,WRBS
 https://wrbs-hls.streamguys1.com/WRBS
-#EXTINF:-1,WBEL The Big AM 1380
-https://ice10.securenetsystems.net/AM1380
 #EXTINF:-1,113fm Retro 1974
 http://113fm-edge1.cdnstream.com/1756_128
 #EXTINF:-1,KCQQ Q106.5
@@ -5561,8 +5527,6 @@ https://stream.revma.ihrhls.com/zc2197
 https://ais-edge90-dal03.cdnstream.com/b26873_128mp3
 #EXTINF:-1,All Memphis Music
 http://das-edge15-live365-dal02.cdnstream.com/a77318
-#EXTINF:-1,WTRW 94.3 FM The Talker
-https://ice6.securenetsystems.net/WTRW
 #EXTINF:-1,Best Net Radio - 80s Galore
 http://bigrradio.cdnstream1.com/5144_128
 #EXTINF:-1,WSKW Legacy 1160
@@ -5573,8 +5537,6 @@ https://pureplay.cdnstream1.com/6016_64.aac
 https://ypr.streamguys1.com/live-4
 #EXTINF:-1,KFSO-FM La Preciosa 92.9
 https://stream.revma.ihrhls.com/zc3421
-#EXTINF:-1,KMKF 101.5 K Rock
-https://crystalout.surfernetwork.com:8001/KMKF_MP3
 #EXTINF:-1,Powerhitz Hitlist
 http://jbmedia-edge1.cdnstream.com/hitlist
 #EXTINF:-1,KESZ 99.9 KEZ
@@ -5587,8 +5549,6 @@ https://stream.revma.ihrhls.com/zc2481
 https://stream.revma.ihrhls.com/zc1821
 #EXTINF:-1,WJDX 105.1 The River
 https://stream.revma.ihrhls.com/zc1249
-#EXTINF:-1,KQID Q93
-https://ice5.securenetsystems.net/KQID
 #EXTINF:-1,WAMX FM 106.3 The Brew
 https://stream.revma.ihrhls.com/zc2601
 #EXTINF:-1,Tjks Radio Miami
@@ -5621,8 +5581,6 @@ https://wkcr.streamguys1.com/live
 https://stream.revma.ihrhls.com/zc1277
 #EXTINF:-1,WKZL107.5 FM
 https://dbc.streamguys1.com/wkzl-fm.aac
-#EXTINF:-1,KSHO
-https://ice8.securenetsystems.net/KSHO
 #EXTINF:-1,KVHS
 http://kvhs.smrn.com:5561/live
 #EXTINF:-1,Bestnet Radio - Warm Soft Hits
@@ -5635,8 +5593,6 @@ https://stream.revma.ihrhls.com/zc13
 http://listen.181fm.com/181-energy98_128k.mp3
 #EXTINF:-1,KSHP Real Rock
 https://s2.myradiostream.com/:7178/
-#EXTINF:-1,KNDE Candy 95
-https://ice42.securenetsystems.net/CANDY95
 #EXTINF:-1,WHYN NewsRadio 560
 https://stream.revma.ihrhls.com/zc4685
 #EXTINF:-1,KAGG Aggie 96
@@ -5653,8 +5609,6 @@ https://stream.revma.ihrhls.com/zc4176
 http://streaming.jcu.edu:8000/wjcu-aac-hi
 #EXTINF:-1,KYKR Kicker 95.1
 https://stream.revma.ihrhls.com/zc2205
-#EXTINF:-1,WCMI The Planet 92.7
-https://ice23.securenetsystems.net/WCMI
 #EXTINF:-1,WRBT
 https://stream.revma.ihrhls.com/zc3103
 #EXTINF:-1,Smooth Jazz Wave Sarasota
@@ -5673,18 +5627,10 @@ https://ice1.somafm.com/poptron-128-mp3
 http://zafemradio.com:9812/
 #EXTINF:-1,KOSY Hot 95.7
 https://stream.revma.ihrhls.com/zc2732
-#EXTINF:-1,KTHK The Hawk
-https://ice10.securenetsystems.net/KTHK
 #EXTINF:-1,KQQL Kool 108
 https://stream.revma.ihrhls.com/zc1217
-#EXTINF:-1,WVSU WAJH
-https://ice7.securenetsystems.net/WVSU
-#EXTINF:-1,KKSR 95.7 The Bridge
-http://ice7.securenetsystems.net/KKSR
 #EXTINF:-1,SCAD Atlanta Radio
 http://scad-atl.stream.creek.fm:8000/listen
-#EXTINF:-1,KZHK 95.9 The Hawk
-https://ice10.securenetsystems.net/KZHK
 #EXTINF:-1,Atlpoweradio
 http://uk4-vn.webcast-server.net:8038/
 #EXTINF:-1,113fm Retro 1975
@@ -5709,10 +5655,6 @@ http://www.songcastradio.com:9016/
 https://stream.revma.ihrhls.com/zc4814
 #EXTINF:-1,KSME 96.1 KISS
 https://stream.revma.ihrhls.com/zc417
-#EXTINF:-1,WRBZ
-https://ice10.securenetsystems.net/WRBZ955
-#EXTINF:-1,WCKG
-https://ice7.securenetsystems.net/WCKG
 #EXTINF:-1,WLIT 93.9 Lite FM
 https://stream.revma.ihrhls.com/zc853
 #EXTINF:-1,KSQQ-FM
@@ -5725,8 +5667,6 @@ https://www.weather.gov/media/mfl/nwr/MIAZFPWPB.mp3
 https://ais-sa1.streamon.fm/7169_48k.aac
 #EXTINF:-1,WNUQ Q102 Queen Bee
 http://streams.radio.co/sd1bcd1376/listen#.mp3
-#EXTINF:-1,KYNO
-https://ice8.securenetsystems.net/KYNO
 #EXTINF:-1,WWGR 101.9 Gator Country
 http://22123.live.streamtheworld.com/WWGR_FMAAC_SC
 #EXTINF:-1,AceRadio - The 80s Soft Channel
@@ -5739,8 +5679,6 @@ https://ais-edge90-dal03.cdnstream.com/b14981_128mp3
 http://mobile.customchannels.net/floyds_96.mp3
 #EXTINF:-1,KCCY Y96.9
 https://stream.revma.ihrhls.com/zc349
-#EXTINF:-1,WTRC AM The Hart
-https://ice24.securenetsystems.net/WTRC
 #EXTINF:-1,WYCT
 https://adxc-live.streamguys1.com/catcountryaac
 #EXTINF:-1,KXBZ B104.7
@@ -5757,8 +5695,6 @@ https://stream.revma.ihrhls.com/zc5270
 https://stream.revma.ihrhls.com/zc1713
 #EXTINF:-1,WOBN-FM The Wildcard
 https://wobn.stream.creek.org/LIVE
-#EXTINF:-1,KLGN3 The Fan
-https://ice10.securenetsystems.net/KLGN3
 #EXTINF:-1,KKXL-FM XL93
 https://stream.revma.ihrhls.com/zc1677
 #EXTINF:-1,KMFX 102.5 The Fox
@@ -5771,8 +5707,6 @@ https://stream.revma.ihrhls.com/zc3656
 https://stream.revma.ihrhls.com/zc4330
 #EXTINF:-1,KQOD Mega 100 Stockton
 https://stream.revma.ihrhls.com/zc2926
-#EXTINF:-1,Revocation Radio
-https://ice42.securenetsystems.net/REVRADIO
 #EXTINF:-1,Rejoice 1110
 http://s2.radio.co/s1185f385e/listen
 #EXTINF:-1,YMCA of Metro Atlanta Radio
@@ -5795,8 +5729,6 @@ http://audio.sjamz.com:8148/
 http://ais-sa2.cdnstream1.com/1991_128.mp3
 #EXTINF:-1,WIKY-FM
 https://18853.live.streamtheworld.com/WIKYFMAAC_SC
-#EXTINF:-1,WRVC FM
-https://ice23.securenetsystems.net/WRVC
 #EXTINF:-1,WHAM NewsRadio 1180
 https://stream.revma.ihrhls.com/zc1505
 #EXTINF:-1,WERC HD2 Hallelujah 105
@@ -5845,8 +5777,6 @@ https://streams.kut.org/5020_192.mp3
 https://stream.revma.ihrhls.com/zc2013
 #EXTINF:-1,WZZK
 https://n15.rcs.revma.com/h9py8trxu7uvv
-#EXTINF:-1,KCSM Jazz 91
-https://ice5.securenetsystems.net/KCSM
 #EXTINF:-1,WMAD 96.3 Star
 https://stream.revma.ihrhls.com/zc3510
 #EXTINF:-1,KKRQ 100.7 The Fox
@@ -5859,10 +5789,6 @@ https://stream.revma.ihrhls.com/zc237
 https://stream.revma.ihrhls.com/zc357/hls.m3u8
 #EXTINF:-1,WRFG
 https://s2.radio.co/s2133c4bad/listen
-#EXTINF:-1,WMPR
-http://ice7.securenetsystems.net/WMPR
-#EXTINF:-1,KBQB 92.7 Bob FM
-https://ice24.securenetsystems.net/KBQB
 #EXTINF:-1,That 70s Channel 2
 https://ais-edge90-dal03.cdnstream.com/b68000_128mp3
 #EXTINF:-1,KXXY
@@ -5889,10 +5815,6 @@ https://das-edge12-live365-dal02.cdnstream.com/a95865
 https://stream.revma.ihrhls.com/zc6972
 #EXTINF:-1,Radio Creme Brulee
 https://das-edge12-live365-dal02.cdnstream.com/a72947
-#EXTINF:-1,KXKS 1190 AM Albuquerque
-https://ice41.securenetsystems.net/KXKS
-#EXTINF:-1,WTGN
-https://ice24.securenetsystems.net/WTGN
 #EXTINF:-1,Best Net Radio - The Mix
 http://bigrradio.cdnstream1.com/5169_128
 #EXTINF:-1,B87FM
@@ -5925,8 +5847,6 @@ https://stream.revma.ihrhls.com/zc4958
 https://bigrradio-edge1.cdnstream.com/5180_128
 #EXTINF:-1,WHJY 94HJY
 https://stream.revma.ihrhls.com/zc2049
-#EXTINF:-1,WAFT
-https://ice66.securenetsystems.net/WAFT2
 #EXTINF:-1,XRAY
 https://listen.xray.fm/stream
 #EXTINF:-1,Moonalice radio
@@ -5945,10 +5865,6 @@ https://stream.revma.ihrhls.com/zc2938
 https://stream.revma.ihrhls.com/zc2353
 #EXTINF:-1,WCHL
 https://ais-sa1.streamon.fm/7207_24k.aac
-#EXTINF:-1,KTCS-FM
-https://ice6.securenetsystems.net/KTCSFM
-#EXTINF:-1,KWDO 99.3 Now
-https://ice9.securenetsystems.net/KWDO
 #EXTINF:-1,Que Buena 1530 AM
 http://www.ophanim.net:7370/live
 #EXTINF:-1,SomaFM SF 10-33
@@ -5957,12 +5873,8 @@ http://ice2.somafm.com/sf1033-64-aac
 https://war.streamguys1.com:7883/wdiy_7880
 #EXTINF:-1,Radio Amistad
 https://khcb.streamguys1.com/spanish-128k-mp3
-#EXTINF:-1,KCFO
-https://ice9.securenetsystems.net/KCFO
 #EXTINF:-1,KUAF-HD2
 https://war.streamguys1.com:7031/kuaf2
-#EXTINF:-1,KTSO
-https://ice8.securenetsystems.net/KTSO
 #EXTINF:-1,WERC HD2 103.1 The Vulcan
 https://stream.revma.ihrhls.com/zc4956
 #EXTINF:-1,SongCast Radio - Variety Mix 4
@@ -5977,8 +5889,6 @@ https://stream.revma.ihrhls.com/zc957
 http://rewoundradio.com:5001/rewound
 #EXTINF:-1,WRQK Rock 106.9
 https://stream.revma.ihrhls.com/zc3294
-#EXTINF:-1,KWYD Wild 101
-https://ice9.securenetsystems.net/KWYD
 #EXTINF:-1,Lake Country Jubilee
 http://192.169.139.178:8000/
 #EXTINF:-1,WUBL 94.9 The Bull
@@ -5995,8 +5905,6 @@ https://ais-sa3.cdnstream1.com/2440_128.aac
 https://113fm-atunwadigital.streamguys1.com/1050
 #EXTINF:-1,KWNW 101.9 KISS FM
 https://stream.revma.ihrhls.com/zc4864
-#EXTINF:-1,WMXI FM 98.1
-https://ice41.securenetsystems.net/WMXI
 #EXTINF:-1,KRVM
 https://c1865s644.fastserv.com/krvm_fm.aacp
 #EXTINF:-1,Dublab
@@ -6005,10 +5913,6 @@ https://dublab.out.airtime.pro/dublab_a
 https://stream.revma.ihrhls.com/zc1041
 #EXTINF:-1,KXLU
 https://kxlu.streamguys1.com/kxlu-hi
-#EXTINF:-1,WLAD
-http://ice8.securenetsystems.net/WLAD
-#EXTINF:-1,KCSC
-https://ice8.securenetsystems.net/KCSC
 #EXTINF:-1,WXDJ El Zol 106.7
 https://liveaudio.lamusica.com/MIA_WXDJ_icy
 #EXTINF:-1,KBFP Sunny 105.3
@@ -6021,8 +5925,6 @@ https://das-edge09-live365-dal03.cdnstream.com/a43211
 https://ais-sa2.cdnstream1.com/1699_128
 #EXTINF:-1,KUAF-HD3
 https://war.streamguys1.com:7031/kuaf3
-#EXTINF:-1,KESR Bob 107.1
-https://ice24.securenetsystems.net/KESR
 #EXTINF:-1,Alt 929 Huntsville
 https://stream.revma.ihrhls.com/zc8009
 #EXTINF:-1,WDAE
@@ -6031,12 +5933,8 @@ https://stream.revma.ihrhls.com/zc673
 https://19003.live.streamtheworld.com/WTRCFMAAC.aac
 #EXTINF:-1,Best Net Radio - Golden Oldies
 http://bigrradio.cdnstream1.com/5159_128
-#EXTINF:-1,KBLQ Q 92.9
-https://ice9.securenetsystems.net/KBLQ
 #EXTINF:-1,WETS FM HD3 Classical
 http://wets-fm.streamguys1.com/live-3
-#EXTINF:-1,KLWB
-https://ice6.securenetsystems.net/KLWB
 #EXTINF:-1,AceRadio - 90s Alternative Rock
 http://bigrradio.cdnstream1.com/5107_128
 #EXTINF:-1,KRNB Smooth R&B 105.7
@@ -6053,8 +5951,6 @@ https://stream.revma.ihrhls.com/zc7053
 https://wlrh.streamguys1.com/live
 #EXTINF:-1,RapStation Bass SouthWest
 https://das-edge15-live365-dal02.cdnstream.com/a03742
-#EXTINF:-1,WQSC Classic Country 98.5
-https://ice5.securenetsystems.net/WQSC
 #EXTINF:-1,Urban Radio Today's RnB
 http://hydra.cdnstream.com/1531_backup
 #EXTINF:-1,Radio Valencia
@@ -6063,8 +5959,6 @@ http://live.str3am.com:3010/live
 http://audio-edge-ey5nr.ams.s.radiomast.io/b118dabb-315c-4e9d-afb5-406896092df9
 #EXTINF:-1,KXUS US97
 https://stream.revma.ihrhls.com/zc1273
-#EXTINF:-1,KCSM 2 Jazz 91.1
-https://ice7.securenetsystems.net/KCSM2
 #EXTINF:-1,La Pachanguera from Cali, Colombia
 http://radiolatina.info:8772/
 #EXTINF:-1,KHEY-FM
@@ -6077,16 +5971,12 @@ https://ais-sa3.cdnstream1.com/2442_128.aac
 http://streamer2.legatocommunications.com/waps32k
 #EXTINF:-1,KUNO
 https://stream.revma.ihrhls.com/zc3006
-#EXTINF:-1,KHHK
-http://ice5.securenetsystems.net/KHHK
 #EXTINF:-1,WROW Magic 590
 https://ais-sa1.streamon.fm/7820_128k.aac
 #EXTINF:-1,Radio St Pete
 https://streamer.radio.co/s96979499c/listen
 #EXTINF:-1,Latter-Day Soul Radio
 https://c3.radioboss.fm:8090/autodj
-#EXTINF:-1,KCFI Cruisin' 1250
-https://ice7.securenetsystems.net/CRUISIN
 #EXTINF:-1,KQQL HD2 Twin Cities BIN 93.3
 https://stream.revma.ihrhls.com/zc6587
 #EXTINF:-1,KATZ 100.3 The Beat
@@ -6109,36 +5999,26 @@ http://usa11.fastcast4u.com:5272/
 https://stream.revma.ihrhls.com/zc1129
 #EXTINF:-1,Radio MusiDeportes
 https://dagstreaming.com:8000/radio.aac
-#EXTINF:-1,Radio Mexicana 99.7 FM
-https://ice10.securenetsystems.net/KTOR
 #EXTINF:-1,Powerhitz 90s
 http://jbmedia-edge1.cdnstream.com/90sarea
 #EXTINF:-1,113fm Star 1990
 http://113fm-edge1.cdnstream.com/1746_128
 #EXTINF:-1,WHRK K97
 https://stream.revma.ihrhls.com/zc2141
-#EXTINF:-1,WRZQ QMix
-http://ice6.securenetsystems.net/WRZQ
 #EXTINF:-1,WRBV V101.7
 https://stream.revma.ihrhls.com/zc3260
-#EXTINF:-1,KRAE 1480
-https://ice7.securenetsystems.net/KYOYFM
 #EXTINF:-1,WLYD 93.5 The Lloyd
 http://18863.live.streamtheworld.com:3690/WLYDFMAAC_SC
 #EXTINF:-1,KQSN 103.1 The Wave
 https://ais-sa3.cdnstream1.com/2284_96.aac
 #EXTINF:-1,Kickin Country
 http://relay.181.fm:8130/
-#EXTINF:-1,KADI 99.5
-https://ice6.securenetsystems.net/KADIFM
 #EXTINF:-1,The Outpost Life
 http://stream8.addictradio.net/addictstar.mp3
 #EXTINF:-1,WUML
 http://s3.radio.co/s5e286e909/listen
 #EXTINF:-1,WQBN Super Q 1300 AM
 http://server10.servistreaming.com:9011/1
-#EXTINF:-1,WELP The Truth 1360
-https://ice9.securenetsystems.net/WELP
 #EXTINF:-1,Explorers Emporium Radio
 https://listen.radioking.com/radio/155740/stream/196549
 #EXTINF:-1,Wzon Radio
@@ -6153,16 +6033,10 @@ https://ais-sa1.streamon.fm/7836_128k.aac/playlist.m3u8
 https://stream.revma.ihrhls.com/zc801
 #EXTINF:-1,Large Radio
 https://sonic01.instainternet.com/8312/stream
-#EXTINF:-1,KSAL NewsRadio 1150
-https://ice23.securenetsystems.net/KSALAM
 #EXTINF:-1,Radio Mision Celestial
 https://play12.tikast.com/proxy/misioncelestial
 #EXTINF:-1,WCTQ 92.1 CTQ
 https://stream.revma.ihrhls.com/zc625
-#EXTINF:-1,KGNT Kool FM
-https://ice9.securenetsystems.net/KGNT
-#EXTINF:-1,KCVM 93.5 The Mix
-https://ice7.securenetsystems.net/THEMIX
 #EXTINF:-1,WQRV 100.3 The River
 https://stream.revma.ihrhls.com/zc21
 #EXTINF:-1,Abiding Radio Sacred
@@ -6173,6 +6047,8 @@ https://stream.revma.ihrhls.com/zc3058
 http://wumb.streamguys1.com/wumb919hol
 #EXTINF:-1,KIIZ-FM Z92.3
 https://stream.revma.ihrhls.com/zc2289
+#EXTINF:-1,Radio New York Live
+https://streaming.radiostreamlive.com/radionylive_devices
 #EXTINF:-1,KHKS 106.1 Kiss FM
 https://stream.revma.ihrhls.com/zc2245
 #EXTINF:-1,WFXJ 93.7 The Game
@@ -6181,8 +6057,6 @@ https://stream.revma.ihrhls.com/zc2685
 http://199.180.75.58:9078/stream
 #EXTINF:-1,Nextgen FM
 https://das-edge17-live365-dal02.cdnstream.com/a41314
-#EXTINF:-1,KAZI
-https://ice8.securenetsystems.net/KAZI
 #EXTINF:-1,SomaFM - Dub Step Beyond
 http://ice2.somafm.com/dubstep-128-mp3
 #EXTINF:-1,KUCD Star 101.9
@@ -6197,10 +6071,6 @@ http://113fm-edge1.cdnstream.com/1757_128
 https://stream.revma.ihrhls.com/zc3226
 #EXTINF:-1,Energy 98 Radio
 http://relay.181.fm:8800/
-#EXTINF:-1,WWHG 105.9 The Hog
-https://ice41.securenetsystems.net/WWHGFM
-#EXTINF:-1,KSKG 99KG
-https://ice10.securenetsystems.net/KSKG
 #EXTINF:-1,Rumba y Guateque
 http://209.126.119.28:8388/
 #EXTINF:-1,KWFC
@@ -6221,22 +6091,14 @@ https://stream.revma.ihrhls.com/zc2185
 https://stream.revma.ihrhls.com/zc5299
 #EXTINF:-1,KNCN C101
 https://stream.revma.ihrhls.com/zc3180
-#EXTINF:-1,KZIM
-https://ice23.securenetsystems.net/KZIM
 #EXTINF:-1,KFBK
 https://stream.revma.ihrhls.com/zc217
-#EXTINF:-1,Righteous Rock Radio
-http://psn3.prostreaming.net:8301/stream
-#EXTINF:-1,KPGG 103.9 The Pig
-https://ice42.securenetsystems.net/KPGG
 #EXTINF:-1,113fm The Crossing
 https://113fm-atunwadigital.streamguys1.com/1065
 #EXTINF:-1,AceRadio - The Super 70s Channel
 http://bigrradio-edge1.cdnstream.com/5125_128
 #EXTINF:-1,113fm Star 1998
 http://113fm-edge1.cdnstream.com/1770_128
-#EXTINF:-1,WRHI
-https://ice7.securenetsystems.net/WRHI
 #EXTINF:-1,Organlive EU
 https://play.organlive.com:7010/128
 #EXTINF:-1,KXNO
@@ -6249,20 +6111,14 @@ https://fm909.wbur.org/wbur_www
 https://server.wwsu1069.org/stream/
 #EXTINF:-1,KASI
 https://stream.revma.ihrhls.com/zc4060
-#EXTINF:-1,WSWI 95.7 The Spin AM 820
-https://ice3.securenetsystems.net/WSWI
 #EXTINF:-1,CBN News Radio
 http://cbnradio.streamguys1.com/news-128K
-#EXTINF:-1,WJXL-FM
-http://ice23.securenetsystems.net/WJXLFM
 #EXTINF:-1,WVON
 https://stream.revma.ihrhls.com/zc5304
 #EXTINF:-1,WBHK 98.7 KISS FM
 https://n11.rcs.revma.com/v3y9hdgxu7uvv
 #EXTINF:-1,CNN USA
 https://tunein.cdnstream1.com/3519_96.aac/playlist.m3u8?partnerId=redirect&aw_0_1st.ads_partner_alias=ext.Redirect&aw_0_1st.stationId=s292162
-#EXTINF:-1,WYCE
-https://ice24.securenetsystems.net/WYCE
 #EXTINF:-1,Classic 99
 https://kfuo.streamguys1.com/classic
 #EXTINF:-1,Faith and Friends Radio
@@ -6291,8 +6147,6 @@ http://kwvaradio.uoregon.edu:8000/stream/2/
 http://new-york-ssd.myautodj.com:8042/stream
 #EXTINF:-1,Abiding:Radio Seasonal
 https://www.abidingradio.org/radio/seasonal
-#EXTINF:-1,KXOJ
-http://ice7.securenetsystems.net/KXOJ
 #EXTINF:-1,KSSK-FM
 https://stream.revma.ihrhls.com/zc829
 #EXTINF:-1,Rockin Doc Radio
@@ -6307,20 +6161,16 @@ https://stream2.cprnetwork.org:8443/cpr2_aac
 http://www.ophanim.net:7220/stream
 #EXTINF:-1,KZFR
 https://stream-tx3.radioparadise.com/kzfr
-#EXTINF:-1,WASG
-https://ice41.securenetsystems.net/WASG
-#EXTINF:-1,WMOH
-http://ice3.securenetsystems.net/WMOH
 #EXTINF:-1,WXBB 94.7 Bob FM
 https://stream.revma.ihrhls.com/zc8295/hls.m3u8
 #EXTINF:-1,KHPR
 https://khpr-ice.streamguys1.com/khpr2
-#EXTINF:-1,WLOK AM
-http://ice64.securenetsystems.net/WLOK
 #EXTINF:-1,KODA Sunny 99.1 Houston
 https://stream.revma.ihrhls.com/zc2273
 #EXTINF:-1,KQXL Q106.5
 https://18423.live.streamtheworld.com/KQXLFMAAC.aac
+#EXTINF:-1,Switch Fm Haiti
+http://switchfmhaiti.primcast.com:5494/
 #EXTINF:-1,KNRO Fox Sports Redding 103.9 FM 1400 AM
 https://stream.revma.ihrhls.com/zc4732
 #EXTINF:-1,KGOR FM
@@ -6341,12 +6191,8 @@ http://streams1.infowars.com/stream/2/
 https://das-edge09-live365-dal03.cdnstream.com/a31383
 #EXTINF:-1,WJRQ Good Time Radio
 https://stream3.rcast.net/65397
-#EXTINF:-1,WBXQ Q94
-https://ice24.securenetsystems.net/WBXQ
 #EXTINF:-1,SomaFM - Cliqhop IDM
 http://ice2.somafm.com/cliqhop-128-mp3
-#EXTINF:-1,WKCN Kissin 99.3
-https://ice66.securenetsystems.net/WKCNFM
 #EXTINF:-1,Gorean Whip Radio
 https://goreanwhip.radioca.st/
 #EXTINF:-1,KMRY FM
@@ -6367,16 +6213,10 @@ http://hestia.cdnstream.com/1530_128
 https://crystalout.surfernetwork.com:8001/WDOH-FM_MP3
 #EXTINF:-1,KHEY Fox Sports Radio 1380
 https://stream.revma.ihrhls.com/zc5169
-#EXTINF:-1,WDAC-HD1
-https://ice66.securenetsystems.net/WDAC
-#EXTINF:-1,KDAE Radio Libertad Corpus Christi
-https://ice42.securenetsystems.net/KDAE
 #EXTINF:-1,KFNW Life 97.9
 http://nwmedia-kfnwfm.streamguys1.com/kfnw-fm
 #EXTINF:-1,KMFA Classical 89.5
 https://kmfa.streamguys1.com/KMFA-mp3
-#EXTINF:-1,KGHL Mighty 790
-https://ice5.securenetsystems.net/KGHLAM
 #EXTINF:-1,KWSX Fox Sports AM 1280
 https://stream.revma.ihrhls.com/zc5236
 #EXTINF:-1,RACEVOZ.NET
@@ -6421,22 +6261,16 @@ https://stream.revma.ihrhls.com/zc4243
 https://stream.revma.ihrhls.com/zc5306
 #EXTINF:-1,WZTA
 https://stream.revma.ihrhls.com/zc4788/hls.m3u8
-#EXTINF:-1,KVFX VFX 94.5
-https://ice9.securenetsystems.net/KVFX
 #EXTINF:-1,KTOK News Radio 1000
 https://stream.revma.ihrhls.com/zc1909
 #EXTINF:-1,KJR AM Sports Radio
 https://stream.revma.ihrhls.com/zc2565
-#EXTINF:-1,KTBB
-https://ice42.securenetsystems.net/KTBB
 #EXTINF:-1,KBNO Que Bueno Denver
 http://ca3.rcast.net:8038/
 #EXTINF:-1,KPOF AM91
 https://pillar.streamguys1.com/KPOF
 #EXTINF:-1,KKSY 96.5 Kiss Country
 https://stream.revma.ihrhls.com/zc3647
-#EXTINF:-1,KLGN Lite 103.3
-https://ice9.securenetsystems.net/KLGN
 #EXTINF:-1,WGKX Kix 106
 https://18153.live.streamtheworld.com/WGKXFMAAC.aac
 #EXTINF:-1,WDAK
@@ -6509,8 +6343,6 @@ https://free.rcast.net/66078
 https://allclassical.streamguys1.com/ac96k
 #EXTINF:-1,KVUU My 99.9
 https://stream.revma.ihrhls.com/zc361
-#EXTINF:-1,WHIP
-https://ice23.securenetsystems.net/WHIP
 #EXTINF:-1,AceRadio - The Soft Hits Channel
 http://bigrradio.cdnstream1.com/5124_128
 #EXTINF:-1,IHeart 90's
@@ -6527,24 +6359,16 @@ https://ais-sa1.streamon.fm/7406_48k.aac
 https://stream.revma.ihrhls.com/zc5112
 #EXTINF:-1,MOCRadio
 http://naxos.cdnstream.com/1306_128?cb=208027.mp3
-#EXTINF:-1,WWBA Newstalk Florida
-https://ice41.securenetsystems.net/WWBA
 #EXTINF:-1,KRFX 103.5 The Fox
 https://stream.revma.ihrhls.com/zc393
 #EXTINF:-1,SomaFM - Deep Space One
 https://ice2.somafm.com/deepspaceone-128-mp3
 #EXTINF:-1,CBN Christmas Radio
 http://cbnradio.streamguys1.com/christmas-128K
-#EXTINF:-1,WSUM
-https://ice23.securenetsystems.net/WSUMFM
 #EXTINF:-1,WURD
 https://wurd.streamguys1.com/live
-#EXTINF:-1,KDCD Lonestar 92.9
-https://ice41.securenetsystems.net/KDCDFMMP
 #EXTINF:-1,WJMX 103X
 https://stream.revma.ihrhls.com/zc6862
-#EXTINF:-1,WDNS D93
-https://ice5.securenetsystems.net/WDNS
 #EXTINF:-1,WIBA FM
 https://stream.revma.ihrhls.com/zc3466
 #EXTINF:-1,KEIB The Patriot AM 1150
@@ -6563,8 +6387,6 @@ https://nmcdn-lds.msvdn.net/icecastRelay/101157/V2Pm3WE/icecast?rnd=637252110622
 https://bigrradio.cdnstream1.com/5108_128
 #EXTINF:-1,WTAK
 https://stream.revma.ihrhls.com/zc17
-#EXTINF:-1,KQWB AM Bison 1660
-https://ice64.securenetsystems.net/KQWBAM
 #EXTINF:-1,Powerhitz Real RnB
 http://live.powerhitz.com/realrnb
 #EXTINF:-1,Christianhits.net
@@ -6585,8 +6407,6 @@ https://stream.revma.ihrhls.com/zc3506
 http://streamer2.legatocommunications.com/wapshd2a
 #EXTINF:-1,KAKC 1300 The Buzz
 https://stream.revma.ihrhls.com/zc1921
-#EXTINF:-1,WBRI
-https://ice9.securenetsystems.net/WBRI
 #EXTINF:-1,WROV HD Alt 96.7 Project
 https://stream.revma.ihrhls.com/zc5321
 #EXTINF:-1,Estereo Voz de alerta
@@ -6595,8 +6415,6 @@ http://edmenstudio.net:9310/
 http://ice4.somafm.com/sonicuniverse-64-aac
 #EXTINF:-1,KZOK FM
 https://stream.revma.ihrhls.com/zc7787
-#EXTINF:-1,KSRV FM Bob FM
-https://ice64.securenetsystems.net/KSRV
 #EXTINF:-1,KJKE Jake FM
 http://14943.live.streamtheworld.com/KJKEFMAAC_SC
 #EXTINF:-1,KZOY Sunny Radio
@@ -6625,22 +6443,16 @@ https://wdjyfm.out.airtime.pro:8443/wdjyfm_a
 http://14133.live.streamtheworld.com/WMGNFMAAC_SC
 #EXTINF:-1,AceRadio - The Awesome 80s Channel
 http://bigrradio.cdnstream1.com/5117_128
-#EXTINF:-1,Luxuria Music
-https://ice10.securenetsystems.net/LUXOMP3
 #EXTINF:-1,Bikers Inner Circle
 http://streaming.radio.co/s60f7d4c8f/listen
 #EXTINF:-1,IHeart 70's
 https://stream.revma.ihrhls.com/zc6843
-#EXTINF:-1,KLNG 1560
-http://ice41.securenetsystems.net/KLNG
 #EXTINF:-1,Best Net Radio - 90s Alternative
 http://bigrradio.cdnstream1.com/5147_128
 #EXTINF:-1,The Mixx Radio Network - The Jack Mixx
 http://ais-sa2.cdnstream1.com/1985_128.mp3
 #EXTINF:-1,BGC Sports Network
 https://streamer.radio.co/sad57cff5a/listen
-#EXTINF:-1,KLWN
-https://ice23.securenetsystems.net/KLWNAM
 #EXTINF:-1,KZPR 105.3 The Fox
 https://stream.revma.ihrhls.com/zc5300
 #EXTINF:-1,KXSF
@@ -6649,8 +6461,6 @@ http://stream.kxsf.fm:8000/
 http://113fm-edge1.cdnstream.com/1720_128
 #EXTINF:-1,WGKA AM 920 The Answer
 https://17793.live.streamtheworld.com/WGKAAMAAC.aac
-#EXTINF:-1,KRWR KYZS The Team
-https://ice7.securenetsystems.net/KYZS
 #EXTINF:-1,Mocha
 http://149.56.175.167:5740/
 #EXTINF:-1,Bongo Radio - Taarab and Mduara Channel
@@ -6659,44 +6469,34 @@ http://173.244.208.77:9000/taarab.mp3
 https://ais-sa1.streamon.fm/7248_48k.aac
 #EXTINF:-1,WHCN The River 105.9
 https://stream.revma.ihrhls.com/zc429
+#EXTINF:-1,KALA-FM HD1
+https://kala.streamguys1.com/live1
 #EXTINF:-1,WKEE KEE 100
 https://stream.revma.ihrhls.com/zc2613
 #EXTINF:-1,West Virginia Public Radio
 http://live.str3am.com:7820/
-#EXTINF:-1,Reach Radio FM
-https://ice7.securenetsystems.net/WXHL
 #EXTINF:-1,WNCD 93.3 The Wolf
 https://stream.revma.ihrhls.com/zc2764
-#EXTINF:-1,WKCT Talk 104
-https://ice8.securenetsystems.net/WKCT
 #EXTINF:-1,KUAT Classical Radio
 https://streaming.azpm.org/kuat192.mp3
 #EXTINF:-1,WLAN FM97
 https://stream.revma.ihrhls.com/zc2776
 #EXTINF:-1,Black Gospel Radio
 https://das-edge17-live365-dal02.cdnstream.com/a24152
-#EXTINF:-1,WEQP FM
-https://ice66.securenetsystems.net/EQUIPFM
 #EXTINF:-1,CleansingMusic.com - Off Track
 http://sl-2396.cdnstream.com/1486_128
 #EXTINF:-1,KTIS Faith Radio Minneapolis
 https://nwmedia-ktisam.streamguys1.com/ktis-am
 #EXTINF:-1,KCMQ
 https://ais-sa1.streamon.fm/7398_48k.aac
-#EXTINF:-1,KUJ Power 99.1 FM
-http://ice5.securenetsystems.net/KUJFM
 #EXTINF:-1,KBZN Now 97.9
 https://ais-sa3.cdnstream1.com/2283_96.aac
 #EXTINF:-1,Bob's Ska Radio
 http://51.255.235.165:5528/stream
 #EXTINF:-1,WQEN 103.7 The Q
 https://stream.revma.ihrhls.com/zc3093
-#EXTINF:-1,WWRR The River 105
-https://ice6.securenetsystems.net/WWRR
 #EXTINF:-1,Jesus FM
 https://das-edge13-live365-dal02.cdnstream.com/a19020
-#EXTINF:-1,KPLM The Big 106
-https://ice9.securenetsystems.net/KPLM
 #EXTINF:-1,KZZU FM
 http://17803.live.streamtheworld.com/KZZUFMAAC_SC
 #EXTINF:-1,WRIT 95.7 Big FM
@@ -6709,8 +6509,6 @@ http://usamedios.enhd.co:8786/
 http://listen.littleraleighradio.org:8000/lrr.mp3
 #EXTINF:-1,KRZN 96.3 The Zone
 https://desertmountainbroadcasting.streamguys1.com/KRZN
-#EXTINF:-1,Fox Radio The Game
-https://ice6.securenetsystems.net/WICK
 #EXTINF:-1,Planet Pootwaddle
 http://ppw.streamguys1.com/sgplayer-aac
 #EXTINF:-1,Miami Global Radio
@@ -6723,6 +6521,8 @@ https://stream.revma.ihrhls.com/zc433
 https://radio.torchwoodhosting.com/8002/stream
 #EXTINF:-1,Iowa Public Radio Classical
 http://classical-stream.iowapublicradio.org/Classical.mp3
+#EXTINF:-1,WUNR Radio International
+http://peridot.streamguys.com:7740/live
 #EXTINF:-1,97.3 The ARC
 https://das-edge12-live365-dal02.cdnstream.com/a65345
 #EXTINF:-1,WAXQ FM Q104.3
@@ -6735,10 +6535,6 @@ https://stream.revma.ihrhls.com/zc305
 https://kamu.streamguys1.com/hd1-192
 #EXTINF:-1,KFNQ 1090 KJR
 https://stream.revma.ihrhls.com/zc7747
-#EXTINF:-1,WCGQ Q107.3
-https://ice66.securenetsystems.net/WCGQFM
-#EXTINF:-1,KKFT 99.1 FM Talk Radio
-https://ice7.securenetsystems.net/KKFT
 #EXTINF:-1,Tropical 100 Bacharengue
 http://tropical100.net:8016/
 #EXTINF:-1,WSKQ La Mega 87.9 NYC
@@ -6747,8 +6543,6 @@ https://liveaudio.lamusica.com/NY_WSKQ_icy
 https://stream.radio.co/s601fe08ae/listen
 #EXTINF:-1,KLBB-FM 93.7 The Eagle
 https://ais-sa1.streamon.fm/7172_48k.aac
-#EXTINF:-1,WFDL Sunny 97.7
-https://ice24.securenetsystems.net/WFDL
 #EXTINF:-1,KBCO
 https://stream.revma.ihrhls.com/zc2804
 #EXTINF:-1,WPOP News Radio 1410
@@ -6777,10 +6571,6 @@ https://auds1.intacs.com/atlpraisehouse
 https://stream.revma.ihrhls.com/zc1625
 #EXTINF:-1,WMSI MISS 103
 https://stream.revma.ihrhls.com/zc1241
-#EXTINF:-1,KXRR Rock 106
-https://ice5.securenetsystems.net/KXRR
-#EXTINF:-1,KSCY K Sky
-https://ice23.securenetsystems.net/KSCY
 #EXTINF:-1,WKBZ News Talk 1090
 https://stream.revma.ihrhls.com/zc1185
 #EXTINF:-1,WIOD
@@ -6793,8 +6583,6 @@ https://stream.revma.ihrhls.com/zc8292/hls.m3u8
 https://stream.revma.ihrhls.com/zc3252
 #EXTINF:-1,Party 101.9 Radio
 https://c2409ic1.fast-serv.com/stream
-#EXTINF:-1,KIQK
-http://ice7.securenetsystems.net/KICK
 #EXTINF:-1,KPC Radio Pierce College
 http://backbonenetworks.streamguys.com/pierce.mp3
 #EXTINF:-1,WBSB Indiana Public Radio
@@ -6817,8 +6605,6 @@ https://stream.revma.ihrhls.com/zc5166
 https://streams.radio.co/s44e55f8e6/listen
 #EXTINF:-1,GotRadio - Guitar Genius
 http://gr02.cdnstream.com:8020/
-#EXTINF:-1,KWAM The Mighty 990
-https://ice24.securenetsystems.net/KWAM
 #EXTINF:-1,KFYR
 https://stream.revma.ihrhls.com/zc1661
 #EXTINF:-1,KHSX Radio Houston
@@ -6831,10 +6617,6 @@ https://kuvo-ice.streamguys1.com/kuvo-aac-128
 http://hestia.cdnstream.com/1131_128
 #EXTINF:-1,Living Word Broadcast - Nederlands
 https://streams.lwbcast.org:9014/DutchStream
-#EXTINF:-1,WBFA FM 98.3 The Beat
-https://ice66.securenetsystems.net/WBFA
-#EXTINF:-1,WRLD Boomer 102.5
-https://ice66.securenetsystems.net/WBOJAM
 #EXTINF:-1,WDDV Newsradio 1320 1450
 https://stream.revma.ihrhls.com/zc7104
 #EXTINF:-1,WKTU 103.5 KTU
@@ -6873,8 +6655,6 @@ https://woodward-radio.streamb.live/SB00068
 https://stream.revma.ihrhls.com/zc3502
 #EXTINF:-1,ChristianClassicRock.Net
 https://shoutcast.christianrock.net/stream/9/
-#EXTINF:-1,KKEX KIX 96
-https://ice9.securenetsystems.net/KKEX
 #EXTINF:-1,KWTU Classical 88.7
 https://utulsa.streamguys1.com/KWTUHD1-MP3
 #EXTINF:-1,WONK 104.7
@@ -6883,20 +6663,10 @@ https://stream.revma.ihrhls.com/zc7311
 https://streams.kcrw.com/news24_mp3
 #EXTINF:-1,113FM Pop D
 https://113fm-atunwadigital.streamguys1.com/1052
-#EXTINF:-1,Radio Ambiente
-https://ice41.securenetsystems.net/WGSF
 #EXTINF:-1,KWND 88.3 The Wind
 http://rtn.cdnstream1.com/2571_96.aac
-#EXTINF:-1,KTPZ Music Monster 92.7
-https://ice10.securenetsystems.net/KTPZFM
-#EXTINF:-1,JazzOn2
-https://ice8.securenetsystems.net/JAZZON2
 #EXTINF:-1,KCZN Citizen Radio
 https://s27.myradiostream.com/:15446/listen.mp3?nocache=1758001080
-#EXTINF:-1,KPKY Classic Rock Idaho
-https://ice24.securenetsystems.net/KPKY
-#EXTINF:-1,WPIA Kiss Peoria
-https://ice24.securenetsystems.net/WPIA
 #EXTINF:-1,WCWA Fox Sports The Gambler Toledo
 https://stream.revma.ihrhls.com/zc3535
 #EXTINF:-1,DOC Radio
@@ -6917,24 +6687,12 @@ https://stream.revma.ihrhls.com/zc2101
 http://kfuo.streamguys1.com/kfuo
 #EXTINF:-1,Best Net Radio - 80s Metal
 http://bigrradio.cdnstream1.com/5146_128
-#EXTINF:-1,KVNU
-https://ice9.securenetsystems.net/KVNU
-#EXTINF:-1,WCGO
-https://ice23.securenetsystems.net/WCGO
 #EXTINF:-1,WVHU Newsradio 800
 https://stream.revma.ihrhls.com/zc2629
 #EXTINF:-1,Tropical 100 Bolero
 http://tropical100.net:8022/
-#EXTINF:-1,KGAL
-https://ice8.securenetsystems.net/KGAL
-#EXTINF:-1,WZNE 94.1 The Zone
-https://ice23.securenetsystems.net/WZNE
-#EXTINF:-1,WFKL Fickle 93.3
-https://ice23.securenetsystems.net/WFKL
 #EXTINF:-1,PFR Techno FM
 https://s2.yesstreaming.net:7204/stream
-#EXTINF:-1,KSAL-FM
-https://ice23.securenetsystems.net/KSALFM
 #EXTINF:-1,KUWS
 https://wpr-ice.streamguys1.com/wpr-ideas-mp3-64
 #EXTINF:-1,WMUS 107MUS
@@ -6957,8 +6715,6 @@ https://stream.revma.ihrhls.com/zc2025
 https://ad-oom-cmg.streamguys1.com/jac1045/jac1045-sgplayer-aac
 #EXTINF:-1,WTZB Z105
 https://stream.revma.ihrhls.com/zc645
-#EXTINF:-1,KJLU 88.9 FM
-http://ice8.securenetsystems.net/KJLU
 #EXTINF:-1,Radio UTD Richardson
 https://streamer.radio.co/sf849b08e1/listen
 #EXTINF:-1,WOGB
@@ -7061,28 +6817,16 @@ http://72.13.83.130:8010/#
 http://172.97.100.38:8002/
 #EXTINF:-1,WQRB B95
 https://stream.revma.ihrhls.com/zc2649
-#EXTINF:-1,KRSE 105.7 The Hawk
-https://ice6.securenetsystems.net/KRSE
-#EXTINF:-1,KSHP
-https://ice24.securenetsystems.net/KSHP
 #EXTINF:-1,WTXT
 https://stream.revma.ihrhls.com/zc3073
-#EXTINF:-1,KJJZ HD2 Alt 101.5
-https://ice9.securenetsystems.net/ALT1015
-#EXTINF:-1,WZGV ESPN Charlotte
-https://ice10.securenetsystems.net/WZGV
 #EXTINF:-1,KCSS
 https://kcss.streamguys1.com/live
 #EXTINF:-1,WEBN FM
 https://stream.revma.ihrhls.com/zc1701
 #EXTINF:-1,KNIX 102.5 FM
 https://stream.revma.ihrhls.com/zc49
-#EXTINF:-1,KWOF 106.3 The Wolf
-https://ice42.securenetsystems.net/KWOF
 #EXTINF:-1,iHeart60s
 https://stream.revma.ihrhls.com/zc6873
-#EXTINF:-1,KTRS-AM
-https://ice6.securenetsystems.net/KTRS
 #EXTINF:-1,WUMB - Celtic
 http://wumb.streamguys1.com/wumb919cj
 #EXTINF:-1,KBCO HD2 Studio C Channel
@@ -7109,14 +6853,12 @@ http://aud1.sjamz.com:8292/
 http://26223.live.streamtheworld.com/WDEFFMAAC_SC
 #EXTINF:-1,FunLand Radio
 https://das-edge12-live365-dal02.cdnstream.com/a82808
+#EXTINF:-1,KQRA Q102
+https://f141.rndfnk.com/ard/swr/dasding/live/mp3/128/stream.mp3?aggregator=web&cid=01FBVQWZT2B1KGPFJ7TDHQ1Y2B&sid=32lheeNXc6geu1sM6wIlSaR2vK4&token=b0hORIlHUahGY-E8wKLoH5FI10dn5FAVsiRoan8Vm-k&tvf=AYMjaWPAZRhmMTQxLnJuZGZuay5jb20
 #EXTINF:-1,KUUU U92
 https://ais-sa1.streamon.fm/7166_48k.aac
 #EXTINF:-1,KIRO-AM 710 ESPN Seattle
 https://bonneville.cdnstream1.com/2642_48.aac
-#EXTINF:-1,KFTX
-https://ice7.securenetsystems.net/KFTX
-#EXTINF:-1,99.7 Woof FM
-https://ice8.securenetsystems.net/WOOF
 #EXTINF:-1,WE68
 http://149.56.185.82:8010/stream
 #EXTINF:-1,WAGH Magic 101.3
@@ -7135,8 +6877,6 @@ https://das-edge09-live365-dal03.cdnstream.com/a22610
 http://lighthouseradio.network:8000/stream
 #EXTINF:-1,KKSF The Bay Area BIN 910
 https://stream.revma.ihrhls.com/zc297
-#EXTINF:-1,KVSS Spirit Catholic Radio
-https://ice7.securenetsystems.net/KVSS
 
 #EXTINF:-1,Vanny Radio
 https://icecast.maxxwave.co.uk/vannyradio
@@ -7268,8 +7008,6 @@ https://rbx2.hnux.com/http://4483.cloudrad.io:8130/stream/1/
 https://streaming.radio.co/sd88832e85/listen
 #EXTINF:-1,Sacred Music Radio
 http://46.28.49.164:7863/stream/1/
-#EXTINF:-1,Urban Gospel Network Radio
-https://ice31.securenetsystems.net/UGNR
 #EXTINF:-1,IMINRADIO
 https://streaming.radio.co/s50ccbed54/listen
 #EXTINF:-1,The Business Bunker
@@ -7350,6 +7088,8 @@ https://direct.sharp-stream.com/sunriseradionat.mp3
 https://s2.myradiostream.com/:3604/stream/1/
 #EXTINF:-1,Giants of Jazz Radio
 https://streaming.radio.co/s297e618a7/listen
+#EXTINF:-1,Bedrock Hospital Radio
+http://s40.myradiostream.com:16652/stream/1/
 #EXTINF:-1,DeeVu FM
 https://s2.radio.co/s9fd9d9cb4/listen
 #EXTINF:-1,BFBS Gurkha Radio
@@ -7470,8 +7210,6 @@ https://server2.ejeserver.com:8034/live
 https://streamer.radio.co/sf960c9fab/listen
 #EXTINF:-1,Audio Book Radio
 https://audiobookradio.out.airtime.pro/audiobookradio_a
-#EXTINF:-1,Golden Radio International
-https://bigbertharadio.tripod.com/sound/22_robin_dees_big_country_9jul16_lq.mp3
 #EXTINF:-1,Bar Latina Radio
 https://s2.citrus3.com:8330/stream
 #EXTINF:-1,Chillout Ibiza FM
@@ -7484,8 +7222,6 @@ http://streamplus52.leonex.de:10396/
 http://mp3streaming.planetwideradio.com:9105/radiopeterborough
 #EXTINF:-1,Hope FM (Bournemouth)
 http://stream-hfm2.tune-in.co.uk:19020/stream/1/
-#EXTINF:-1,Clubland Radio
-https://ice31.securenetsystems.net/CLUBUK
 #EXTINF:-1,FCUM Radio (Manchester)
 https://s2.radio.co/s847c08ad4/listen
 #EXTINF:-1,Westside FM (London)
@@ -7674,6 +7410,8 @@ http://stream.fred.fm:8118/stream/1/
 http://fr1.1mix.co.uk:8060/stream/6/
 #EXTINF:-1,Point Blank FM
 http://pointblankradio.co.uk:9002/stream
+#EXTINF:-1,Lisburn's 98FM
+http://radio.canstream.co.uk:8050/live.mp3
 #EXTINF:-1,SSRadio Deep and Soulful
 https://ssradiol.radioca.st/stream/1/
 #EXTINF:-1,Wave Radio
@@ -7807,8 +7545,6 @@ https://streamer.radio.co/s83eb8ff39/listen
 https://azuracast.tilderadio.org/radio/8000/radio.ogg
 #EXTINF:-1,WREP
 http://c13.radioboss.fm:8200/stream
-#EXTINF:-1,WVVV V96.9
-https://ice5.securenetsystems.net/WVVVFM
 #EXTINF:-1,J-Pop Powerplay Kawaii
 https://kathy.torontocast.com:3060/
 #EXTINF:-1,Jazz Sakura
@@ -7865,6 +7601,8 @@ https://monstraudio.stream.laut.fm/monstraudio?t302=2025-12-19_02-56-35&uuid=5f1
 https://listen.radioking.com/radio/132484/stream/172396
 #EXTINF:-1,indieselect Listen live
 https://indieselect.stream.laut.fm/indieselect?ref=radiode&t302=2025-12-19_02-56-35&uuid=4012cc96-850d-4ea1-a4c1-1820ca5df54e
+#EXTINF:-1,RTL Gold Listen live
+https://sc.rtl.lu/rtlgold
 #EXTINF:-1,Dark Sound Radio Listen live
 https://darksoundradio.stream.laut.fm/darksoundradio?t302=2025-12-19_02-56-36&uuid=75eecc83-4c53-4813-81e3-fa78b9bfeb10
 #EXTINF:-1,WINNFM 98.9 Listen live
@@ -8111,8 +7849,6 @@ https://sv10.hdradios.net:21920/
 http://208.115.220.38:8073/
 #EXTINF:-1,Namie Amuro Radio
 https://stream02.pcradio.biz/Namie_Amuro-med
-#EXTINF:-1,Lei Ting Radio
-https://stream02.pcradio.biz/Lei_Ting-med
 #EXTINF:-1,IA Radio
 https://stream02.pcradio.biz/IA-med
 #EXTINF:-1,Dragon Ash Radio
@@ -8253,8 +7989,6 @@ https://mtist.as.smartstream.ne.jp/30088/livestream/playlist.m3u8
 https://miku.fm/listen/miku/mp3-320
 #EXTINF:-1,横手かまくらエフエム
 https://mtist.as.smartstream.ne.jp/30076/livestream/playlist.m3u8
-#EXTINF:-1,.quran
-https://backup.qurango.net/radio/ahmad_khader_altarabulsi
 #EXTINF:-1,FMはまなすジャパン
 http://mtist.as.smartstream.ne.jp/30004/livestream/playlist.m3u8
 #EXTINF:-1,ラジオスイート
@@ -8406,6 +8140,8 @@ http://freebird.ddns.net:8000/
 https://das-edge12-live365-dal02.cdnstream.com/a80708
 #EXTINF:-1,raste.live
 https://das-edge11-live365-dal03.cdnstream.com/a39214
+#EXTINF:-1,Neko-Network Radio: Vision Anime & Japanese Music
+https://free.rcast.net/244291
 #EXTINF:-1,The Official Broadcasting Service of Amami Haruka Dictatorship
 https://kathy.torontocast.com:3560/;
 #EXTINF:-1,EIN HERZ FÜR MANGA UND ANIME
@@ -8543,6 +8279,8 @@ https://anime-radio-de.stream.laut.fm/anime-radio-de?ref=radiode&t302=2025-12-18
 https://live.radyositesihazir.com/8016/stream
 #EXTINF:-1,Coca-Cola FM
 https://str3.openstream.co/2334?aw_0_1st.collectionid%3D6257%26stationId%3D6257%26publisherId%3D2358%26k%3D1766067203
+#EXTINF:-1,Golden Fm 95.5
+https://streaming.radiosenlinea.com.ar:10331/
 #EXTINF:-1,PLUS RADIO US ZABAVNA
 https://26343.live.streamtheworld.com/SAM06AAC231_SC
 #EXTINF:-1,Radio Free Otaku
@@ -8622,6 +8360,8 @@ https://radio35.virtualtronics.com:20040/stream
 
 #EXTINF:-1,Lounge FM Mexico Radio
 https://stream02.pcradio.biz/loungefm_mex-med
+#EXTINF:-1,Radio America Latina
+https://stream02.pcradio.biz/america_latina-med
 #EXTINF:-1,La Caja Radio
 https://stream02.pcradio.biz/rad_lacaja-med
 #EXTINF:-1,Radio Nippes FM 100.5
