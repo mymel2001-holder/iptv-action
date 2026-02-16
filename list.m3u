@@ -1721,8 +1721,6 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8
 #EXTINF:-1 tvg-id="KQSLDT1.us@SD",KQSL Channel 8 (720p)
 https://uni01rtmp.tulix.tv/kqsltv/kqsltv/playlist.m3u8
-#EXTINF:-1 tvg-id="KRCADT1.us@SD",KRCA-TV Estrella Los Angeles (720p)
-https://content.uplynk.com/channel/829a8c85f9e840c6bed963856c231428.m3u8
 #EXTINF:-1 tvg-id="KSBYDT1.us@SD",KSBY News San Louis Obispo CA (720p)
 https://content.uplynk.com/channel/5545aa8a7e5a480d85fd1cff8d0cf610.m3u8
 #EXTINF:-1 tvg-id="KSCEDT2.us@SD",KSCE Vida Cristiana (360p)
@@ -1873,8 +1871,6 @@ https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco/G0051_048/playlist.m3u8
 https://live.seminolecountyfl.gov/live-2/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="SLOCountyChannel21.us@SD",SLO County Channel 21 (360p)
 https://agp-nimble.streamguys1.com/SLOC/SLOC/playlist.m3u8
-#EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD",Sound View Community Media Education (480p)
-https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="",Sound View Community Media Government (480p)
 https://livestream.telvue.com/soundviewcmt3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD",Sound View Community Media Public (480p)
@@ -1899,8 +1895,6 @@ https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8
 https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KVTNDT1.us@SD",VTN Victory Television Network (720p)
 https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="WBBJDT1.us@SD",WBBJ (Jackson TN) (432p)
-https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8
 #EXTINF:-1 tvg-id="WBRZDT1.us@SD",WBRZ Weather Channel Baton Rouge LA (480p)
 https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="WCBIDT1.us@SD",WCBI (Columbus MI) (720p)
@@ -2211,38 +2205,252 @@ https://tdameritrade-distro.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us@US",World Poker Tour (1080p) [Not 24/7]
 https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
 
+#EXTINF:-1 tvg-id="AntennaTV.us@SD",Antenna TV
+http://fl41.moveonjoy.com/Antenna_TV/index.m3u8
+#EXTINF:-1 tvg-id="Aspire.us@SD",Aspire
+http://fl41.moveonjoy.com/Aspire/index.m3u8
+#EXTINF:-1 tvg-id="AXSTV.us@SD",AXS TV
+http://fl41.moveonjoy.com/Axs_TV/index.m3u8
+#EXTINF:-1 tvg-id="BETHer.us@East",BET Her East
+http://fl12.moveonjoy.com/BET_HER/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US",Bloomberg TV
-https://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
+http://212.102.60.231/BLOOMBERG/index.m3u8
 #EXTINF:-1 tvg-id="Bounce.us@SD",Bounce
-https://fl2.moveonjoy.com/BOUNCE_TV/index.m3u8
-#EXTINF:-1 tvg-id="CMT.us@East",CMT East
-https://fl2.moveonjoy.com/CMT/index.m3u8
-#EXTINF:-1 tvg-id="Comet.us@SD",Comet
-https://fl2.moveonjoy.com/COMET/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.us@East",Disney Junior East
-https://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1 tvg-id="HallmarkChannel.us@East",Hallmark Channel East (720p)
-https://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="HallmarkDrama.us@SD",Hallmark Drama (720p)
-https://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
-#EXTINF:-1 tvg-id="MeTV.us@SD",MeTV
-https://fl2.moveonjoy.com/ME_TV/index.m3u8
-#EXTINF:-1 tvg-id="MSG.us@SD",MSG
-https://fl2.moveonjoy.com/MSG/index.m3u8
-#EXTINF:-1 tvg-id="MTVLive.us@SD",MTV Live (720p)
-https://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
+http://212.102.60.231/BOUNCE_TV/index.m3u8
+#EXTINF:-1 tvg-id="Bravo.us@East",Bravo East
+http://fl12.moveonjoy.com/BRAVO/mpegts
+#EXTINF:-1 tvg-id="Buzzr.us@SD",Buzzr
+http://fl41.moveonjoy.com/Buzzr/mpegts
+#EXTINF:-1 tvg-id="WBBMDT1.us@SD",CBS Chicago WBBM-DT1
+http://fl41.moveonjoy.com/IL_Chicago_CBS/index.m3u8
+#EXTINF:-1 tvg-id="CleoTV.us@SD",Cleo TV (720p)
+http://fl41.moveonjoy.com/Cleo_TV/index.m3u8
+#EXTINF:-1 tvg-id="ComedyTV.us@SD",Comedy TV
+http://fl41.moveonjoy.com/Comedy_TV/index.m3u8
+#EXTINF:-1 tvg-id="CrimePlusInvestigation.us@SD",Crime + Investigation
+http://fl41.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.us@East",Disney Channel East
+http://fl12.moveonjoy.com/DISNEY/index.m3u8
+#EXTINF:-1 tvg-id="ESPNU.us@SD",ESPN U (720p)
+http://fl41.moveonjoy.com/ESPN_U/index.m3u8
+#EXTINF:-1 tvg-id="FanDuelSportsNetwork.us@HD",FanDuel Sports Network
+http://fl41.moveonjoy.com/PAC_12/mpegts
+#EXTINF:-1 tvg-id="WFLDDT1.us@SD",FOX Chicago WFLD-DT1
+http://fl41.moveonjoy.com/IL_Chicago_FOX/index.m3u8
+#EXTINF:-1 tvg-id="FX.us@East",FX East
+http://fl12.moveonjoy.com/FX/index.m3u8
+#EXTINF:-1 tvg-id="INSP.us@SD",INSP
+http://fl12.moveonjoy.com/INSP/index.m3u8
+#EXTINF:-1 tvg-id="IONPlus.us@East",ION Plus East (720p)
+http://fl41.moveonjoy.com/ION_Plus/index.m3u8
+#EXTINF:-1 tvg-id="IONTV.us@East",ION TV East
+http://fl12.moveonjoy.com/ION_TV/index.m3u8
+#EXTINF:-1 tvg-id="KDFWDT1.us@SD",KDFW FOX (Dallas TX)
+http://fl41.moveonjoy.com/TX_Dallas_FOX/index.m3u8
+#EXTINF:-1 tvg-id="KSEEDT1.us",KSEE NBC (Fresno CA)
+http://fl41.moveonjoy.com/CA_FRESNO_NBC/index.m3u8
+#EXTINF:-1 tvg-id="KMBCDT1.us@SD",KMBC ABC (Kansas City MO)
+http://fl41.moveonjoy.com/MO_KANSAS_CITY_ABC/index.m3u8
+#EXTINF:-1 tvg-id="KOMODT1.us@SD",KOMO ABC (Seattle WA)
+http://fl41.moveonjoy.com/WA_SEATTLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="KPIXDT1.us@SD",KPIX CBS (San Francisco CA)
+http://fl41.moveonjoy.com/CA_SAN_FRANCISCO_CBS/index.m3u8
+#EXTINF:-1 tvg-id="KPRCDT1.us@SD",KPRC NBC (Houston TX)
+http://fl41.moveonjoy.com/TX_Houston_NBC/index.m3u8
+#EXTINF:-1 tvg-id="KRIVDT1.us@SD",KRIV FOX (Houston TX)
+http://fl41.moveonjoy.com/TX_Houston_FOX/index.m3u8
+#EXTINF:-1 tvg-id="KRQEDT1.us@SD",KRQE CBS (Albuquerque NM)
+http://fl41.moveonjoy.com/NM_Albuquerque_CBS/index.m3u8
+#EXTINF:-1 tvg-id="KBIMDT1.us",KRQE FOX (Albuquerque NM)
+http://fl41.moveonjoy.com/NM_Albuquerque_FOX/index.m3u8
+#EXTINF:-1 tvg-id="KSATDT1.us@SD",KSAT ABC (San Antonio TX)
+http://fl41.moveonjoy.com/TX_SAN_ANTONIO_ABC/index.m3u8
+#EXTINF:-1 tvg-id="KSAZDT1.us@SD",KSAZ FOX (Phoenix AZ)
+http://fl41.moveonjoy.com/AZ_PHOENIX_FOX/index.m3u8
+#EXTINF:-1 tvg-id="KSBWDT1.us",KSBW NBC (Monterey CA)
+http://fl41.moveonjoy.com/CA_MONTEREY_CBS/index.m3u8
+#EXTINF:-1 tvg-id="KSNVDT1.us@SD",KSNV NBC (Las Vegas NV)
+http://fl41.moveonjoy.com/NV_LAS_VEGAS_NBC/index.m3u8
+#EXTINF:-1 tvg-id="KTBCDT1.us@SD",KTBC FOX (Austin TX)
+http://fl41.moveonjoy.com/TX_AUSTIN_FOX/index.m3u8
+#EXTINF:-1 tvg-id="KTRKDT1.us@SD",KTRK ABC (Houston TX)
+http://fl41.moveonjoy.com/TX_HOUSTON_ABC/index.m3u8
+#EXTINF:-1 tvg-id="KVVUDT1.us@SD",KVVU FOX (Las Vegas NV)
+http://fl41.moveonjoy.com/NV_LAS_VEGAS_FOX/mpegts
+#EXTINF:-1 tvg-id="KYWDT1.us@SD",KYW CBS (Philadelphia PA)
+http://fl41.moveonjoy.com/PA_PHILADELPHIA_CBS/index.m3u8
+#EXTINF:-1 tvg-id="Lifetime.us@East",Lifetime East
+http://fl41.moveonjoy.com/LIFETIME/index.m3u8
+#EXTINF:-1 tvg-id="MTV.us@East",MTV East
+http://fl12.moveonjoy.com/MTV/index.m3u8
+#EXTINF:-1 tvg-id="NBATV.us@SD",NBA TV
+http://212.102.60.231/NBA_TV/index.m3u8
+#EXTINF:-1 tvg-id="WMAQDT1.us@SD",NBC Chicago WMAQ-DT1
+http://fl41.moveonjoy.com/IL_Chicago_NBC/index.m3u8
+#EXTINF:-1 tvg-id="NewsNation.us@East",News Nation (720p)
+http://fl41.moveonjoy.com/NEWS_NATION/index.m3u8
+#EXTINF:-1 tvg-id="NickJr.us@East",Nick Jr. East (720p)
+http://fl41.moveonjoy.com/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East",Nicktoons East
-https://fl2.moveonjoy.com/NICKTOONS/index.m3u8
-#EXTINF:-1 tvg-id="OutdoorChannel.us@SD",Outdoor Channel
-https://fl2.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="Oxygen.us@East",Oxygen East
-https://fl2.moveonjoy.com/OXYGEN/index.m3u8
+http://212.102.60.231/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="Ovation.us@SD",Ovation (1080p)
+http://fl41.moveonjoy.com/Ovation/index.m3u8
+#EXTINF:-1 tvg-id="PopTV.us@SD",Pop TV
+http://fl41.moveonjoy.com/Pop_TV/mpegts
 #EXTINF:-1 tvg-id="QVC.us@SD",QVC (720p)
-https://fl2.moveonjoy.com/QVC/index.m3u8
+http://212.102.60.231/QVC/index.m3u8
+#EXTINF:-1 tvg-id="Reelz.us@SD",Reelz (720p)
+http://212.102.60.231/REELZ/index.m3u8
+#EXTINF:-1 tvg-id="Showtime2.us@East",Showtime 2 East
+http://fl41.moveonjoy.com/SHOWTIME_2/index.m3u8
+#EXTINF:-1 tvg-id="SonyChannel.mx@SD",Sony Channel
+http://fl41.moveonjoy.com/Sony_Movie_Channel/index.m3u8
+#EXTINF:-1 tvg-id="SportsmanChannel.us@SD",Sportsman Channel
+http://212.102.60.231/SPORTSMAN_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="SportsNetNewYork.us@SD",SportsNet New York (540p)
-https://fl2.moveonjoy.com/SNY/index.m3u8
-#EXTINF:-1 tvg-id="SundanceTV.us@East",Sundance TV East
-https://fl2.moveonjoy.com/SUNDANCE/index.m3u8
+http://212.102.60.231/SNY/index.m3u8
+#EXTINF:-1 tvg-id="Starz.us@East",Starz East
+http://212.102.60.231/STARZ/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreClassic.us@East",Starz Encore Classic East
+http://212.102.60.231/STARZ_ENCORE_CLASSIC/index.m3u8
+#EXTINF:-1 tvg-id="Starz.us@West",Starz West
+http://212.102.60.231/STARZ_WEST/index.m3u8
+#EXTINF:-1 tvg-id="TVLand.us@East",TV Land
+http://fl12.moveonjoy.com/TV_LAND/index.m3u8
+#EXTINF:-1 tvg-id="WNetwork.ca@East",W Network (720p)
+http://fl41.moveonjoy.com/W_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="WABCDT1.us@SD",WABC ABC (New York NY)
+http://fl41.moveonjoy.com/NY_NEW_YORK_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WAFBDT1.us@SD",WAFB CBS (Baton Rouge LA)
+http://fl41.moveonjoy.com/LA_BATON_ROUGE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WALADT1.us@SD",WALA FOX (Mobile AL)
+http://fl41.moveonjoy.com/AL_MOBILE_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WAPTDT1.us@SD",WAPT ABC (Jackson MS)
+http://fl41.moveonjoy.com/MS_JACKSON_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WBMALD1.us",WBMA-LD ABC (Birmingham AL)
+http://fl41.moveonjoy.com/AL_BIRMINGHAM_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WBTVDT1.us",WBTV CBS (Charlotte NC)
+http://fl41.moveonjoy.com/NC_CHARLOTTE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WBZDT1.us",WBZ CBS (Boston MA)
+http://fl41.moveonjoy.com/MA_BOSTON_CBS/mpegts
+#EXTINF:-1 tvg-id="WCAUDT1.us",WCAU NBC (Philadelphia PA)
+http://fl41.moveonjoy.com/PA_PHILADELPHIA_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WCBSDT1.us",WCBS CBS (New York NY)
+http://fl41.moveonjoy.com/NY_NEW_YORK_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WCJBDT1.us",WCJB ABC (Gainesville FL)
+http://fl41.moveonjoy.com/FL_GAINESVILLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WCVBDT1.us",WCVB ABC (Boston MA)
+http://fl41.moveonjoy.com/MA_BOSTON_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WDAFDT1.us",WDAF FOX (Kansas City MO)
+http://fl41.moveonjoy.com/MO_KANSAS_CITY_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WDBDDT1.us",WDBD FOX (Jackson MS)
+http://fl41.moveonjoy.com/MS_JACKSON_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WDEFDT1.us",WDEF FOX (Chattanooga TN)
+http://fl41.moveonjoy.com/TN_CHATTANOOGA_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WDFXDT1.us",WDFX FOX (Dothan AL)
+http://fl41.moveonjoy.com/AL_DOTHAN_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WDRBDT1.us",WDRB FOX (Louisville KY)
+http://fl41.moveonjoy.com/KY_Louisville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WeTV.us@East",We TV East
+http://fl12.moveonjoy.com/WE_TV/index.m3u8
+#EXTINF:-1 tvg-id="WEWSDT1.us",WEWS ABC (Cleveland OH)
+http://fl41.moveonjoy.com/OH_CLEVELAND_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WFLADT1.us@SD",WFLA-DT1
+http://fl41.moveonjoy.com/FL_Tampa_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WFLXDT1.us@SD",WFLX-DT1
+http://fl41.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WFORDT1.us",WFOR CBS (Miami FL)
+http://fl41.moveonjoy.com/FL_Miami_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WFOXDT1.us",WFOX FOX (Jacksonville FL)
+http://fl41.moveonjoy.com/FL_Jacksonville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WFXGDT1.us",WFXG FOX (Augusta GA)
+http://fl41.moveonjoy.com/GA_AUGUSTA_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WFXTDT1.us",WFXT FOX (Boston MA)
+http://fl41.moveonjoy.com/MA_BOSTON_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WGCLDT1.us",WGCL CBS (Atlanta GA)
+http://fl41.moveonjoy.com/GA_ATLANTA_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WHBQDT1.us",WHBQ FOX (Memphis TN)
+http://fl41.moveonjoy.com/TN_Memphis_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WHIODT1.us",WHIO CBS (Dayton OH)
+http://fl41.moveonjoy.com/OH_DAYTON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WJAXDT1.us",WJAX CBS (Jacksonville FL)
+http://fl41.moveonjoy.com/FL_JACKSONVILLE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WJBKDT1.us",WJBK FOX (Detroit MI)
+http://fl41.moveonjoy.com/MI_Detroit_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WJTVDT1.us",WJTV CBS (Jackson MS)
+http://fl41.moveonjoy.com/MS_JACKSON_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WKMGDT1.us",WKMG CBS (Orlando FL)
+http://fl41.moveonjoy.com/FL_ORLANDO_CBS/mpegts
+#EXTINF:-1 tvg-id="WKRGDT1.us",WKRG CBS (Mobile AL)
+http://fl41.moveonjoy.com/AL_MOBILE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WKRNDT1.us",WKRN ABC (Nashville TN)
+http://fl41.moveonjoy.com/TN_NASHVILLE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WLBTDT1.us",WLBT NBC (Jackson MS)
+http://fl41.moveonjoy.com/MS_JACKSON_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WLKYDT1.us",WLKY CBS (Louisville KY)
+http://fl41.moveonjoy.com/KY_LOUISVILLE_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WMCDT1.us",WMC NBC (Memphis TN)
+http://fl41.moveonjoy.com/TN_Memphis_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WOFLDT1.us",WOFL FOX (Orlando FL)
+http://fl41.moveonjoy.com/FL_ORLANDO_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WorldFishingNetwork.us@SD",World Fishing Network
+http://fl41.moveonjoy.com/WORLD_FISHING_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="WPECDT1.us@SD",WPEC-DT1
+http://fl41.moveonjoy.com/FL_West_Palm_Beach_CBS/mpegts
+#EXTINF:-1 tvg-id="WPGHDT1.us",WPGH FOX (Pittsburgh PA)
+http://fl41.moveonjoy.com/PA_Pittsburgh_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WPMIDT1.us",WPMI ABC (Mobile AL)
+http://fl41.moveonjoy.com/AL_MOBILE_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WPVIDT1.us",WPVI ABC (Philadelphia PA)
+http://fl41.moveonjoy.com/PA_PHILADELPHIA_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WPXIDT1.us",WPXI NBC (Pittsburgh PA)
+http://fl41.moveonjoy.com/PA_Pittsburgh_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WRCDT1.us",WRC NBC (Washington DC)
+http://fl41.moveonjoy.com/DC_WASHINGTON_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WRDWDT1.us",WRDW CBS (Augusta GA)
+http://fl41.moveonjoy.com/GA_AUGUSTA_CBS/mpegts
+#EXTINF:-1 tvg-id="WSHMLD1.us",WSHM CBS (Springfield MA)
+http://fl41.moveonjoy.com/MA_SPRINGFIELD_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WSMVDT1.us",WSMV NBC (Nashville TN)
+http://fl41.moveonjoy.com/TN_Nashville_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WSVNDT2.us",WSVN ABC (Miami FL)
+http://fl41.moveonjoy.com/FL_MIAMI_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WSVNDT1.us",WSVN FOX (Miami FL)
+http://fl41.moveonjoy.com/FL_Miami_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WTENDT1.us",WTEN ABC (Albany NY)
+http://fl41.moveonjoy.com/NY_ALBANY_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WTWCDT1.us",WTWC NBC (Tallahassee FL)
+http://fl41.moveonjoy.com/FL_Tallahassee_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WTNZDT1.us",WTNZ FOX (Knoxville TN)
+http://fl41.moveonjoy.com/TN_Knoxville_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WTOCDT1.us",WTOC CBS (Savannah GA)
+http://fl41.moveonjoy.com/GA_SAVANNAH_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WTOGDT1.us@SD",WTOG-DT1
+http://fl41.moveonjoy.com/FL_Tampa_CW44/index.m3u8
+#EXTINF:-1 tvg-id="WTTGDT1.us",WTTG FOX (Washington DC)
+http://fl41.moveonjoy.com/DC_WASHINGTON_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WTVJDT1.us",WTVJ NBC (Miami FL)
+http://fl41.moveonjoy.com/FL_Miami_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WTVYDT1.us",WTVY CBS (Dothan AL)
+http://fl41.moveonjoy.com/AL_DOTHAN_CBS/index.m3u8
+#EXTINF:-1 tvg-id="WTVYDT4.us",WTVY NBC (Dothan AL)
+http://fl41.moveonjoy.com/AL_DOTHAN_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WTXFDT1.us",WTXF FOX (Philadelphia PA)
+http://fl41.moveonjoy.com/PA_PHILADELPHIA_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WTXLDT1.us",WTXL ABC (Tallahassee FL)
+http://fl41.moveonjoy.com/FL_Tallahassee_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WVUEDT1.us",WVLA FOX (Baton Rouge LA)
+http://fl41.moveonjoy.com/LA_BATON_ROUGE_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WVLADT1.us",WVLA NBC (Baton Rouge LA)
+http://fl41.moveonjoy.com/LA_BATON_ROUGE_NBC/index.m3u8
+#EXTINF:-1 tvg-id="",WVUE ABC (New Orleans LA)
+http://fl41.moveonjoy.com/LA_NEW_ORLEANS_ABC/index.m3u8
+#EXTINF:-1 tvg-id="WWLPDT1.us",WWLP NBC (Springfield MA)
+http://fl41.moveonjoy.com/MA_SPRINGFIELD_NBC/index.m3u8
+#EXTINF:-1 tvg-id="WXINDT1.us",WXIN FOX (Indianapolis IN)
+http://fl41.moveonjoy.com/IN_Indianapolis_FOX/index.m3u8
+#EXTINF:-1 tvg-id="WXYZDT1.us",WXYZ ABC (Detroit MI)
+http://fl41.moveonjoy.com/MI_DETROIT_ABC/index.m3u8
 
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us@SD",California Music Channel
 https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
@@ -2355,6 +2563,8 @@ https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="Film4.uk@HD",Film4 HD (1080p)
 https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8
+#EXTINF:-1 tvg-id="FMTV.uk@SD",Frecuencia Musical TV [Not 24/7]
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="GarshomTV.uk@SD",Garshom TV (360p) [Not 24/7]
 https://og2qd3aal7an-hls-live.5centscdn.com/garshomtv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk@SD",GB News (1080p)
@@ -2373,8 +2583,6 @@ https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlis
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="HalaLondon.uk@SD",Hala London (1080p)
 https://halalondon-live.ercdn.net/halalondon/halalondon.m3u8
-#EXTINF:-1 tvg-id="HobbyMaker.uk@SD",Hobby Maker (720p)
-https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestreamFullHD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HorseCountryTV.uk@SD",Horse & Country TV (1080p)
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
 #EXTINF:-1 tvg-id="IBCBakthi.uk@SD",IBC Bakthi (1080p)
@@ -2401,8 +2609,8 @@ https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8
 https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
 #EXTINF:-1 tvg-id="ITV4.uk@SD",ITV4 (1080p)
 https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
-#EXTINF:-1 tvg-id="KanshiTV.uk@SD",Kanshi TV (720p) [Not 24/7]
-https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
+#EXTINF:-1 tvg-id="LatestTV.uk@SD",Latest TV (480p)
+https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="",Loveworld TV (1080p) [Not 24/7]
 https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnavisionTV.uk@SD",Magna Vision (1080p)
@@ -2413,22 +2621,12 @@ https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u
 https://viamotionhsi.netplus.ch/live/eds/more4/browser-HLS8/more4.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@SD",Mr Bean Live Action (1080p)
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA1World.uk@SD",MTA1 World (720p)
-https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA2Europe.uk@SD",MTA2 Europe (720p)
-https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA3AlArabia.uk@SD",MTA3 Al-Arabia (1080p)
 https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA4Africa.uk@SD",MTA4 Africa (1080p)
 https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA5Africa.uk@SD",MTA5 Africa (1080p)
-https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA6Asia.uk@SD",MTA6 Asia (1080p)
-https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA7Asia.uk@SD",MTA7 Asia (1080p)
-https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA8America.uk@SD",MTA8 America (1080p)
-https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.uk@SD",Nicktoons (576p)
+https://a1xs.vip/100054
 #EXTINF:-1 tvg-id="NoorTV.uk@SD",Noor TV (720p)
 https://sscsott.com/srt/noortvuk/index.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk@SD",Now 80s (720p)
@@ -2583,8 +2781,6 @@ https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/
 https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
 #EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@UK",Rakuten TV Drama Movies UK (1080p)
 https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@UK",Rakuten TV Family Movies UK (1080p)
-https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
 #EXTINF:-1 tvg-id="",Rakuten TV Reality UK (1080p)
 https://68f6dfd1f2bd415b9c42f1d383004b69.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6233/master.m3u8
 #EXTINF:-1 tvg-id="",Rakuten TV Romance Movies UK (1080p)
@@ -3364,16 +3560,12 @@ https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.
 https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="PSNCanal452.mx@SD",PSN Canal 45.2 (288p)
 https://srspsn2.live/live/livestream.m3u8
-#EXTINF:-1 tvg-id="Radiotele.mx@SD",Radiotele Morelia (352p)
-http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8
 #EXTINF:-1 tvg-id="RalyTV.mx@SD",Raly TV (720p)
 https://cloudvideo.servers10.com:8081/8072/index.m3u8
 #EXTINF:-1 tvg-id="RCGTV.mx@SD",RCG TV (1080p)
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
 #EXTINF:-1 tvg-id="",RCG TV (Timeshifted -2 Hours) (432p)
 https://video1.getstreamhosting.com:1936/8246/8246/playlist.m3u8
-#EXTINF:-1 tvg-id="RTG.mx@SD",RTG (720p)
-https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8
 #EXTINF:-1 tvg-id="RTQQueretaro.mx@SD",RTQ Querétaro (1080p)
 https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
 #EXTINF:-1 tvg-id="XHUNESTDT.mx@SD",Señal España (XHUNES-TDT) (720p)
@@ -3394,8 +3586,6 @@ https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8
 https://video0.rogohosting.com:19360/4982/4982.m3u8
 #EXTINF:-1 tvg-id="SuperChannel12.mx@SD",Super Channel 12 (1080p)
 https://servilive.com:3263/live/channel12live.m3u8
-#EXTINF:-1 tvg-id="TeleSaltillo.mx@SD",Tele Saltillo
-https://servilive.com:3879/live/telesaltillolive.m3u8
 #EXTINF:-1 tvg-id="TeleYucatan.mx@SD",Tele Yucatan (1080p) [Geo-blocked]
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTINF:-1 tvg-id="XEWHTDT.mx@SD",Telemax (XEWH-TDT) (1080p)
@@ -3436,8 +3626,6 @@ https://5ca3e84a76d30.streamlock.net/gpacifico2/mochis.smil/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPObregon.mx@SD",TVP Obregón (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="UltraTVPuebla.mx@SD",Ultra TV Puebla (720p) [Not 24/7]
-https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UMTV.mx@SD",UMTV (1080p) [Not 24/7]
 https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8
 #EXTINF:-1 tvg-id="VBMediaTV.mx@SD",VB Media TV (1080p)
@@ -4547,8 +4735,6 @@ https://das-edge16-live365-dal02.cdnstream.com/a89661
 http://s31.myradiostream.com:18942/
 #EXTINF:-1,Audio Noir Radio
 http://streams.audionoir.com:8000/noir/
-#EXTINF:-1,Best Net Radio Coffee House
-http://bigrradio.cdnstream1.com/5156_128
 #EXTINF:-1,WTCR Fox Sports 1230 and 1420
 https://stream.revma.ihrhls.com/zc2617
 #EXTINF:-1,Coast 2 Coast Radio Mix Tapes
@@ -4999,6 +5185,8 @@ https://das-edge16-live365-dal02.cdnstream.com/a38152
 https://stream.revma.ihrhls.com/zc1349
 #EXTINF:-1,KUER2 BBC
 https://kuer.streamguys1.com/kuer2high_icy
+#EXTINF:-1,KKZR Zrock
+http://zrockkkzr.com:9000/ZRock128k.mp3
 #EXTINF:-1,WQOL FM
 https://stream.revma.ihrhls.com/zc2716
 #EXTINF:-1,RadioStorm Oldies
@@ -5163,8 +5351,6 @@ https://live.powerhitz.com/1power
 http://ice2.somafm.com/fluid-128-mp3
 #EXTINF:-1,Bestnet Radio - 80s Mellow
 http://bigrradio-edge1.cdnstream.com/5145_128
-#EXTINF:-1,1 Pure EDM Radio
-https://qa.torontocast.com/1pe
 #EXTINF:-1,KWTF
 https://s35.myradiostream.com:33726/listen.mp3?nocache=1758000778
 #EXTINF:-1,WBIZ Z100
@@ -5283,8 +5469,6 @@ https://stream1.cprnetwork.org/cpr1_lo
 https://pureplay.cdnstream1.com/6037_64.aac
 #EXTINF:-1,WGCI-FM
 https://stream.revma.ihrhls.com/zc841
-#EXTINF:-1,WGAD
-https://ice8.securenetsystems.net/WGAD
 #EXTINF:-1,KVYN 99.3 The Vine
 https://ice10.securenetsystems.net/KVYN
 #EXTINF:-1,KGLI-FM KG95
@@ -5325,8 +5509,6 @@ https://puma.streemlion.com:3775/stream
 https://stream.revma.ihrhls.com/zc2213
 #EXTINF:-1,WTOB
 https://ice23.securenetsystems.net/WTOB
-#EXTINF:-1,Comedy 104
-http://ais-edge90-dal03.cdnstream.com/b42761_64aac
 #EXTINF:-1,WCSU Chicago State University
 https://stream.revma.ihrhls.com/zc6067
 #EXTINF:-1,WPEG Power 98 FM
@@ -5379,6 +5561,8 @@ https://stream.radio.co/s99d35aa60/listen
 https://ice2.somafm.com/dronezone-128-mp3
 #EXTINF:-1,KCJB 91 Classic Country
 https://stream.revma.ihrhls.com/zc5076
+#EXTINF:-1,Jim FM Mobile
+https://b4q2vxy99jl.edge.audiocdn.com/pt3b8jq1aiy/b4q2vxy99jl
 #EXTINF:-1,WLOB
 https://das-edge15-live365-dal02.cdnstream.com/a21738
 #EXTINF:-1,113fm Star 1992
@@ -6183,8 +6367,6 @@ https://stream.revma.ihrhls.com/zc817
 http://bigrradio.cdnstream1.com/5191_128
 #EXTINF:-1,SomaFM - Underground 80s
 https://ice4.somafm.com/u80s-128-mp3
-#EXTINF:-1,Evangelism Radio
-https://stream.radio.co/s1820bbaf2/listen
 #EXTINF:-1,WRTI
 https://wrti-live.streamguys1.com/classical-mp3
 #EXTINF:-1,WWFD Gamut FM
@@ -6407,8 +6589,6 @@ http://relay.181.fm:8130/
 https://ice6.securenetsystems.net/KADIFM
 #EXTINF:-1,The Outpost Life
 http://stream8.addictradio.net/addictstar.mp3
-#EXTINF:-1,WUML
-http://s3.radio.co/s5e286e909/listen
 #EXTINF:-1,WQBN Super Q 1300 AM
 http://server10.servistreaming.com:9011/1
 #EXTINF:-1,WELP The Truth 1360
@@ -6453,8 +6633,6 @@ https://streaming.radiostreamlive.com/radionylive_devices
 https://stream.revma.ihrhls.com/zc2245
 #EXTINF:-1,WFXJ 93.7 The Game
 https://stream.revma.ihrhls.com/zc2685
-#EXTINF:-1,Radio Sabor Latino
-http://199.180.75.58:9078/stream
 #EXTINF:-1,WHTY Columbus BIN 94.7 1460 AM
 https://n24a-e2.revma.ihrhls.com/zc3390
 #EXTINF:-1,Nextgen FM
@@ -6577,8 +6755,6 @@ https://www.abidingradio.org/radio/seasonal
 http://ice7.securenetsystems.net/KXOJ
 #EXTINF:-1,KSSK-FM
 https://stream.revma.ihrhls.com/zc829
-#EXTINF:-1,Rockin Doc Radio
-http://radio.rockindocradio.net:8600/
 #EXTINF:-1,WMLX Mix 103.3
 https://stream.revma.ihrhls.com/zc1825
 #EXTINF:-1,Colorado Classical
@@ -6587,6 +6763,8 @@ https://stream2.cprnetwork.org:8443/cpr2_aac
 http://www.ophanim.net:7220/stream
 #EXTINF:-1,KZFR
 https://stream-tx3.radioparadise.com/kzfr
+#EXTINF:-1,WASG
+https://ice41.securenetsystems.net/WASG
 #EXTINF:-1,WMOH
 http://ice3.securenetsystems.net/WMOH
 #EXTINF:-1,WXBB 94.7 Bob FM
@@ -7057,8 +7235,6 @@ http://149.56.183.178:8020/stream
 http://us3.streamingpulse.com:8056/stream
 #EXTINF:-1,WMAN
 https://stream.revma.ihrhls.com/zc4121
-#EXTINF:-1,ATL Praise House
-https://auds1.intacs.com/atlpraisehouse
 #EXTINF:-1,WTQR Q104.1
 https://stream.revma.ihrhls.com/zc1625
 #EXTINF:-1,WMSI MISS 103
@@ -7293,8 +7469,6 @@ https://wortcast01.wortfm.org/mp3/Preroll-Stereo_ICECAST.mp3
 https://stream.revma.ihrhls.com/zc1537
 #EXTINF:-1,WSJL - Elijah Radio
 http://usa3-vn.mixstream.net:8016/
-#EXTINF:-1,WXRY
-http://pnj-01.stream101.com:9044/stream
 #EXTINF:-1,WMIH Station of the Cross
 https://hfc.streamguys1.com/icatholicradio
 #EXTINF:-1,KTRA FM
@@ -7564,8 +7738,6 @@ https://rbx2.hnux.com/http://4483.cloudrad.io:8130/stream/1/
 https://streaming.radio.co/sd88832e85/listen
 #EXTINF:-1,Sacred Music Radio
 http://46.28.49.164:7863/stream/1/
-#EXTINF:-1,Urban Gospel Network Radio
-https://ice31.securenetsystems.net/UGNR
 #EXTINF:-1,IMINRADIO
 https://streaming.radio.co/s50ccbed54/listen
 #EXTINF:-1,The Business Bunker
@@ -7970,6 +8142,8 @@ http://stream.fred.fm:8118/stream/1/
 http://fr1.1mix.co.uk:8060/stream/6/
 #EXTINF:-1,Point Blank FM
 http://pointblankradio.co.uk:9002/stream
+#EXTINF:-1,Lisburn's 98FM
+http://radio.canstream.co.uk:8050/live.mp3
 #EXTINF:-1,SSRadio Deep and Soulful
 https://ssradiol.radioca.st/stream/1/
 #EXTINF:-1,Wave Radio
@@ -8002,6 +8176,8 @@ http://streaming.broadcastradio.com:8500/radiodacorum
 https://radio.canstream.co.uk:8043/live.mp3
 #EXTINF:-1,Highland Radio (Derry)
 https://stream.audioxi.com/HIGHLAND
+#EXTINF:-1,Unitydottcom
+https://unitydottcom.radioca.st/stream/1/
 #EXTINF:-1,Stellar Attraction
 http://level5technologysolutions.net:8000/stream/1/
 #EXTINF:-1,K107
@@ -8333,6 +8509,8 @@ https://mtist.as.smartstream.ne.jp/30058/livestream/playlist.m3u8
 http://bluford.torontocast.com:8085/stream/
 #EXTINF:-1,ラジオ石巻 – 76.4 FM – Ishinomaki – JP-04
 https://mtist.as.smartstream.ne.jp/30037/livestream/playlist.m3u8
+#EXTINF:-1,コマラジ – Komae – Tokyo – JP
+https://mtist.as.smartstream.ne.jp/30051/livestream/playlist.m3u8
 #EXTINF:-1,Block.fm – JP
 https://edge.mixlr.com/channel/bsuau
 #EXTINF:-1,RADIO3 FM 76.2 – Sendai – JP-04
@@ -8403,20 +8581,20 @@ https://s3.radio.co/sc8d895604/listen
 https://sv10.hdradios.net:21920/
 #EXTINF:-1,Radio Hayama radio
 http://208.115.220.38:8073/
-#EXTINF:-1,Namie Amuro Radio
-https://stream02.pcradio.biz/Namie_Amuro-med
 #EXTINF:-1,Lei Ting Radio
 https://stream02.pcradio.biz/Lei_Ting-med
 #EXTINF:-1,IA Radio
 https://stream02.pcradio.biz/IA-med
 #EXTINF:-1,Dragon Ash Radio
 https://stream02.pcradio.biz/Dragon_Ash-med
+#EXTINF:-1,Sasaki Sayaka Radio
+https://stream02.pcradio.biz/Sasaki_Sayaka-med
 #EXTINF:-1,Origa Radio
 https://stream02.pcradio.biz/Origa-med
-#EXTINF:-1,DDBY Radio
-https://stream02.pcradio.biz/DDBY-med
 #EXTINF:-1,JP HiP Radio
 https://stream02.pcradio.biz/jp_hip-med
+#EXTINF:-1,Hiroyuki Sawano Radio
+https://stream02.pcradio.biz/Savano_Hirojuki-med
 #EXTINF:-1,Freebird Radio "All Country-Rock!"
 http://freebird.ddns.net:8050/
 #EXTINF:-1,Super Tokio
@@ -8539,6 +8717,8 @@ https://mtist.as.smartstream.ne.jp/30088/livestream/playlist.m3u8
 https://miku.fm/listen/miku/mp3-320
 #EXTINF:-1,横手かまくらエフエム
 https://mtist.as.smartstream.ne.jp/30076/livestream/playlist.m3u8
+#EXTINF:-1,.quran
+https://backup.qurango.net/radio/ahmad_khader_altarabulsi
 #EXTINF:-1,FMはまなすジャパン
 http://mtist.as.smartstream.ne.jp/30004/livestream/playlist.m3u8
 #EXTINF:-1,ラジオスイート
@@ -8654,6 +8834,8 @@ http://jenny.torontocast.com:8066/
 http://antares.dribbcast.com:4009/s
 #EXTINF:-1,West Loves East Radio (WLER)
 http://cheetah.streemlion.com:3650/stream
+#EXTINF:-1,Animecol
+http://186.147.235.2/animecol?lang=*
 #EXTINF:-1,City Pop One
 http://65.21.61.215:8000/citypopone
 #EXTINF:-1,J POP Sampler
@@ -8688,6 +8870,8 @@ http://freebird.ddns.net:8000/
 https://das-edge12-live365-dal02.cdnstream.com/a80708
 #EXTINF:-1,raste.live
 https://das-edge11-live365-dal03.cdnstream.com/a39214
+#EXTINF:-1,Neko-Network Radio: Vision Anime & Japanese Music
+https://free.rcast.net/244291
 #EXTINF:-1,The Official Broadcasting Service of Amami Haruka Dictatorship
 https://kathy.torontocast.com:3560/;
 #EXTINF:-1,EIN HERZ FÜR MANGA UND ANIME
@@ -8823,6 +9007,8 @@ https://anime-radio-de.stream.laut.fm/anime-radio-de?ref=radiode&t302=2025-12-18
 https://live.radyositesihazir.com/8016/stream
 #EXTINF:-1,Coca-Cola FM
 https://str3.openstream.co/2334?aw_0_1st.collectionid%3D6257%26stationId%3D6257%26publisherId%3D2358%26k%3D1766067203
+#EXTINF:-1,Golden Fm 95.5
+https://streaming.radiosenlinea.com.ar:10331/
 #EXTINF:-1,PLUS RADIO US ZABAVNA
 https://26343.live.streamtheworld.com/SAM06AAC231_SC
 #EXTINF:-1,Radio Free Otaku
