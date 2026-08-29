@@ -1599,8 +1599,6 @@ https://edge-f.swagit.com/live/chinohillsca/live-1-a/playlist.m3u8
 https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="ConcordTV.us@SD",Concord TV (Concord CA) (720p)
 https://concordca.cablecast.tv/live/stream-2/live.m3u8
-#EXTINF:-1 tvg-id="",Cox Meriden Public Access Channel 15 (Meriden CT) (720p)
-http://applevalley.coxctv.com/live-1/live/live.m3u8
 #EXTINF:-1 tvg-id="CreaTVChannel27.us@SD",CreaTV Bay Voice TV Channel 27 (San Jose CA) (720p)
 https://reflect-creatv.cablecast.tv/live-19/live/live.m3u8
 #EXTINF:-1 tvg-id="CreaTVChannel28.us@SD",CreaTV Classrooms Channel 28 (San Jose CA) (720p)
@@ -1645,8 +1643,6 @@ https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8
 https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-id="Community12TV.us@SD",Gainesville Community 12TV (Gainesville FL) (720p)
 https://lin10.isilive.ca/live/gainesville/live/index.m3u8
-#EXTINF:-1 tvg-id="KBPXLD465.us@SD",Geb Tv (KBPX LD5) (1080p)
-https://edge1.lifestreamcdn.com/live/geb/playlist.m3u8
 #EXTINF:-1 tvg-id="CMAPChannel17.us@SD",Gilroy CMAP TV Channel 17 (720p)
 https://livestream.telvue.com/cmap1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CMAPChannel18.us@SD",Gilroy CMAP TV Channel 18 (720p)
@@ -1703,16 +1699,6 @@ https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
 #EXTINF:-1 tvg-id="MBTV.us@SD",Miami Beach Tv (MBTV) (Miami Beach FL) (720p)
 https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8
-#EXTINF:-1 tvg-id="MidpenMediaCenterChannel30.us@SD",Midpen Media Center Arts Issues and Lifestyles Channel 30 (720p)
-https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MidpenMediaCenterChannel75.us@SD",Midpen Media Center Diversity and Culture Channel 75 (720p)
-https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MidpenMediaCenterChannel26.us@SD",Midpen Media Center Government etc Channel 26 (720p)
-https://5c2974786200d.streamlock.net/live-chan26/ngrp:ch26_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MidpenMediaCenterChannel29.us@SD",Midpen Media Center Government etc Channel 29 (720p)
-https://5c2974786200d.streamlock.net/live-chan29/ngrp:ch29_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MidpenMediaCenterChannel28.us@SD",Midpen Media Center Youth Education and Sports Channel 28 (720p)
-https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MCPSSTV.us@SD",Mobile County Public Schools TV Network (MCPSS)
 https://5b200f5268ceb.streamlock.net/MCPSS/MCPSS247.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MonroeCountyTV.us@SD",Monroe County Television MCTV (Monroe County FL) (1080p)
@@ -1873,8 +1859,8 @@ https://yahoo-roku-us.amagi.tv/playlist.m3u8
 
 #EXTINF:0,1000 Christmas
 https://ais-sa2.cdnstream1.com/2553_128.mp3
-#EXTINF:0,30A TV
-https://30a-tv.com/my999.m3u8
+#EXTINF:0,30A TV MUSIC
+https://30a-tv.com/music.m3u8
 #EXTINF:0,Alex Jones - Infowars.com
 http://stream.infowars.com
 #EXTINF:0,Boston Media House
@@ -2872,8 +2858,6 @@ https://a-cdn.klowdtv.com/live2/ftf_720p/playlist.m3u8
 https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="GameShowNetwork.us@East",Game Show Network East (720p) [Not 24/7]
 https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="GamePlus.ca@SD",Game+ (720p)
-https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk@SD",GB News (720p) [Geo-blocked]
 https://amg01076-lightning-amg01076c7-klowdtv-us-2128.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-klowdtvus/playlist.m3u8
 #EXTINF:-1 tvg-id="GoTraveler.us@SD",GoTraveler (720p) [Geo-blocked]
@@ -2944,8 +2928,6 @@ https://a-cdn.klowdtv.com/live3/swervecombat_720p/playlist.m3u8
 https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="TBN.us@East",TBN+ (720p)
 https://a-cdn.klowdtv.com/live3/tbn_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="TheCountryNetwork.us@SD",The Country Network (720p)
-https://a-cdn.klowdtv.com/live2/countrytv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceLatina.fr@SD",Trace Latina (720p)
 https://amg01131-tracetv-tracelatina-klowdtv-v10em.amagi.tv/playlist/amg01131-tracetv-tracelatina-klowdtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@HD",Trace Sports Stars (1080p)
@@ -2991,8 +2973,6 @@ https://content.uplynk.com/channel/c66d1d2d9e2c46cea1cf22a33f6ca488.m3u8
 https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
 #EXTINF:-1 tvg-id="KMTVTV31.us@HD",CBS 3 Omaha NE (KMTV-TV) (720p)
 https://content.uplynk.com/channel/328d1434fb51476cb6567c74d5b2cc70.m3u8
-#EXTINF:-1 tvg-id="KRCA71.us@HD",KRCA-TV Estrella Los Angeles (720p)
-https://content.uplynk.com/channel/829a8c85f9e840c6bed963856c231428.m3u8
 #EXTINF:-1 tvg-id="KRISTV61.us@HD",KRIS-DT1 (1080p)
 https://content.uplynk.com/channel/e72660594b7a4182982af1690609683d.m3u8
 #EXTINF:-1 tvg-id="KRISTV61.us@HD",KRIS-DT1 (720p)
@@ -3152,6 +3132,8 @@ https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
 https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGlobal.uk@SD",MTV Global (576p)
 https://shift03.isp.bg/MTVEurope/index.m3u8
+#EXTINF:-1 tvg-id="MTVGlobal.uk@SD",MTV Global [Not 24/7]
+http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/12055/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD",Nickelodeon (576p)
 http://tvsen7.aynascope.net/nicklodean/index.m3u8
 #EXTINF:-1 tvg-id="NoorTV.uk@SD",Noor TV (720p)
@@ -3188,8 +3170,6 @@ https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD",talkSPORT (720p)
 https://tvsen6.aynaott.com/talkSPORT/index.m3u8
-#EXTINF:-1 tvg-id="TalkTV.uk@SD",TalkTV (1080p)
-https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNUK.uk@SD",TBN UK (1080p)
 https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8
 #EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD",The Graham Norton Show (1080p)
@@ -3708,6 +3688,8 @@ https://lsn.lv/bbcradio.m3u8?station=bbc_radio_three&bitrate=320000
 https://lsn.lv/bbcradio.m3u8?station=bbc_radio_fourfm&bitrate=320000
 #EXTINF:-1 tvg-name="BBC Radio 5 Live" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd5l-epg.png" tvg-id="BBCRadio5Live.uk" tvg-chno="5" tvg-country="GB" group-title="UK",BBC Radio 5 Live
 https://lsn.lv/bbcradio.m3u8?station=bbc_radio_five_live&bitrate=320000
+#EXTINF:-1 tvg-name="BBC Radio 6 Music" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd6-epg.png" tvg-id="BBCRadio6Music.uk" tvg-chno="6" tvg-country="GB" group-title="UK",BBC Radio 6 Music
+https://lsn.lv/bbcradio.m3u8?station=bbc_6music&bitrate=320000
 #EXTINF:-1 tvg-name="BBC Radio 1Xtra" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1x-epg.png" tvg-id="BBCRadio1Xtra.uk" tvg-chno="7" tvg-country="GB" group-title="UK",BBC Radio 1Xtra
 https://lsn.lv/bbcradio.m3u8?station=bbc_1xtra&bitrate=320000
 #EXTINF:-1 tvg-name="BBC Radio 4 Extra" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd4x-epg.png" tvg-id="BBCRadio4Extra.uk" tvg-chno="8" tvg-country="GB" group-title="UK",BBC Radio 4 Extra
@@ -3715,10 +3697,14 @@ https://lsn.lv/bbcradio.m3u8?station=bbc_radio_four_extra&bitrate=320000
 #EXTINF:-1 tvg-name="BBC Asian Network" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" tvg-id="BBCRadioAsianNetwork.uk" tvg-chno="10" tvg-country="GB" group-title="UK",BBC Asian Network
 https://lsn.lv/bbcradio.m3u8?station=bbc_asian_network&bitrate=320000
 
+#EXTINF:-1 tvg-name="10 HD" tvg-logo="https://i.imgur.com/ZjKvXPn.png" tvg-id="10Sydney.au" tvg-chno="5" tvg-country="AU" group-title="Australia",10 HD
+https://i.mjh.nz/.r/10-nsw.m3u8
 #EXTINF:-1 tvg-name="ABC" tvg-logo="https://i.imgur.com/5CVl5EF.png" tvg-id="ABCTV.au" tvg-chno="1" tvg-country="AU" group-title="Australia",ABC
 https://c.mjh.nz/abc-nsw.m3u8
 #EXTINF:-1 tvg-name="Nine" tvg-logo="https://i.imgur.com/SMXwfr5.png" tvg-id="NineNetwork.au" tvg-chno="5" tvg-country="AU" group-title="Australia",Nine
 https://i.mjh.nz/.r/channel-9-nsw.m3u8
+#EXTINF:-1 tvg-name="10 Peach" tvg-logo="https://i.imgur.com/NlZLut8.png" tvg-id="10Peach.au" tvg-chno="5" tvg-country="AU" group-title="Australia",10 Peach
+https://i.mjh.nz/.r/10peach-nsw.m3u8
 #EXTINF:-1 tvg-name="10 Bold" tvg-logo="https://i.imgur.com/2cq3fY1.png" tvg-id="10Bold.au" tvg-chno="5" tvg-country="AU" group-title="Australia",10 Bold
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 tvg-name="TVSN" tvg-logo="https://i.imgur.com/p3QCBOo.png" tvg-id="TVSN.au" tvg-chno="5" tvg-country="AU" group-title="Australia",TVSN
@@ -4397,20 +4383,14 @@ http://209.14.115.253:8081/DE-PELICULA/index.m3u8
 http://181.119.66.28:8081/DISTRITO-COMEDIA/index.m3u8
 #EXTINF:-1 tvg-id="ElChavoTV.mx@HD",El Chavo TV (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+#EXTINF:-1 tvg-id="ElSonorense.mx@SD",El Sonorense (1080p) [Not 24/7]
+https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
 #EXTINF:-1 tvg-id="ExaTV.mx@SD",Exa TV
 http://190.61.90.17:40000/play/a0hk/index.m3u8
 #EXTINF:-1 tvg-id="ExpresaTV.mx@SD",Expresa TV (720p)
 https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Golden.mx@Panregional",Golden (1080p)
-http://209.14.115.253:8081/GOLDEN/index.m3u8
-#EXTINF:-1 tvg-id="GoldenEdge.mx@Panregional",Golden Edge (1080p)
-http://209.14.115.253:8081/GOLDEN-EDGE/index.m3u8
 #EXTINF:-1 tvg-id="IcrtvColima.mx@SD",ICRTV Colima (1080p)
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="IERTBCSCanal82.mx@SD",IERTBCS Canal 8.2 La Paz (1080p) [Not 24/7]
-https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8
-#EXTINF:-1 tvg-id="XHBZCTDT.mx@SD",IERTBCS Canal 8 La Paz (1080p) [Not 24/7]
-https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
 #EXTINF:-1 tvg-id="ImagenTV.mx@SD",Imagen TV (1080p)
 https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
 #EXTINF:-1 tvg-id="ITVDeportes.mx@SD",ITV Deportes (720p)
@@ -4475,8 +4455,6 @@ https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8
 https://servilive.com:3263/live/channel12live.m3u8
 #EXTINF:-1 tvg-id="TeleSaltillo.mx@SD",Tele Saltillo
 https://servilive.com:3879/live/telesaltillolive.m3u8
-#EXTINF:-1 tvg-id="TeleUV.mx@SD",Tele UV [Not 24/7]
-https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleYucatan.mx@SD",Tele Yucatan (1080p) [Geo-blocked]
 https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTINF:-1 tvg-id="TelehitMusica.mx@SD",Telehit Musica (1080p)
@@ -4491,10 +4469,6 @@ https://player.tvstream.mx/livestream/teleplay/livesd/playlist.m3u8
 https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8
 #EXTINF:-1 tvg-id="TlnovelasLatinAmerica.mx@SD",Tlnovelas Latin America (1080p)
 http://209.14.115.253:8081/TELENOVELAS/index.m3u8
-#EXTINF:-1 tvg-id="TransmediaTelevisionMorelia.mx@SD",Transmedia Televisión Morelia (614p) [Geo-blocked]
-http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TransmediaTelevisionMorelia.mx@SD",Transmedia Televisión Morelia (614p) [Geo-blocked]
-https://5ca3e84a76d30.streamlock.net/tmtv/videotmtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRCTV.mx@SD",TRC Televisión (720p)
 https://5fe2654d6127d.streamlock.net/trc/videotrc/playlist.m3u8
 #EXTINF:-1 tvg-id="TuristikTV.mx@SD",Turistik TV (720p)
@@ -5592,8 +5566,6 @@ http://streams.audionoir.com:8000/noir/
 http://bigrradio.cdnstream1.com/5156_128
 #EXTINF:-1,WTCR Fox Sports 1230 and 1420
 https://stream.revma.ihrhls.com/zc2617
-#EXTINF:-1,KERI 1410
-https://ice6.securenetsystems.net/KERI
 #EXTINF:-1,Gospel 860 KMVP
 https://ice64.securenetsystems.net/G860
 #EXTINF:-1,KFBT 103.7 The Beat
@@ -6242,8 +6214,6 @@ http://113fm-edge1.cdnstream.com/1785_128
 http://209.126.119.28:8207/stream
 #EXTINF:-1,Songcast Radio - Country
 http://www.songcastradio.com:9014/
-#EXTINF:-1,Inner Light Radio
-http://jamaal2.serverroom.us:8696/
 #EXTINF:-1,KYKN
 https://ice8.securenetsystems.net/KYKN
 #EXTINF:-1,113fm Power
@@ -6678,8 +6648,6 @@ http://bigrradio-edge1.cdnstream.com/5154_128
 https://stream.revma.ihrhls.com/zc2397
 #EXTINF:-1,KUER3 Classical Music
 https://kuer.streamguys1.com/kuer3high_icy
-#EXTINF:-1,101.3 Real Country
-https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8
 #EXTINF:-1,WRUF-FM 103.7 The Gator
 https://ais-sa1.streamon.fm/7645_48k.aac
 #EXTINF:-1,Christian Power Praise
@@ -6736,8 +6704,6 @@ https://rtn.cdnstream1.com/2579_96.aac
 https://stream.revma.ihrhls.com/zc2073
 #EXTINF:-1,WXMF 91.9
 https://ice7.securenetsystems.net/WXML
-#EXTINF:-1,WQCS
-https://26223.live.streamtheworld.com/WQCSFM.mp3
 #EXTINF:-1,WDAY AM 970
 https://ice3.securenetsystems.net/WDAY
 #EXTINF:-1,WGCM AM Cruisin
@@ -8228,8 +8194,6 @@ https://ice24.securenetsystems.net/KSHP
 https://stream.revma.ihrhls.com/zc3073
 #EXTINF:-1,KJJZ HD2 Alt 101.5
 https://ice9.securenetsystems.net/ALT1015
-#EXTINF:-1,KCSS
-https://kcss.streamguys1.com/live
 #EXTINF:-1,WEBN FM
 https://stream.revma.ihrhls.com/zc1701
 #EXTINF:-1,KNIX 102.5 FM
@@ -8244,8 +8208,6 @@ https://ice6.securenetsystems.net/KTRS
 http://wumb.streamguys1.com/wumb919cj
 #EXTINF:-1,KBCO HD2 Studio C Channel
 https://stream.revma.ihrhls.com/zc4866
-#EXTINF:-1,WQCS-HD2
-https://26443.live.streamtheworld.com/WQCSHD2.mp3
 #EXTINF:-1,KIOI-FM Star 101.3
 https://stream.revma.ihrhls.com/zc281
 #EXTINF:-1,Scotts Classic Rock
@@ -8303,8 +8265,6 @@ https://icecast.maxxwave.co.uk/vannyradio
 https://s30.radiolize.com/radio/8060/radio.mp3
 #EXTINF:-1,New Style Radio (Birmingham)
 https://newstyleradio.radioca.st/stream/1/
-#EXTINF:-1,Digital Club Radio
-http://786.cloudrad.io:8024/stream/1/
 #EXTINF:-1,Life Radio International
 http://centova2.whsh4u.com:9317/stream/1/
 #EXTINF:-1,Lam Rim Buddhist Radio
@@ -8545,6 +8505,8 @@ http://31.3.245.162:8000/stream/1/
 http://mp3streaming.planetwideradio.com:8000/glamorg
 #EXTINF:-1,FM105 Down Community Radio
 http://radio.canstream.co.uk:8051/live.mp3
+#EXTINF:-1,rendellradio
+https://s10.myradiostream.com/:34794/stream/1/
 #EXTINF:-1,Classic Hits Forest Gold
 https://c2.prostream365.com:8000/live
 #EXTINF:-1,Radio Sunderland for Hospitals
@@ -8583,8 +8545,6 @@ http://www.lmp.d2g.com:8020/stream/1/
 http://stream.fred.fm:8026/stream/1/
 #EXTINF:-1,WKD FM
 https://wkdfm2016.radioca.st/stream/1/
-#EXTINF:-1,Radio Northwich
-https://stream.radio.co/s98163f694/listen
 #EXTINF:-1,UK Health Radio
 https://streaming.radio.co/s8e535ff20/listen
 #EXTINF:-1,Black Country Radio FM (Stourbridge)
@@ -8821,8 +8781,6 @@ http://10454.cloudrad.io:6176/stream/1/
 http://radio1.streamserver.link:8060/gyr-mp3
 #EXTINF:-1,V2BEAT
 https://de1se01.v2beat.live/icecast.audio?t=file.mp3
-#EXTINF:-1,Akwantufuo Radio
-https://s42.myradiostream.com:26936/stream/1/
 #EXTINF:-1,Radio Dacorum
 http://streaming.broadcastradio.com:8500/radiodacorum
 #EXTINF:-1,Radio LaB
@@ -8845,8 +8803,6 @@ https://radio.canstream.co.uk:8083/live.mp3
 https://radio.canstream.co.uk:8065/live.mp3
 #EXTINF:-1,FRED Film Radio Ch29 Sardu
 http://stream.fred.fm:8122/stream/1/
-#EXTINF:-1,Radio Wey FM (Surrey)
-https://streaming.techiserver.com:8000/radiowey48
 #EXTINF:-1,https://www.youthcommradio.com/
 https://radio.canstream.co.uk:8039/live.mp3
 #EXTINF:-1,Sunshine Radio (Shropshire)
@@ -9194,8 +9150,6 @@ https://a3.asurahosting.com:6710/radio.mp3
 https://stream1.rcast.net/70945
 
 http://kathy.torontocast.com:3330/stream/1/?esPlayer&cb=82181.mp3
-
-https://stream.gensokyoradio.net/3/
 #EXTINF:-1,Free FM 80 Tokyo
 https://freefm80.radioca.st/
 
@@ -9226,8 +9180,8 @@ https://kamakura.stream.laut.fm/kamakura?t302=2026-06-09_13-40-01&uuid=f6d118f8-
 https://streaming.radio.co/se4a8e6a93/low
 #EXTINF:-1,Nightwave Plaza (Opus 64)
 http://radio.plaza.one/ogg_low
-#EXTINF:-1,Gensokyo Radio (OGG)
-https://stream.gensokyoradio.net/2/
+#EXTINF:-1,Miku Radio
+https://miku.fm/listen/miku/mp3-320
 
 https://nonstopcasiopea.radioca.st/
 #EXTINF:-1,Gotanno FM 89.2
@@ -9412,6 +9366,8 @@ https://stream9.mexiserver.com/8046/stream
 https://sbs-ice.streamguys1.com/sbs-popasia
 #EXTINF:-1,Ronin Radio
 https://s3.radio.co/sff133d65b/listen
+#EXTINF:-1,JapaneseMusicID
+https://stream.japanesemusicid.com/live/1/;
 #EXTINF:-1,Lize Radio
 http://lizeradio.com:8080/;&type=mp3
 #EXTINF:-1,Radio AnimeX
@@ -9596,6 +9552,8 @@ https://media.streamingradiomx.com/radio/8050/radio.mp3
 http://sigmaradio.stream:9004/stream/
 #EXTINF:-1,La Z 103.5 FM - XHEM
 http://26733.live.streamtheworld.com/XHEM_FM.mp3
+#EXTINF:-1,La Dorada 107.5 - XHKG
+http://streaming.servicioswebmx.com:8260/stream/
 #EXTINF:-1,La Huarecita
 http://edge.mixlr.com/channel/lgzsx
 #EXTINF:-1,Amor FM - Amor de Dos
